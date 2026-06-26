@@ -366,8 +366,6 @@
     </style>
 </head>
 <body>
-    <!--cd C:\Users\wen01\Downloads\song
-    python -m http.server 8000-->
     <div class="wrapper">
         <header class="site-header">
             <div class="label">Lyrics Collection</div>
@@ -393,7 +391,7 @@
         var scrollTimeout = null;
         var songsData = [];
 
-        // 載入歌曲資料 → 建構頁面
+        // 載入歌曲資料 → 建構頁面 更改線上版或本地版的位置
         fetch('https://wen016016.github.io/lyrics-data/songs.json?_=' + new Date().getTime())
         //fetch('songs.json')
             .then(function (r) {
