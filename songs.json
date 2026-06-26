@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "title": "青春の輪郭",
     "artist": "DOLLCHESTRA",
@@ -207,178 +207,7 @@
       }
     ]
   },
-  {
-    "title": "飴色",
-    "artist": "DOLLCHESTRA",
-    "credits": {
-      "lyrics": "TATSUNE",
-      "music": "Aira"
-    },
-    "color": "#8ab4c4",
-    "videoId": "n1Ep0gAHr2U",
-    "lines": [
-      {
-        "time": 0,
-        "text": "<ruby>色<rt>いろ</rt></ruby>の<ruby>褪<rt>あ</rt></ruby>せた<ruby>帰<rt>かえ</rt></ruby>り<ruby>道<rt>みち</rt></ruby>"
-      },
-      {
-        "time": 4.5,
-        "text": "<ruby>頬<rt>ほお</rt></ruby>を<ruby>木枯<rt>こがらし</rt></ruby>らしが<ruby>撫<rt>な</rt></ruby>ぜる"
-      },
-      {
-        "time": 8.5,
-        "text": "<ruby>何<rt>なに</rt></ruby>も<ruby>話<rt>はな</rt></ruby>さなくたって"
-      },
-      {
-        "time": 12,
-        "text": "<ruby>全部<rt>ぜんぶ</rt></ruby> <ruby>分<rt>わ</rt></ruby>かるはずないよね"
-      },
-      {
-        "time": 16,
-        "text": "<ruby>少<rt>すこ</rt></ruby>し<ruby>冷<rt>ひ</rt></ruby>えた<ruby>手<rt>て</rt></ruby>のひらに"
-      },
-      {
-        "time": 19.5,
-        "text": "<ruby>君<rt>きみ</rt></ruby>との<ruby>時間<rt>じかん</rt></ruby>を<ruby>乗<rt>の</rt></ruby>せる"
-      },
-      {
-        "time": 23.5,
-        "text": "<ruby>数<rt>かぞ</rt></ruby>えきれないほどの<ruby>希望<rt>きぼう</rt></ruby>"
-      },
-      {
-        "time": 27.5,
-        "text": "どれもが<ruby>溫<rt>あたた</rt></ruby>かいんだ"
-      },
-      {
-        "time": 31.5,
-        "text": "<ruby>明日<rt>あした</rt></ruby>も そのあとも"
-      },
-      {
-        "time": 35,
-        "text": "<ruby>言<rt>い</rt></ruby>えずに<ruby>終<rt>お</rt></ruby>わるんだろう"
-      },
-      {
-        "time": 39,
-        "text": "<ruby>君<rt>きみ</rt></ruby>と<ruby>出会<rt>であ</rt></ruby>ったことで"
-      },
-      {
-        "time": 42.5,
-        "text": "<ruby>僕<rt>ぼく</rt></ruby>の<ruby>今<rt>いま</rt></ruby>が<ruby>在<rt>あ</rt></ruby>ると"
-      },
-      {
-        "time": 48,
-        "text": "<ruby>伝<rt>つた</rt></ruby>えたい<ruby>想<rt>おも</rt></ruby>いを <ruby>背負<rt>せお</rt></ruby>って<ruby>駆<rt>か</rt></ruby>け<ruby>出<rt>だ</rt></ruby>した"
-      },
-      {
-        "time": 52.3,
-        "text": "<ruby>落<rt>お</rt></ruby>ち<ruby>葉<rt>ば</rt></ruby> <ruby>舞<rt>ま</rt></ruby>い <ruby>降<rt>ふ</rt></ruby>る<ruby>道<rt>みち</rt></ruby>の<ruby>上<rt>うえ</rt></ruby>"
-      },
-      {
-        "time": 55.8,
-        "text": "もうすぐ きっと<ruby>話<rt>はな</rt></ruby>せるんだ"
-      },
-      {
-        "time": 60,
-        "text": "でも<ruby>困<rt>こま</rt></ruby>らせてしまうかな"
-      },
-      {
-        "time": 71.5,
-        "text": "<ruby>君<rt>きみ</rt></ruby>が<ruby>歩<rt>ある</rt></ruby>く<ruby>並木道<rt>なみきみち</rt></ruby>"
-      },
-      {
-        "time": 75,
-        "text": "<ruby>風景<rt>ふうけい</rt></ruby>に<ruby>僕<rt>ぼく</rt></ruby>也<ruby>混<rt>ま</rt></ruby>ざれば"
-      },
-      {
-        "time": 79,
-        "text": "<ruby>綺麗<rt>きれい</rt></ruby>じゃなくなるけれど"
-      },
-      {
-        "time": 82.5,
-        "text": "<ruby>隣<rt>となり</rt></ruby>に<ruby>居<rt>い</rt></ruby>たいよ <ruby>今日<rt>きょう</rt></ruby>は"
-      },
-      {
-        "time": 86.5,
-        "text": "<ruby>涙<rt>なみだ</rt></ruby>も<ruby>喜び<rt>よろこび</rt></ruby>も"
-      },
-      {
-        "time": 90.5,
-        "text": "<ruby>悩み<rt>なやみ</rt></ruby>も<ruby>分<rt>わ</rt></ruby>け<ruby>合<rt>あ</rt></ruby>えたら"
-      },
-      {
-        "time": 94.5,
-        "text": "<ruby>幸せ<rt>しあわせ</rt></ruby>だと<ruby>思<rt>おも</rt></ruby>うから"
-      },
-      {
-        "time": 98,
-        "text": "<ruby>君<rt>きみ</rt></ruby>の<ruby>名前<rt>なまえ</rt></ruby>を<ruby>呼<rt>よ</rt></ruby>ぶ"
-      },
-      {
-        "time": 101.5,
-        "text": "<ruby>飾<rt>かざ</rt></ruby>らない<ruby>願い<rt>ねがい</rt></ruby>は <ruby>結局<rt>けっきょく</rt></ruby> <ruby>隠<rt>かく</rt></ruby>した"
-      },
-      {
-        "time": 105.8,
-        "text": "<ruby>並<rt>なら</rt></ruby>んで<ruby>歩<rt>ある</rt></ruby>く<ruby>道<rt>みち</rt></ruby>は<ruby>未来<rt>みらい</rt></ruby>"
-      },
-      {
-        "time": 109.2,
-        "text": "こうして ずっとこの<ruby>時間<rt>じかん</rt></ruby>が"
-      },
-      {
-        "time": 113.5,
-        "text": "<ruby>続<rt>つづ</rt></ruby>けば<ruby>良<rt>い</rt></ruby>いって<ruby>思<rt>おもい</rt></ruby>うけれど"
-      },
-      {
-        "time": 132,
-        "text": "<ruby>届<rt>とど</rt></ruby>かない<ruby>想<rt>おも</rt></ruby>いは <ruby>自分<rt>じぶん</rt></ruby>のせいだ"
-      },
-      {
-        "time": 136.3,
-        "text": "<ruby>分<rt>わ</rt></ruby>かっていても<ruby>踏<rt>ふ</rt></ruby>み<ruby>出<rt>だ</rt></ruby>せない"
-      },
-      {
-        "time": 139.5,
-        "text": "<ruby>最後<rt>さいご</rt></ruby>に ぎゅっと<ruby>手<rt>て</rt></ruby>を<ruby>握<rt>にぎ</rt></ruby>って"
-      },
-      {
-        "time": 143.8,
-        "text": "「また<ruby>明日<rt>あした</rt></ruby>」 <ruby>精一杯<rt>せいいっぱい</rt></ruby>だった"
-      },
-      {
-        "time": 147.4,
-        "text": "<ruby>揺<rt>ゆ</rt></ruby>らがない<ruby>想<rt>おも</rt></ruby>いを <ruby>背負<rt>せお</rt></ruby>って<ruby>駆<rt>か</rt></ruby>け<ruby>出<rt>だ</rt></ruby>した"
-      },
-      {
-        "time": 151.5,
-        "text": "<ruby>落<rt>お</rt></ruby>ち<ruby>葉<rt>ば</rt></ruby> <ruby>舞<rt>ま</rt></ruby>い <ruby>降<rt>ふ</rt></ruby>る<ruby>道<rt>みち</rt></ruby>の<ruby>上<rt>うえ</rt></ruby>"
-      },
-      {
-        "time": 154.7,
-        "text": "この<ruby>先<rt>さき</rt></ruby> もっと<ruby>返<rt>かえ</rt></ruby>したいんだ"
-      },
-      {
-        "time": 159,
-        "text": "<ruby>言葉<rt>ことば</rt></ruby>では<ruby>足<rt>た</rt></ruby>りないけどさ"
-      },
-      {
-        "time": 164.5,
-        "text": "<ruby>色<rt>いろ</rt></ruby>の<ruby>褪<rt>あ</rt></ruby>せた<ruby>帰<rt>かえ</rt></ruby>り<ruby>道<rt>みち</rt></ruby>"
-      },
-      {
-        "time": 168.5,
-        "text": "<ruby>頬<rt>ほお</rt></ruby>を<ruby>木枯<rt>こがらし</rt></ruby>らしが<ruby>撫<rt>な</rt></ruby>ぜる"
-      },
-      {
-        "time": 172.2,
-        "text": "<ruby>伝<rt>つた</rt></ruby>えそびれた<ruby>想<rt>おも</rt></ruby>いを"
-      },
-      {
-        "time": 175.5,
-        "text": "<ruby>運<rt>はこ</rt></ruby>んでくれたら<ruby>良<rt>い</rt></ruby>いのに"
-      }
-    ]
-  },
+
   {
     "title": "Pleasure Feather",
     "artist": "蓮ノ休日",
@@ -404,7 +233,7 @@
       {
         "time": 10.5,
         "text": "ずっと<ruby>心<rt>こころ</rt></ruby>に pleasure feather"
-      },
+      },ㄐ
       {
         "time": 15,
         "text": "<ruby>昨日<rt>きのう</rt></ruby>の<ruby>夜<rt>よる</rt></ruby>も <ruby>明日<rt>あした</rt></ruby>の<ruby>朝<rt>あさ</rt></ruby>も"
