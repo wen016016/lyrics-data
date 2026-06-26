@@ -61,11 +61,8 @@
 
 > ⚠️ \*\*注意：\*\* 使用本地版需將 `index.html` 中的
 
-> ```js
+> ```js fetch('https://wen016016.github.io/lyrics-data/songs.json?\_=' + new Date().getTime()) ```
 
-> fetch('https://wen016016.github.io/lyrics-data/songs.json?\_=' + new Date().getTime())
-
-> ```
 
 > 改為
 
