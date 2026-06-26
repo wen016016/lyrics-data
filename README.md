@@ -76,22 +76,24 @@
 
 \## 📝 新增歌曲
 
+在 `songs.json` 的陣列中新增一筆歌曲物件。格式請參考下方範例（請記得每首歌物件之間要用逗號 `,` 分隔）：
 
-
-在 `songs.json` 的陣列中新增一筆物件即可，格式如下：
-
-{ "title": "歌曲名稱", 
-
-&#x20; "artist": "歌手名稱", 
-
-&#x20; "credits": { "lyrics": "作詞者", "music": "作曲者" }, 
-
-&#x20; "color": "#主題色hex", 
-
-&#x20; "videoId": "YouTube影片ID", 
-
-&#x20; "lines": \[ { "time": 0, "text": "第一句歌詞" }, { "time": 5.5, "text": "第二句歌詞" } ] }
-
+```json
+{
+  "title": "歌曲名稱",
+  "artist": "歌手名稱",
+  "credits": {
+    "lyrics": "作詞者",
+    "music": "作曲者"
+  },
+  "color": "#HEX主題色",
+  "videoId": "YouTube影片ID",
+  "lines": [
+    { "time": 0, "text": "第一句歌詞" },
+    { "time": 5.5, "text": "第二句歌詞" }
+  ]
+}
+```
 
 
 
