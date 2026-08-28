@@ -1,0 +1,14 @@
+pyyaml
+pykakasi
+yt-dlp
+stable-ts
+faster-whisper
+openai
+# 對齊用：全域 CTC forced alignment
+torch
+torchaudio
+transformers
+# 人聲分離（可選但強烈建議，尤其是有合音/厚伴奏的歌）
+demucs
+# 繁簡轉換（中文歌需要：對齊模型與 Whisper 中文輸出都是簡體）
+opencc-python-reimplemented

@@ -1,0 +1,170 @@
+"""?? add_song.html??? UTF-8 BOM"""
+import os
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
+
+html = r'''<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<title>&#x65B0;&#x589E;&#x6B4C;&#x66F2;</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Noto Serif JP',serif;background:#0d0d0f;color:#e8e4dc;min-height:100vh;display:flex;justify-content:center;align-items:flex-start;padding:40px 20px}
+.container{max-width:700px;width:100%}
+h1{text-align:center;font-size:1.6rem;margin-bottom:24px;color:#c9a96e}
+.step{display:none}.step.active{display:block}
+.step-indicator{display:flex;gap:8px;margin-bottom:24px;justify-content:center}
+.step-indicator span{height:3px;width:80px;background:#333;border-radius:2px}
+.step-indicator span.done{background:#c9a96e}
+.step-indicator span.current{background:#e8e4dc}
+label{display:block;font-size:14px;color:#999;margin-bottom:6px}
+input,textarea{width:100%;padding:12px;border:1px solid #333;border-radius:8px;background:#1a1a1e;color:#e8e4dc;font-size:15px;outline:none}
+input:focus,textarea:focus{border-color:#c9a96e}
+textarea{min-height:200px;resize:vertical;font-family:inherit}
+.btn{display:inline-block;padding:10px 24px;background:#c9a96e;color:#0d0d0f;border:none;border-radius:6px;font-size:14px;font-weight:600;cursor:pointer;margin-top:16px}
+.btn:hover{background:#b8934f}
+.btn-secondary{background:#333;color:#e8e4dc}.btn-secondary:hover{background:#444}
+.row{display:flex;gap:12px;margin-bottom:16px}.row>*{flex:1}
+.field{margin-bottom:16px}
+.step-title{font-size:1.1rem;margin-bottom:16px;display:flex;align-items:center;gap:8px}
+.step-num{background:#c9a96e;color:#0d0d0f;width:28px;height:28px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:bold;font-size:13px}
+.note{font-size:12px;color:#777;margin-top:4px}
+.result-box{background:#1a1a1e;border:1px solid #333;border-radius:8px;padding:16px;margin-top:16px;display:none}
+.result-box h3{margin-bottom:8px}
+</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+<h1>&#x65B0;&#x589E;&#x6B4C;&#x66F2;</h1>
+<div class="step-indicator"><span class="current" id="ind1"></span><span id="ind2"></span><span id="ind3"></span><span id="ind4"></span><span id="ind5"></span></div>
+
+<div class="step active" id="step1">
+<div class="step-title"><span class="step-num">1</span> YouTube &#x5F71;&#x7247;&#x9023;&#x7D50;</div>
+<div class="field"><input type="text" id="ytUrl" placeholder="https://www.youtube.com/watch?v=..."></div>
+<div class="note">&#x8CBC;&#x4E0A; YouTube &#x5F71;&#x7247;&#x7DB2;&#x5740;</div>
+<button class="btn" onclick="nextStep(2)">&#x4E0B;&#x4E00;&#x6B65;</button>
+</div>
+
+<div class="step" id="step2">
+<div class="step-title"><span class="step-num">2</span> &#x6B4C;&#x66F2;&#x8CC7;&#x8A0A;</div>
+<div class="row"><div class="field"><label>&#x6B4C;&#x540D;</label><input type="text" id="title"></div><div class="field"><label>&#x6B4C;&#x624B;</label><input type="text" id="artist"></div></div>
+<div class="row"><div class="field"><label>&#x4F5C;&#x8A5E;&#xFF08;&#x9078;&#x586B;&#xFF09;</label><input type="text" id="lyricist"></div><div class="field"><label>&#x4F5C;&#x66F2;&#xFF08;&#x9078;&#x586B;&#xFF09;</label><input type="text" id="composer"></div></div>
+<div class="field"><label>&#x4E3B;&#x984C;&#x8272;&#xFF08;&#x9078;&#x586B;&#xFF09;</label><input type="text" id="color" placeholder="#c9a96e" value="#c9a96e"></div>
+<button class="btn-secondary btn" onclick="prevStep(1)">&#x4E0A;&#x4E00;&#x6B65;</button>
+<button class="btn" onclick="nextStep(3)">&#x4E0B;&#x4E00;&#x6B65;</button>
+</div>
+
+<div class="step" id="step3">
+<div class="step-title"><span class="step-num">3</span> &#x65E5;&#x6587;&#x6B4C;&#x8A5E;</div>
+<div class="field"><textarea id="lyrics" placeholder="&#x4E00;&#x884C;&#x4E00;&#x53E5;&#xFF0C;&#x7D14;&#x6587;&#x5B57;&#x5373;&#x53EF;"></textarea></div>
+<div class="note">&#x4E00;&#x884C;&#x4E00;&#x53E5;&#xFF0C;&#x4E0D;&#x9700;&#x8981;&#x6642;&#x9593;&#x6A19;&#x8A18;&#xFF0C;&#x7CFB;&#x7D71;&#x6703;&#x81EA;&#x52D5;&#x5C0D;&#x9F4A;&#x6642;&#x9593;&#x8EF8;&#x4E26;&#x6A19;&#x6CE8;&#x632F;&#x5047;&#x540D;</div>
+<button class="btn-secondary btn" onclick="prevStep(2)">&#x4E0A;&#x4E00;&#x6B65;</button>
+<button class="btn" onclick="nextStep(4)">&#x4E0B;&#x4E00;&#x6B65;</button>
+</div>
+
+<div class="step" id="step4">
+<div class="step-title"><span class="step-num">4</span> &#x4E2D;&#x6587;&#x7FFB;&#x8B6F;&#xFF08;&#x9078;&#x586B;&#xFF09;</div>
+<div class="field"><textarea id="zhTranslation" placeholder="&#x4E00;&#x884C;&#x5C0D;&#x61C9;&#x4E00;&#x53E5;&#x65E5;&#x6587;&#xFF0C;&#x53EF;&#x7A0D;&#x5F8C;&#x518D;&#x532F;&#x5165;"></textarea></div>
+<button class="btn-secondary btn" onclick="prevStep(3)">&#x4E0A;&#x4E00;&#x6B65;</button>
+<button class="btn" onclick="nextStep(5)">&#x4E0B;&#x4E00;&#x6B65;</button>
+</div>
+
+<div class="step" id="step5">
+<div class="step-title"><span class="step-num">5</span> &#x78BA;&#x8A8D;&#x9001;&#x51FA;</div>
+<div id="preview" style="background:#1a1a1e;padding:16px;border-radius:8px;font-size:13px;white-space:pre-wrap;max-height:300px;overflow-y:auto;margin-bottom:16px;"></div>
+<button class="btn-secondary btn" onclick="prevStep(4)" id="backBtn4">&#x4E0A;&#x4E00;&#x6B65;</button>
+<button class="btn" onclick="submitSong()" id="submitBtn">&#x1F680; &#x958B;&#x59CB;&#x8655;&#x7406;</button>
+<div id="progressBox" style="display:none;margin-top:16px;background:#1a1a1e;border:1px solid #333;border-radius:8px;padding:16px;">
+<div id="progressText" style="font-size:14px;">&#x6E96;&#x5099;&#x4E2D;...</div>
+<div style="background:#333;border-radius:4px;height:6px;margin-top:12px;"><div id="progressBar" style="background:#c9a96e;height:100%;border-radius:4px;width:0%;transition:width 0.5s;"></div></div>
+</div>
+<div class="result-box" id="resultBox">
+<h3 id="resultTitle"></h3>
+<div id="resultMsg" style="font-size:14px;white-space:pre-wrap;"></div>
+</div>
+</div>
+
+</div>
+<script>
+var currentStep=1;
+function showStep(n){for(var i=1;i<=5;i++){document.getElementById('step'+i).classList.toggle('active',i===n);document.getElementById('ind'+i).className=i<n?'done':i===n?'current':'';}currentStep=n;}
+function nextStep(n){showStep(n);if(n===5)buildPreview();}
+function prevStep(n){showStep(n);}
+function getVideoId(){var url=document.getElementById('ytUrl').value.trim();var m=url.match(/[?&]v=([^&]+)/);if(m)return m[1];m=url.match(/youtu\.be\/([^?]+)/);if(m)return m[1];return url;}
+function gatherData(){
+  var lyrics=document.getElementById('lyrics').value.trim().split('\n').filter(function(l){return l.trim();});
+  var zh=document.getElementById('zhTranslation').value.trim().split('\n').filter(function(l){return l.trim();});
+  return{videoId:getVideoId(),title:document.getElementById('title').value.trim(),artist:document.getElementById('artist').value.trim(),
+    credits:{lyrics:document.getElementById('lyricist').value.trim()||null,music:document.getElementById('composer').value.trim()||null},
+    color:document.getElementById('color').value.trim()||'#c9a96e',lyrics:lyrics,zh:zh};
+}
+function buildPreview(){
+  var data=gatherData();
+  var t='';
+  t+='\u6B4C\u540D: '+data.title+'\n';
+  t+='\u6B4C\u624B: '+data.artist+'\n';
+  t+='\u5F71\u7247ID: '+data.videoId+'\n';
+  t+='\u6B4C\u8A5E: '+data.lyrics.length+' \u884C\n';
+  if(data.zh.length>0) t+='\u7FFB\u8B6F: '+data.zh.length+' \u884C\n';
+  t+='\n--- \u6B4C\u8A5E\u9810\u89BD ---\n';
+  for(var i=0;i<Math.min(data.lyrics.length,10);i++){
+    t+=(i+1)+'. '+data.lyrics[i];
+    if(data.zh[i]) t+='  \u2192  '+data.zh[i];
+    t+='\n';
+  }
+  if(data.lyrics.length>10) t+='... (\u5171 '+data.lyrics.length+' \u884C)\n';
+  document.getElementById('preview').textContent=t;
+}
+function submitSong(){
+  var data=gatherData();
+  if(!data.title||!data.artist||!data.videoId||data.lyrics.length===0){
+    alert('\u8ACB\u586B\u5BEB\u6B4C\u540D\u3001\u6B4C\u624B\u3001YouTube\u9023\u7D50\u548C\u6B4C\u8A5E');return;
+  }
+  document.getElementById('submitBtn').disabled=true;
+  document.getElementById('submitBtn').textContent='\u8655\u7406\u4E2D...';
+  document.getElementById('backBtn4').disabled=true;
+  document.getElementById('progressBox').style.display='block';
+  document.getElementById('resultBox').style.display='none';
+  var steps=['\u4E0B\u8F09\u97F3\u6A94\u4E2D...','\u8A9E\u97F3\u8FA8\u8B58 + \u6642\u9593\u8EF8\u5C0D\u9F4A\u4E2D\uFF08\u7D04\u9700 8-15 \u5206\u9418\uFF09...','\u6A19\u6CE8\u632F\u5047\u540D\u4E2D...','\u8655\u7406\u7FFB\u8B6F\u4E2D...'];
+  var si=0;
+  var pi=setInterval(function(){if(si<steps.length){document.getElementById('progressText').textContent=steps[si];document.getElementById('progressBar').style.width=((si+1)*25)+'%';si++;}},3000);
+  fetch('/api/add-song',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(data)})
+  .then(function(r){return r.json();})
+  .then(function(r){
+    clearInterval(pi);
+    document.getElementById('progressBox').style.display='none';
+    document.getElementById('resultBox').style.display='block';
+    if(r.success){
+      document.getElementById('resultTitle').textContent='\u2713 \u65B0\u589E\u6210\u529F\uFF01';
+      document.getElementById('resultTitle').style.color='#4a4';
+      document.getElementById('resultMsg').textContent=r.message+'\n\u91CD\u65B0\u6574\u7406\u64AD\u653E\u5668\u9801\u9762\u5373\u53EF\u770B\u5230\u65B0\u6B4C\u66F2\u3002';
+    }else{
+      document.getElementById('resultTitle').textContent='\u2717 \u8655\u7406\u5931\u6557';
+      document.getElementById('resultTitle').style.color='#a44';
+      document.getElementById('resultMsg').textContent=r.error;
+      document.getElementById('submitBtn').disabled=false;
+      document.getElementById('submitBtn').textContent='\u1F680 \u91CD\u8A66';
+      document.getElementById('backBtn4').disabled=false;
+    }
+  })
+  .catch(function(e){
+    clearInterval(pi);
+    document.getElementById('progressBox').style.display='none';
+    document.getElementById('resultBox').style.display='block';
+    document.getElementById('resultTitle').textContent='\u2717 \u9023\u7DDA\u5931\u6557';
+    document.getElementById('resultTitle').style.color='#a44';
+    document.getElementById('resultMsg').textContent='\u7121\u6CD5\u9023\u63A5\u4F3A\u670D\u5668\uFF0C\u8ACB\u78BA\u8A8D\u5DF2\u57F7\u884C server.py';
+    document.getElementById('submitBtn').disabled=false;
+    document.getElementById('submitBtn').textContent='\u1F680 \u91CD\u8A66';
+    document.getElementById('backBtn4').disabled=false;
+  });
+}
+</script>
+</body>
+</html>'''
+
+with open('../add_song.html', 'w', encoding='utf-8-sig') as f:
+    f.write(html)
+print('Done! add_song.html written with UTF-8 BOM')
