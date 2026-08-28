@@ -54,6 +54,7 @@ song/
    - **http://localhost:8000/add_song.html** → 新增歌曲
 5. 要關閉伺服器，回到終端機按 `Ctrl + C`
 
+(以下目前用不到了)
 > ⚠️ **注意：** 如果是部署到 GitHub Pages 等靜態站台，需將 `index.html` 中的：
 > ```js
 > fetch('https://wen016016.github.io/lyrics-data/songs.json?_=' + new Date().getTime())
