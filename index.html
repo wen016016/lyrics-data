@@ -33,7 +33,8 @@
         body.light::before { opacity: 0.02; }
         body.light .lyrics rt { color: #333; }
         body.light .lyric-line:hover { background: rgba(0,0,0,0.04); }
-        body.light .lyric-line.active { background: rgba(160,125,63,0.1); }
+        body.light .lyric-line.active { background: rgba(160,125,63,0.1); color: var(--accent-c, var(--accent1)); }
+        body.light .lyric-sub.zh.active { color: var(--accent-c, var(--accent1)); }
 
         html { scroll-behavior: smooth; }
 
@@ -225,7 +226,7 @@
         }
         .lyric-line:hover { background: rgba(255,255,255,0.06); }
         .lyric-line.active {
-            color: var(--accent-c, var(--accent1));
+            color: var(--accent-bright, var(--accent-c, var(--accent1)));
             background: rgba(201,169,110,0.1);
         }
         .lyric-line::before {
@@ -258,15 +259,24 @@
         .lyric-sub.zh {
             font-size: 13px;
             cursor: pointer;
-            padding: 4px 8px 4px 26px;
+            padding: 4px 8px;
             margin: 2px 0;
             border-radius: 4px;
             transition: background 0.3s, color 0.3s, opacity 0.3s;
+            color: var(--text);
             opacity: 0.7;
         }
+        .lyric-sub.zh::before {
+            content: '\25B6 ';
+            font-size: 10px;
+            opacity: 0;
+            transition: opacity 0.2s;
+        }
+        .lyric-sub.zh:hover::before { opacity: 0.4; }
+        .lyric-sub.zh.active::before { opacity: 0.8; }
         .lyric-sub.zh:hover { background: rgba(255,255,255,0.06); opacity: 1; }
         .lyric-sub.zh.active {
-            color: var(--accent-c, var(--accent1));
+            color: var(--accent-bright, var(--accent-c, var(--accent1)));
             background: rgba(201,169,110,0.1);
             opacity: 1;
         }
@@ -277,14 +287,6 @@
             opacity: 1;
             color: var(--text);
         }
-        body.zh-mode .lyric-sub.zh::before {
-            content: '\25B6 ';
-            font-size: 10px;
-            opacity: 0;
-            transition: opacity 0.2s;
-        }
-        body.zh-mode .lyric-sub.zh:hover::before { opacity: 0.4; }
-        body.zh-mode .lyric-sub.zh.active::before { opacity: 0.8; }
         .lyric-sub.hidden { display: none; }
 
         /* Display mode toggle */
@@ -447,6 +449,18 @@
         <!-- 選單列 -->
         <div class="selector-bar">
             <div class="select-wrap">
+                <label>Franchise</label>
+                <select class="styled-select" id="franchise-select">
+                    <option value="all">全部作品</option>
+                </select>
+            </div>
+            <div class="select-wrap">
+                <label>Series</label>
+                <select class="styled-select" id="series-select">
+                    <option value="all">全部系列</option>
+                </select>
+            </div>
+            <div class="select-wrap">
                 <label>Artist</label>
                 <select class="styled-select" id="artist-select">
                     <option value="all">全部歌手</option>
@@ -543,8 +557,8 @@
                     return 0;
                 });
                 songsData = songs;
-                buildArtistSelect(songs);
-                buildSongSelect(songs);
+                buildFilterSelects(songs);
+                buildSongSelect();
                 buildPanels(songs);
                 updateFooter(songs);
                 loadYouTubeAPI();
@@ -554,37 +568,124 @@
                 document.getElementById('panels-container').innerHTML = '<p class="load-error">歌詞資料載入失敗：' + err.message + '</p>';
             });
 
-        // ===== 建構歌手下拉選單 =====
-        function buildArtistSelect(songs) {
-            var select = document.getElementById('artist-select');
-            var artists = [];
-            songs.forEach(function (s) {
-                if (artists.indexOf(s.artist) === -1) artists.push(s.artist);
-            });
-            artists.forEach(function (a) {
-                var opt = document.createElement('option');
-                opt.value = a;
-                opt.textContent = a;
-                select.appendChild(opt);
-            });
+        // ===== 篩選狀態 =====
+        var currentFranchise = 'all';
+        var currentSeries = 'all';
+        var currentArtist = 'all';
 
-            select.addEventListener('change', function () {
-                var artist = this.value;
-                buildSongSelect(songsData, artist);
-                var songSelect = document.getElementById('song-select');
-                if (songSelect.options.length > 0) {
-                    songSelect.selectedIndex = 0;
-                    switchToSong(parseInt(songSelect.value));
-                }
+        function getFilteredSongs() {
+            return songsData.filter(function (s) {
+                if (currentFranchise !== 'all' && (s.franchise || '') !== currentFranchise) return false;
+                if (currentSeries !== 'all' && (s.series || '') !== currentSeries) return false;
+                if (currentArtist !== 'all' && s.artist !== currentArtist) return false;
+                return true;
             });
         }
 
+        function rebuildDropdown(select, items, defaultLabel) {
+            var prev = select.value;
+            select.innerHTML = '';
+            var allOpt = document.createElement('option');
+            allOpt.value = 'all';
+            allOpt.textContent = defaultLabel;
+            select.appendChild(allOpt);
+            items.forEach(function (v) {
+                var opt = document.createElement('option');
+                opt.value = v;
+                opt.textContent = v;
+                select.appendChild(opt);
+            });
+            // restore previous selection if still available
+            if (items.indexOf(prev) !== -1) {
+                select.value = prev;
+            } else {
+                select.value = 'all';
+            }
+        }
+
+        function refreshFilters() {
+            var franchiseSelect = document.getElementById('franchise-select');
+            var seriesSelect = document.getElementById('series-select');
+            var artistSelect = document.getElementById('artist-select');
+
+            // Series: filtered by current franchise
+            var seriesSet = [];
+            songsData.forEach(function (s) {
+                if (currentFranchise !== 'all' && (s.franchise || '') !== currentFranchise) return;
+                var v = s.series || '';
+                if (v && seriesSet.indexOf(v) === -1) seriesSet.push(v);
+            });
+            rebuildDropdown(seriesSelect, seriesSet, '全部系列');
+            currentSeries = seriesSelect.value;
+
+            // Artist: filtered by franchise + series
+            var artistSet = [];
+            songsData.forEach(function (s) {
+                if (currentFranchise !== 'all' && (s.franchise || '') !== currentFranchise) return;
+                if (currentSeries !== 'all' && (s.series || '') !== currentSeries) return;
+                if (artistSet.indexOf(s.artist) === -1) artistSet.push(s.artist);
+            });
+            rebuildDropdown(artistSelect, artistSet, '全部歌手');
+            currentArtist = artistSelect.value;
+
+            // Song list
+            buildSongSelect();
+        }
+
+        // ===== 建構篩選下拉選單 =====
+        function buildFilterSelects(songs) {
+            var franchiseSelect = document.getElementById('franchise-select');
+            var seriesSelect = document.getElementById('series-select');
+            var artistSelect = document.getElementById('artist-select');
+
+            // Franchise list (from all songs)
+            var franchises = [];
+            songs.forEach(function (s) {
+                var v = s.franchise || '';
+                if (v && franchises.indexOf(v) === -1) franchises.push(v);
+            });
+            rebuildDropdown(franchiseSelect, franchises, '全部作品');
+
+            franchiseSelect.addEventListener('change', function () {
+                currentFranchise = this.value;
+                currentSeries = 'all';
+                currentArtist = 'all';
+                refreshFilters();
+                autoSelectFirstSong();
+            });
+
+            seriesSelect.addEventListener('change', function () {
+                currentSeries = this.value;
+                currentArtist = 'all';
+                refreshFilters();
+                autoSelectFirstSong();
+            });
+
+            artistSelect.addEventListener('change', function () {
+                currentArtist = this.value;
+                buildSongSelect();
+                autoSelectFirstSong();
+            });
+
+            refreshFilters();
+        }
+
+        function autoSelectFirstSong() {
+            var songSelect = document.getElementById('song-select');
+            if (songSelect.options.length > 0) {
+                songSelect.selectedIndex = 0;
+                switchToSong(parseInt(songSelect.value));
+            }
+        }
+
         // ===== 建構歌曲下拉選單 =====
-        function buildSongSelect(songs, artistFilter) {
+        function buildSongSelect() {
             var select = document.getElementById('song-select');
             select.innerHTML = '';
-            songs.forEach(function (song, i) {
-                if (artistFilter && artistFilter !== 'all' && song.artist !== artistFilter) return;
+            songsData.forEach(function (song, i) {
+                if (currentFranchise !== 'all' && (song.franchise || '') !== currentFranchise) return;
+                if (currentSeries !== 'all' && (song.series || '') !== currentSeries) return;
+                if (currentArtist !== 'all' && song.artist !== currentArtist) return;
                 var opt = document.createElement('option');
                 opt.value = i;
                 opt.textContent = song.title;
@@ -644,6 +745,40 @@
             document.getElementById('playback-toolbar').classList.remove('visible');
         }
 
+        // ===== 顏色亮度工具 =====
+        function brightenColor(hex, minLightness) {
+            hex = (hex || '#c9a96e').replace('#', '');
+            if (hex.length === 3) hex = hex[0]+hex[0]+hex[1]+hex[1]+hex[2]+hex[2];
+            var r = parseInt(hex.substring(0,2),16)/255;
+            var g = parseInt(hex.substring(2,4),16)/255;
+            var b = parseInt(hex.substring(4,6),16)/255;
+            var max = Math.max(r,g,b), min = Math.min(r,g,b);
+            var h, s, l = (max+min)/2;
+            if (max === min) { h = s = 0; }
+            else {
+                var d = max - min;
+                s = l > 0.5 ? d/(2-max-min) : d/(max+min);
+                if (max === r) h = ((g-b)/d + (g<b?6:0))/6;
+                else if (max === g) h = ((b-r)/d+2)/6;
+                else h = ((r-g)/d+4)/6;
+            }
+            if (l < minLightness) l = minLightness;
+            if (s < 0.4) s = Math.min(s + 0.15, 1);
+            function hue2rgb(p,q,t) {
+                if(t<0)t+=1; if(t>1)t-=1;
+                if(t<1/6) return p+(q-p)*6*t;
+                if(t<1/2) return q;
+                if(t<2/3) return p+(q-p)*(2/3-t)*6;
+                return p;
+            }
+            var q2 = l<0.5 ? l*(1+s) : l+s-l*s;
+            var p2 = 2*l-q2;
+            var rr = Math.round(hue2rgb(p2,q2,h+1/3)*255);
+            var gg = Math.round(hue2rgb(p2,q2,h)*255);
+            var bb = Math.round(hue2rgb(p2,q2,h-1/3)*255);
+            return '#'+((1<<24)+(rr<<16)+(gg<<8)+bb).toString(16).slice(1);
+        }
+
         // ===== 建構歌詞面板 =====
         function buildPanels(songs) {
             var container = document.getElementById('panels-container');
@@ -651,9 +786,10 @@
 
             songs.forEach(function (song, i) {
                 var tabId = 'tab' + (i + 1);
+                var bright = brightenColor(song.color, 0.7);
                 html += '<div class="tab-panel' + (i === 0 ? ' active' : '') + '" id="' + tabId + '"'
                     + ' role="tabpanel"'
-                    + ' style="--accent-c:' + song.color + '"'
+                    + ' style="--accent-c:' + song.color + ';--accent-bright:' + bright + '"'
                     + (song.videoId ? ' data-video-id="' + song.videoId + '"' : '') + '>';
 
                 html += '<div class="song-info">'

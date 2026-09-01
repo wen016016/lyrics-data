@@ -4,7 +4,7 @@
 
 ## ✨ 功能特色
 
-- **歌手篩選** — 按歌手分類快速找到想看的歌曲
+- **三層篩選** — 按大分類（Franchise）→ 小系列（Series）→ 歌手（Artist）層級篩選歌曲
 - **分頁切換** — Tab 式切換不同歌曲
 - **YouTube 同步播放** — 內嵌 YouTube 播放器，歌詞隨播放進度自動高亮
 - **點擊跳轉** — 點擊任一句歌詞即可跳轉到對應時間點
@@ -53,16 +53,6 @@ song/
    - **http://localhost:8000/** → 歌詞播放器
    - **http://localhost:8000/add_song.html** → 新增歌曲
 5. 要關閉伺服器，回到終端機按 `Ctrl + C`
-
-(以下目前用不到了)
-> ⚠️ **注意：** 如果是部署到 GitHub Pages 等靜態站台，需將 `index.html` 中的：
-> ```js
-> fetch('https://wen016016.github.io/lyrics-data/songs.json?_=' + new Date().getTime())
-> ```
-> 改為本地版：
-> ```js
-> fetch('songs.json')
-> ```
 
 ## 🔧 環境安裝（首次使用）
 
@@ -282,6 +272,8 @@ run{ラン}
 {
   "title": "歌曲名稱",
   "artist": "歌手名稱",
+  "franchise": "大分類（如 LoveLive、アイドルマスター）",
+  "series": "小系列（如 蓮ノ空、シンデレラガールズ）",
   "credits": {
     "lyrics": "作詞者",
     "music": "作曲者"
@@ -307,6 +299,8 @@ run{ラン}
 |------|------|
 | `title` | 歌曲標題 |
 | `artist` | 歌手／團體名稱（用於篩選分類） |
+| `franchise` | 大分類（如 `LoveLive`、`アイドルマスター`、`VTUBER`），選填，空字串表示不分類 |
+| `series` | 小系列（如 `蓮ノ空`、`シンデレラガールズ`、`Shiny Colors`），選填，空字串表示不分類 |
 | `credits.lyrics` | 作詞者（無則填 `null`） |
 | `credits.music` | 作曲者（無則填 `null`） |
 | `color` | 該曲目的主題色（HEX 格式） |

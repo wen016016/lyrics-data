@@ -46,6 +46,7 @@ textarea{min-height:200px;resize:vertical;font-family:inherit}
 <div class="step" id="step2">
 <div class="step-title"><span class="step-num">2</span> &#x6B4C;&#x66F2;&#x8CC7;&#x8A0A;</div>
 <div class="row"><div class="field"><label>&#x6B4C;&#x540D;</label><input type="text" id="title"></div><div class="field"><label>&#x6B4C;&#x624B;</label><input type="text" id="artist"></div></div>
+<div class="row"><div class="field"><label>大分類（選填，如：偶像大師、LoveLive）</label><input type="text" id="franchise" placeholder="例：LoveLive"></div><div class="field"><label>小系列（選填，如：蓮ノ空、灰姑娘）</label><input type="text" id="series" placeholder="例：蓮ノ空"></div></div>
 <div class="row"><div class="field"><label>&#x4F5C;&#x8A5E;&#xFF08;&#x9078;&#x586B;&#xFF09;</label><input type="text" id="lyricist"></div><div class="field"><label>&#x4F5C;&#x66F2;&#xFF08;&#x9078;&#x586B;&#xFF09;</label><input type="text" id="composer"></div></div>
 <div class="field"><label>&#x4E3B;&#x984C;&#x8272;&#xFF08;&#x9078;&#x586B;&#xFF09;</label><input type="text" id="color" placeholder="#c9a96e" value="#c9a96e"></div>
 <button class="btn-secondary btn" onclick="prevStep(1)">&#x4E0A;&#x4E00;&#x6B65;</button>
@@ -101,6 +102,7 @@ function gatherData(){
   var zhRaw=document.getElementById('zhTranslation').value.replace(/\s+$/,'');
   var zh=zhRaw===''?[]:zhRaw.split('\n').map(function(l){return l.trim();});
   return{videoId:getVideoId(),title:document.getElementById('title').value.trim(),artist:document.getElementById('artist').value.trim(),
+    franchise:document.getElementById('franchise').value.trim()||'',series:document.getElementById('series').value.trim()||'',
     credits:{lyrics:document.getElementById('lyricist').value.trim()||null,music:document.getElementById('composer').value.trim()||null},
     color:document.getElementById('color').value.trim()||'#c9a96e',lyrics:lyrics,zh:zh};
 }
@@ -109,6 +111,8 @@ function buildPreview(){
   var t='';
   t+='\u6B4C\u540D: '+data.title+'\n';
   t+='\u6B4C\u624B: '+data.artist+'\n';
+  if(data.franchise) t+='\u5927\u5206\u985E: '+data.franchise+'\n';
+  if(data.series) t+='\u5C0F\u7CFB\u5217: '+data.series+'\n';
   t+='\u5F71\u7247ID: '+data.videoId+'\n';
   t+='\u6B4C\u8A5E: '+data.lyrics.length+' \u884C\n';
   var filled=0;

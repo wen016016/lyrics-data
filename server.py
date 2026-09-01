@@ -68,6 +68,8 @@ class SongHandler(http.server.SimpleHTTPRequestHandler):
 
             song = {
                 "title": data.get("title", ""),
+                "franchise": data.get("franchise", ""),
+                "series": data.get("series", ""),
                 "artist": data.get("artist", ""),
                 "credits": {
                     "lyrics": data.get("credits", {}).get("lyrics"),
