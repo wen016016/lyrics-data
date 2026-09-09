@@ -3485,5 +3485,544 @@
         "plain": "あたしたちのこれからのこと"
       }
     ]
+  },
+  {
+    "title": "ここから、ここから",
+    "franchise": "アニメ",
+    "series": "宇宙よりも遠い場所",
+    "artist": "玉木マリ(CV:水瀬いのり)、小淵沢報瀬(CV:花澤香菜)、 三宅日向(CV:井口裕香)、白石結月(CV:早見沙織)",
+    "credits": {
+      "lyrics": null,
+      "music": null
+    },
+    "color": "#96E5FF",
+    "videoId": "x7-iffawHg8",
+    "lines": [
+      {
+        "time": 11.36,
+        "text": "<ruby>長い<rt>ながい</rt></ruby>トンネルの<ruby>出口<rt>でぐち</rt></ruby>を<ruby>探し<rt>さがし</rt></ruby>ていた",
+        "end": 20.54,
+        "plain": "長いトンネルの出口を探していた",
+        "zh": ""
+      },
+      {
+        "time": 22.34,
+        "text": "かすかな<ruby>光<rt>ひかり</rt></ruby>の<ruby>匂い<rt>におい</rt></ruby>がしてる<ruby>方<rt>ほう</rt></ruby>へ",
+        "end": 31.74,
+        "plain": "かすかな光の匂いがしてる方へ",
+        "zh": ""
+      },
+      {
+        "time": 31.76,
+        "text": "<ruby>間違っ<rt>まちがっ</rt></ruby>ても <ruby>笑え<rt>わらえ</rt></ruby>るさ",
+        "end": 37.24,
+        "plain": "間違っても 笑えるさ",
+        "zh": ""
+      },
+      {
+        "time": 37.26,
+        "text": "ここから<ruby>始め<rt>はじめ</rt></ruby>よう <ruby>僕は<rt>ぼくは</rt></ruby><ruby>旅<rt>たび</rt></ruby>に<ruby>出よ<rt>でよ</rt></ruby>う",
+        "end": 48.56,
+        "plain": "ここから始めよう 僕は旅に出よう",
+        "zh": ""
+      },
+      {
+        "time": 48.58,
+        "text": "<ruby>汚れ<rt>よごれ</rt></ruby>た<ruby>真<rt>ま</rt></ruby>ん<ruby>丸<rt>まる</rt></ruby>のビー<ruby>玉<rt>たま</rt></ruby> <ruby>握り<rt>にぎり</rt></ruby>しめて",
+        "end": 59.06,
+        "plain": "汚れた真ん丸のビー玉 握りしめて",
+        "zh": ""
+      },
+      {
+        "time": 59.08,
+        "text": "<ruby>言え<rt>いえ</rt></ruby>なかった<ruby>言葉<rt>ことば</rt></ruby>も きっと<ruby>見つ<rt>みつ</rt></ruby>かるよ",
+        "end": 70.1,
+        "plain": "言えなかった言葉も きっと見つかるよ",
+        "zh": ""
+      },
+      {
+        "time": 70.12,
+        "text": "バカにされたって<ruby>構わ<rt>かまわ</rt></ruby>ない <ruby>信じ<rt>しんじ</rt></ruby>てゆこう",
+        "end": 81.06,
+        "plain": "バカにされたって構わない 信じてゆこう",
+        "zh": ""
+      },
+      {
+        "time": 93.68,
+        "text": "<ruby>誰<rt>だれ</rt></ruby>にもバレずに<ruby>裸足<rt>はだし</rt></ruby>で<ruby>泳ぐ<rt>およぐ</rt></ruby><ruby>魚<rt>さかな</rt></ruby>",
+        "end": 102.9,
+        "plain": "誰にもバレずに裸足で泳ぐ魚",
+        "zh": ""
+      },
+      {
+        "time": 104.64,
+        "text": "<ruby>机<rt>つくえ</rt></ruby>に<ruby>広げ<rt>ひろげ</rt></ruby>て<ruby>散ら<rt>ちら</rt></ruby>かった<ruby>野望<rt>やぼう</rt></ruby>のままで",
+        "end": 113.9,
+        "plain": "机に広げて散らかった野望のままで",
+        "zh": ""
+      },
+      {
+        "time": 114.04,
+        "text": "ドキドキ ずっと<ruby>消え<rt>きえ</rt></ruby>るな!",
+        "end": 119.4,
+        "plain": "ドキドキ ずっと消えるな!",
+        "zh": ""
+      },
+      {
+        "time": 119.42,
+        "text": "ここから<ruby>始め<rt>はじめ</rt></ruby>よう <ruby>世界<rt>せかい</rt></ruby>を<ruby>見に<rt>みに</rt></ruby>ゆこう",
+        "end": 130.36,
+        "plain": "ここから始めよう 世界を見にゆこう",
+        "zh": ""
+      },
+      {
+        "time": 130.38,
+        "text": "<ruby>青い<rt>あおい</rt></ruby><ruby>空<rt>そら</rt></ruby>に<ruby>投げ<rt>なげ</rt></ruby>た た サイコロの<ruby>目の<rt>めの</rt></ruby>ままに",
+        "end": 141.5,
+        "plain": "青い空に投げた  サイコロの目のままに",
+        "zh": ""
+      },
+      {
+        "time": 141.52,
+        "text": "<ruby>流れ<rt>ながれ</rt></ruby>ていく<ruby>季節<rt>きせつ</rt></ruby>も <ruby>明日<rt>あす</rt></ruby>へ<ruby>続く<rt>つづく</rt></ruby>なら",
+        "end": 152.22,
+        "plain": "流れていく季節も 明日へ続くなら",
+        "zh": ""
+      },
+      {
+        "time": 152.24,
+        "text": "<ruby>止ま<rt>とま</rt></ruby>るときまで<ruby>止ま<rt>とま</rt></ruby>るな ずっとこのまま",
+        "end": 163.32,
+        "plain": "止まるときまで止まるな ずっとこのまま",
+        "zh": ""
+      },
+      {
+        "time": 164.26,
+        "text": "<ruby>絡ま<rt>からま</rt></ruby>る<ruby>人目<rt>ひとめ</rt></ruby>を<ruby>抜け<rt>ぬけ</rt></ruby>",
+        "end": 169.82,
+        "plain": "絡まる人目を抜け",
+        "zh": ""
+      },
+      {
+        "time": 169.96,
+        "text": "<ruby>日常<rt>にちじょう</rt></ruby>の<ruby>壁<rt>かべ</rt></ruby> <ruby>飛び<rt>とび</rt></ruby><ruby>越え<rt>こえ</rt></ruby>て",
+        "end": 175.34,
+        "plain": "日常の壁 飛び越えて",
+        "zh": ""
+      },
+      {
+        "time": 175.36,
+        "text": "<ruby>転ん<rt>ころん</rt></ruby>でできた<ruby>傷<rt>きず</rt></ruby>さえ",
+        "end": 180.02,
+        "plain": "転んでできた傷さえ",
+        "zh": ""
+      },
+      {
+        "time": 180.34,
+        "text": "もっと<ruby>愛せ<rt>あいせ</rt></ruby>るなら",
+        "end": 188.88,
+        "plain": "もっと愛せるなら",
+        "zh": ""
+      },
+      {
+        "time": 207.5,
+        "text": "ここから<ruby>始め<rt>はじめ</rt></ruby>よう <ruby>僕は<rt>ぼくは</rt></ruby><ruby>旅<rt>たび</rt></ruby>に<ruby>出よ<rt>でよ</rt></ruby>う",
+        "end": 218.52,
+        "plain": "ここから始めよう 僕は旅に出よう",
+        "zh": ""
+      },
+      {
+        "time": 218.76,
+        "text": "<ruby>汚れ<rt>よごれ</rt></ruby>た<ruby>真<rt>ま</rt></ruby>ん<ruby>丸<rt>まる</rt></ruby>のビー<ruby>玉<rt>たま</rt></ruby> <ruby>握り<rt>にぎり</rt></ruby>しめて",
+        "end": 228.94,
+        "plain": "汚れた真ん丸のビー玉 握りしめて",
+        "zh": ""
+      },
+      {
+        "time": 228.98,
+        "text": "<ruby>言え<rt>いえ</rt></ruby>なかった<ruby>言葉<rt>ことば</rt></ruby>も きっと<ruby>見つ<rt>みつ</rt></ruby>かるよ",
+        "end": 240.2,
+        "plain": "言えなかった言葉も きっと見つかるよ",
+        "zh": ""
+      },
+      {
+        "time": 240.44,
+        "text": "バカにされたって<ruby>構わ<rt>かまわ</rt></ruby>ない <ruby>信じ<rt>しんじ</rt></ruby>てゆこう",
+        "end": 250.5,
+        "plain": "バカにされたって構わない 信じてゆこう",
+        "zh": ""
+      },
+      {
+        "time": 250.52,
+        "text": "そして<ruby>君<rt>きみ</rt></ruby>に<ruby>告げ<rt>つげ</rt></ruby>る その<ruby>日<rt>ひ</rt></ruby>まで",
+        "end": 257.26,
+        "plain": "そして君に告げる その日まで",
+        "zh": ""
+      },
+      {
+        "time": 257.28,
+        "text": "どうか<ruby>幸<rt>さち</rt></ruby>あれ!",
+        "end": 258.42,
+        "plain": "どうか幸あれ!",
+        "zh": ""
+      }
+    ]
+  },
+  {
+    "title": "A出るノート",
+    "franchise": "ラブライブ",
+    "series": "蓮ノ空",
+    "artist": "Edel Note",
+    "credits": {
+      "lyrics": "Skipjack",
+      "music": "Skipjack/佐藤厚仁"
+    },
+    "color": "#3D324D",
+    "videoId": "uIQt3dFo3c4",
+    "lines": [
+      {
+        "time": 1.94,
+        "text": "<ruby>皆さ<rt>みなさ</rt></ruby>～ん！",
+        "zh": "大家～！",
+        "end": 3.92,
+        "plain": "皆さ～ん！"
+      },
+      {
+        "time": 4.3,
+        "text": "うららかな<ruby>桜<rt>さくら</rt></ruby>の<ruby>蕾<rt>つぼみ</rt></ruby>がひらいたら？",
+        "zh": "要是陽光明媚櫻花的花蕾盛開了的話？",
+        "end": 8.24,
+        "plain": "うららかな桜の蕾がひらいたら？"
+      },
+      {
+        "time": 8.32,
+        "text": "<ruby>笑っ<rt>わらっ</rt></ruby>て<ruby>行き<rt>いき</rt></ruby>ナ！",
+        "zh": "笑着起行吧！",
+        "end": 10.06,
+        "plain": "笑って行きナ！"
+      },
+      {
+        "time": 15.08,
+        "text": "イェーイ！",
+        "zh": "Yeah！",
+        "end": 15.2,
+        "plain": "イェーイ！"
+      },
+      {
+        "time": 16.58,
+        "text": "<ruby>成績表<rt>せいせきひょう</rt></ruby><ruby>開い<rt>ひらい</rt></ruby>たら（<ruby>大変<rt>たいへん</rt></ruby>よくできました！）",
+        "zh": "打開成績表 （做得非常好！）",
+        "end": 22.02,
+        "plain": "成績表開いたら（大変よくできました！）"
+      },
+      {
+        "time": 22.04,
+        "text": "Aの<ruby>数<rt>かず</rt></ruby>を<ruby>数え<rt>かぞえ</rt></ruby>てみる",
+        "zh": "試試數一數拿到的A",
+        "end": 26.54,
+        "plain": "Aの数を数えてみる"
+      },
+      {
+        "time": 26.56,
+        "text": "ねえ わたしたちの<ruby>思い出<rt>おもいで</rt></ruby>にAをつけたら",
+        "zh": "要是將我們的回憶打上A",
+        "end": 32.94,
+        "plain": "ねえ わたしたちの思い出にAをつけたら"
+      },
+      {
+        "time": 32.96,
+        "text": "いくつになるのかな",
+        "zh": "不知道會拿到多少個呢",
+        "end": 37.08,
+        "plain": "いくつになるのかな"
+      },
+      {
+        "time": 37.86,
+        "text": "ノートに<ruby>書い<rt>かい</rt></ruby>て  <ruby>確か<rt>たしか</rt></ruby>めてみた",
+        "zh": "寫在筆記上 試着去確認",
+        "end": 42.62,
+        "plain": "ノートに書いて  確かめてみた"
+      },
+      {
+        "time": 42.64,
+        "text": "ああ  やだ  <ruby>失敗<rt>しっぱい</rt></ruby>も<ruby>多い<rt>おおい</rt></ruby>なあ",
+        "zh": "啊 不 失敗的次數也不少",
+        "end": 47.18,
+        "plain": "ああ  やだ  失敗も多いなあ"
+      },
+      {
+        "time": 47.2,
+        "text": "これは<ruby>汗<rt>あせ</rt></ruby>  これは<ruby>雨<rt>あめ</rt></ruby>  <ruby>声<rt>こえ</rt></ruby><ruby>枯れ<rt>かれ</rt></ruby>ちゃCだ",
+        "zh": "這是汗水 這是雨水 要是聲音沙啞就只能拿到C",
+        "end": 52.9,
+        "plain": "これは汗  これは雨  声枯れちゃCだ"
+      },
+      {
+        "time": 53.02,
+        "text": "<ruby>最初<rt>さいしょ</rt></ruby>で<ruby>最後<rt>さいご</rt></ruby>だ",
+        "zh": "既是第一次也是最後一次",
+        "end": 55.26,
+        "plain": "最初で最後だ"
+      },
+      {
+        "time": 55.28,
+        "text": "こんなに<ruby>泣く<rt>なく</rt></ruby>の<ruby>生まれ<rt>うまれ</rt></ruby>て<ruby>初めて<rt>はじめて</rt></ruby>",
+        "zh": "哭成這樣 可算是出生以來第一次",
+        "end": 58.82,
+        "plain": "こんなに泣くの生まれて初めて"
+      },
+      {
+        "time": 60.22,
+        "text": "<ruby>今日<rt>きょう</rt></ruby>までの<ruby>全て<rt>すべて</rt></ruby>がA  <ruby>今日<rt>きょう</rt></ruby>からの<ruby>全て<rt>すべて</rt></ruby>がA",
+        "zh": "直到今日為止 一切都是A 從今以後 一切都是A",
+        "end": 70.32,
+        "plain": "今日までの全てがA  今日からの全てがA"
+      },
+      {
+        "time": 70.34,
+        "text": "これから<ruby>辛い<rt>つらい</rt></ruby>こと",
+        "zh": "往後辛苦的事情",
+        "end": 73.06,
+        "plain": "これから辛いこと"
+      },
+      {
+        "time": 73.28,
+        "text": "きっとまだまだあるけど",
+        "zh": "必定還有許多許多",
+        "end": 77.1,
+        "plain": "きっとまだまだあるけど"
+      },
+      {
+        "time": 77.12,
+        "text": "このノート<ruby>持っ<rt>もっ</rt></ruby>ていれば",
+        "zh": "只要拿着這本筆記",
+        "end": 80.88,
+        "plain": "このノート持っていれば"
+      },
+      {
+        "time": 80.96,
+        "text": "さよならの<ruby>全て<rt>すべて</rt></ruby>がA",
+        "zh": "道別的一切都是A",
+        "end": 86.1,
+        "plain": "さよならの全てがA"
+      },
+      {
+        "time": 86.2,
+        "text": "じゃあねサンキュー <ruby>強が<rt>つよが</rt></ruby>りのA",
+        "zh": "再見 謝謝你 逞強的A",
+        "end": 91.12,
+        "plain": "じゃあねサンキュー 強がりのA"
+      },
+      {
+        "time": 91.14,
+        "text": "<ruby>思い出<rt>おもいで</rt></ruby>がどうか  あなたの<ruby>旅路<rt>たびじ</rt></ruby>を<ruby>守る<rt>まもる</rt></ruby>ように<ruby>贈る<rt>おくる</rt></ruby>よ",
+        "zh": "贈你回憶  願能夠守護你的旅途",
+        "end": 101.86,
+        "plain": "思い出がどうか  あなたの旅路を守るように贈るよ"
+      },
+      {
+        "time": 102.16,
+        "text": "A<ruby>出る<rt>でる</rt></ruby>ノート",
+        "zh": "滿是A的筆記",
+        "end": 104.26,
+        "plain": "A出るノート"
+      },
+      {
+        "time": 104.86,
+        "text": "ほら、<ruby>泉<rt>いずみ</rt></ruby>も！",
+        "zh": "好啦，泉也一起來！",
+        "end": 105.98,
+        "plain": "ほら、泉も！"
+      },
+      {
+        "time": 106.2,
+        "text": "そうだね。<ruby>経験<rt>けいけん</rt></ruby>という<ruby>蕾<rt>つぼみ</rt></ruby>が<ruby>開い<rt>ひらい</rt></ruby>たら、",
+        "zh": "沒錯呢。名為經驗的花蕾盛開了的話，",
+        "end": 108.88,
+        "plain": "そうだね。経験という蕾が開いたら、"
+      },
+      {
+        "time": 108.9,
+        "text": "<ruby>次<rt>つぎ</rt></ruby>は…って、おやおや。",
+        "zh": "接下來，哎呀呀。",
+        "end": 111.7,
+        "plain": "次は…って、おやおや。"
+      },
+      {
+        "time": 112.26,
+        "text": "それぞれ<ruby>美しい<rt>うつくしい</rt></ruby><ruby>花<rt>はな</rt></ruby>になろう。",
+        "zh": "變成各有其美的花朵吧。",
+        "end": 113.66,
+        "plain": "それぞれ美しい花になろう。"
+      },
+      {
+        "time": 114.48,
+        "text": "イェーイ！",
+        "zh": "Yeah！",
+        "end": 114.8,
+        "plain": "イェーイ！"
+      },
+      {
+        "time": 115.68,
+        "text": "CだったのにBになった（<ruby>概ね<rt>おおむね</rt></ruby>よくできました！）",
+        "zh": "明明是C卻得了B （做得挺好的！）",
+        "end": 120.6,
+        "plain": "CだったのにBになった（概ねよくできました！）"
+      },
+      {
+        "time": 120.64,
+        "text": "エピソードを<ruby>数え<rt>かぞえ</rt></ruby>てみる",
+        "zh": "數算段段故事",
+        "end": 125.14,
+        "plain": "エピソードを数えてみる"
+      },
+      {
+        "time": 125.16,
+        "text": "あなたのせいで<ruby>後悔<rt>こうかい</rt></ruby>が<ruby>輝い<rt>かがやい</rt></ruby>ている",
+        "zh": "因為你 連悔意都閃閃生輝",
+        "end": 132.02,
+        "plain": "あなたのせいで後悔が輝いている"
+      },
+      {
+        "time": 132.24,
+        "text": "<ruby>未来<rt>みらい</rt></ruby>に<ruby>繋が<rt>つなが</rt></ruby>ったよ",
+        "zh": "連繫了未來喔",
+        "end": 136.1,
+        "plain": "未来に繋がったよ"
+      },
+      {
+        "time": 136.5,
+        "text": "ノートに<ruby>足し<rt>たし</rt></ruby>て<ruby>確か<rt>たしか</rt></ruby>めてみた",
+        "zh": "在筆記上加上故事確認",
+        "end": 141.1,
+        "plain": "ノートに足して確かめてみた"
+      },
+      {
+        "time": 141.12,
+        "text": "ああ  ほんと  どれも<ruby>鮮<rt>あざ</rt></ruby>やかだよ",
+        "zh": "啊啊 不論哪個都十分鮮明",
+        "end": 146.02,
+        "plain": "ああ  ほんと  どれも鮮やかだよ"
+      },
+      {
+        "time": 146.28,
+        "text": "<ruby>勉強<rt>べんきょう</rt></ruby>とは<ruby>違うか<rt>ちがうか</rt></ruby>ら  <ruby>努力<rt>どりょく</rt></ruby>だけじゃCだ",
+        "zh": "與學習不同 只會努力的話只會得到C",
+        "end": 151.2,
+        "plain": "勉強とは違うから  努力だけじゃCだ"
+      },
+      {
+        "time": 151.22,
+        "text": "<ruby>一生<rt>いっしょう</rt></ruby><ruby>分<rt>ふん</rt></ruby><ruby>泣い<rt>ない</rt></ruby>た<ruby>夜<rt>よる</rt></ruby>なんて",
+        "zh": "哭了一輩子淚水的晚上",
+        "end": 154.56,
+        "plain": "一生分泣いた夜なんて"
+      },
+      {
+        "time": 154.58,
+        "text": "また<ruby>上書き<rt>うわかき</rt></ruby>されるもの",
+        "zh": "也會被新的回憶覆寫",
+        "end": 157.36,
+        "plain": "また上書きされるもの"
+      },
+      {
+        "time": 158.92,
+        "text": "<ruby>生き<rt>いき</rt></ruby>ていればAだけじゃない",
+        "zh": "只要生存 就不只會拿到A",
+        "end": 163.88,
+        "plain": "生きていればAだけじゃない"
+      },
+      {
+        "time": 163.92,
+        "text": "<ruby>選択<rt>せんたく</rt></ruby>をしなきゃいけない",
+        "zh": "不得不繼續選擇",
+        "end": 168.94,
+        "plain": "選択をしなきゃいけない"
+      },
+      {
+        "time": 169.3,
+        "text": "その<ruby>上で<rt>うえで</rt></ruby>オールA<ruby>取っ<rt>とっ</rt></ruby>てみせるよ",
+        "zh": "一定能拿到全A給你看喔",
+        "end": 173.62,
+        "plain": "その上でオールA取ってみせるよ"
+      },
+      {
+        "time": 173.64,
+        "text": "ノートに<ruby>恥ずかしく<rt>はずかしく</rt></ruby>ない<ruby>道<rt>みち</rt></ruby>を<ruby>選ぶ<rt>えらぶ</rt></ruby>よ",
+        "zh": "在筆記上 選擇一條問心無愧的路",
+        "end": 181.4,
+        "plain": "ノートに恥ずかしくない道を選ぶよ"
+      },
+      {
+        "time": 203.02,
+        "text": "<ruby>涙<rt>なみだ</rt></ruby>でぐしゃぐしゃだね",
+        "zh": "因為淚水而變得一塌糊塗呢",
+        "end": 207.74,
+        "plain": "涙でぐしゃぐしゃだね"
+      },
+      {
+        "time": 207.76,
+        "text": "それすら<ruby>美しい<rt>うつくしい</rt></ruby>ね",
+        "zh": "但連那也很美麗呢",
+        "end": 212.94,
+        "plain": "それすら美しいね"
+      },
+      {
+        "time": 212.96,
+        "text": "<ruby>今まで<rt>いままで</rt></ruby>ありがとう",
+        "zh": "至今為止 謝謝你",
+        "end": 215.66,
+        "plain": "今までありがとう"
+      },
+      {
+        "time": 215.68,
+        "text": "きっと<ruby>別れ<rt>わかれ</rt></ruby>すら<ruby>超え<rt>こえ</rt></ruby>るもの<ruby>持っ<rt>もっ</rt></ruby>て<ruby>冒険<rt>ぼうけん</rt></ruby>しよう",
+        "zh": "一定會拿着 超越分離的東西 繼續冒險吧",
+        "end": 223.6,
+        "plain": "きっと別れすら超えるもの持って冒険しよう"
+      },
+      {
+        "time": 223.68,
+        "text": "さよならの<ruby>全て<rt>すべて</rt></ruby>がA",
+        "zh": "道別的一切都是A",
+        "end": 228.62,
+        "plain": "さよならの全てがA"
+      },
+      {
+        "time": 228.64,
+        "text": "じゃあねサンキュー<ruby>強が<rt>つよが</rt></ruby>りのA",
+        "zh": "再見 謝謝你 逞強的A",
+        "end": 233.94,
+        "plain": "じゃあねサンキュー強がりのA"
+      },
+      {
+        "time": 234.16,
+        "text": "<ruby>思い出<rt>おもいで</rt></ruby>がどうか  あなたの<ruby>旅路<rt>たびじ</rt></ruby>を<ruby>守る<rt>まもる</rt></ruby>ように<ruby>贈る<rt>おくる</rt></ruby>よ",
+        "zh": "贈你回憶  願能夠守護你的旅途",
+        "end": 244.96,
+        "plain": "思い出がどうか  あなたの旅路を守るように贈るよ"
+      },
+      {
+        "time": 244.98,
+        "text": "A<ruby>出る<rt>でる</rt></ruby>ノート",
+        "zh": "滿是A的筆記",
+        "end": 248.22,
+        "plain": "A出るノート"
+      },
+      {
+        "time": 253.48,
+        "text": "<ruby>思い出<rt>おもいで</rt></ruby>が<ruby>生涯<rt>しょうがい</rt></ruby>  あなたの<ruby>旅路<rt>たびじ</rt></ruby>を<ruby>守る<rt>まもる</rt></ruby>ように<ruby>贈る<rt>おくる</rt></ruby>よ",
+        "zh": "贈你終生的回憶  願能夠守護你的旅途",
+        "end": 266.66,
+        "plain": "思い出が生涯  あなたの旅路を守るように贈るよ"
+      },
+      {
+        "time": 266.68,
+        "text": "Edel Note",
+        "zh": "Edel Note",
+        "end": 270.28,
+        "plain": "Edel Note"
+      }
+    ]
   }
 ]
