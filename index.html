@@ -80,7 +80,110 @@
             font-size: 22px;
             letter-spacing: 0.06em;
             color: var(--text);
+            cursor: pointer;
+            background: none;
+            border: none;
+            padding: 0;
+            transition: opacity 0.2s;
         }
+        .site-header .brand:hover { opacity: 0.65; }
+
+        /* ===== Icon buttons (search / filter) ===== */
+        .icon-btn {
+            background: none;
+            border: 1px solid var(--border);
+            color: var(--muted);
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 15px;
+            transition: all 0.3s;
+        }
+        .icon-btn:hover, .icon-btn.active {
+            color: var(--text);
+            border-color: var(--text);
+        }
+        body:not(.light) .icon-btn { border-color: rgba(255,255,255,0.35); }
+
+        /* ===== Search ===== */
+        .search-bar { margin-bottom: 24px; }
+        .search-input {
+            width: 100%;
+            background: var(--surface2);
+            border: 1px solid var(--border);
+            color: var(--text);
+            font-family: 'Noto Serif JP', serif;
+            font-size: 15px;
+            padding: 12px 16px;
+            border-radius: 8px;
+            outline: none;
+            transition: border-color 0.3s;
+        }
+        .search-input:focus { border-color: var(--accent1); }
+        .search-results { margin-top: 8px; display: flex; flex-direction: column; gap: 2px; }
+        .search-item {
+            text-align: left;
+            background: none;
+            border: 1px solid transparent;
+            color: var(--text);
+            font-family: 'Noto Serif JP', serif;
+            font-size: 14px;
+            padding: 8px 12px;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+        .search-item:hover { background: var(--surface2); border-color: var(--border); }
+        .search-item .meta { color: var(--muted); font-size: 12px; margin-left: 8px; }
+        .search-empty { color: var(--muted); font-size: 13px; padding: 8px 12px; }
+
+        /* ===== Home view ===== */
+        .home-hero { text-align: center; margin: 24px 0 32px; }
+        .home-hero h1 {
+            font-family: 'Cormorant Garamond', serif;
+            font-weight: 300;
+            font-size: clamp(30px, 7vw, 46px);
+            letter-spacing: 0.06em;
+        }
+        .home-hero p {
+            margin-top: 8px;
+            color: var(--muted);
+            font-family: 'Cormorant Garamond', serif;
+            font-style: italic;
+            font-size: 14px;
+            letter-spacing: 0.1em;
+        }
+        .home-section-title {
+            font-family: 'Cormorant Garamond', serif;
+            font-style: italic;
+            font-size: 12px;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            color: var(--muted);
+            margin-bottom: 10px;
+        }
+        .home-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 12px;
+        }
+        .home-card {
+            text-align: left;
+            background: var(--surface2);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            padding: 14px 16px;
+            cursor: pointer;
+            color: var(--text);
+            font-family: 'Noto Serif JP', serif;
+            transition: border-color 0.25s, transform 0.25s;
+        }
+        .home-card:hover { border-color: var(--accent1); transform: translateY(-2px); }
+        .home-card .t { font-size: 15px; margin-bottom: 6px; }
+        .home-card .a { font-size: 12px; color: var(--muted); }
 
         .header-controls {
             display: flex;
@@ -116,6 +219,8 @@
             flex-wrap: wrap;
             align-items: center;
         }
+        .selector-bar.collapsed,
+        .search-bar.collapsed { display: none; }
 
         .select-wrap {
             position: relative;
@@ -322,6 +427,11 @@
             transition: opacity 0.3s ease;
             max-width: min(520px, calc(100vw - 24px));
         }
+        /* 深色模式：加白邊框讓工具列更明顯 */
+        body:not(.light) .playback-toolbar {
+            border-color: rgba(255,255,255,0.55);
+            box-shadow: 0 4px 20px rgba(0,0,0,0.6), 0 0 0 1px rgba(255,255,255,0.12);
+        }
         body.light .playback-toolbar {
             box-shadow: 0 4px 20px rgba(0,0,0,0.1);
         }
@@ -373,6 +483,21 @@
             background: var(--accent1);
             color: var(--bg);
             border-color: var(--accent1);
+        }
+        /* 深色模式：提高工具列內文字與按鈕邊框的對比 */
+        body:not(.light) .playback-toolbar .tb-btn {
+            border-color: rgba(255,255,255,0.45);
+            color: rgba(255,255,255,0.85);
+        }
+        body:not(.light) .playback-toolbar .tb-btn:hover {
+            border-color: #fff;
+            color: #fff;
+        }
+        body:not(.light) .playback-toolbar .toolbar-label {
+            color: rgba(255,255,255,0.75);
+        }
+        body:not(.light) .playback-toolbar .toolbar-sep {
+            background: rgba(255,255,255,0.35);
         }
 
         /* A-B loop indicators on lyric lines */
@@ -434,7 +559,7 @@
 <body>
     <div class="wrapper">
         <header class="site-header">
-            <div class="brand">歌詞</div>
+            <button class="brand" id="brandHome" title="回首頁">歌詞</button>
             <div class="header-controls">
                 <div class="display-toggle">
                     <span class="toolbar-label">顯示</span>
@@ -442,12 +567,20 @@
                     <button class="tb-btn display-btn" data-display="zh" title="中文翻譯">中</button>
                     <button class="tb-btn display-btn" data-display="all" title="日中對照">日中</button>
                 </div>
+                <button class="icon-btn" id="searchToggle" title="搜尋歌曲">🔍</button>
+                <button class="icon-btn" id="filterToggle" title="篩選">☰</button>
                 <button class="theme-toggle" id="themeToggle" title="切換黑白模式">🌙</button>
             </div>
         </header>
 
+        <!-- 搜尋 -->
+        <div class="search-bar collapsed" id="search-bar">
+            <input type="text" class="search-input" id="search-input" placeholder="搜尋歌名、歌手、作品…" autocomplete="off">
+            <div class="search-results" id="search-results"></div>
+        </div>
+
         <!-- 選單列 -->
-        <div class="selector-bar">
+        <div class="selector-bar collapsed" id="selector-bar">
             <div class="select-wrap">
                 <label>Franchise</label>
                 <select class="styled-select" id="franchise-select">
@@ -471,6 +604,8 @@
                 <select class="styled-select" id="song-select"></select>
             </div>
         </div>
+
+        <div id="home-view"></div>
 
         <div id="panels-container"></div>
 
@@ -562,6 +697,7 @@
                 buildPanels(songs);
                 updateFooter(songs);
                 loadYouTubeAPI();
+                showHome();
             })
             .catch(function (err) {
                 console.error('載入 songs.json 失敗:', err);
@@ -699,6 +835,7 @@
 
         // ===== 切換歌曲 =====
         function switchToSong(index) {
+            hideHome();
             if (activeTabId && players[activeTabId] && players[activeTabId].pauseVideo) {
                 players[activeTabId].pauseVideo();
             }
@@ -1201,6 +1338,112 @@
                 } else {
                     el.classList.add('hidden');
                 }
+            });
+        }
+
+        // ===== 首頁 =====
+        function showHome() {
+            if (activeTabId && players[activeTabId] && players[activeTabId].pauseVideo) {
+                players[activeTabId].pauseVideo();
+            }
+            isPlaying = false;
+            hideToolbar();
+            document.querySelectorAll('.tab-panel').forEach(function (p) { p.classList.remove('active'); });
+            document.getElementById('panels-container').classList.add('hidden');
+            document.getElementById('selector-bar').classList.add('collapsed');
+            document.getElementById('filterToggle').classList.remove('active');
+            renderHome();
+            document.getElementById('home-view').classList.remove('hidden');
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        function hideHome() {
+            document.getElementById('home-view').classList.add('hidden');
+            document.getElementById('panels-container').classList.remove('hidden');
+        }
+
+        function renderHome() {
+            var view = document.getElementById('home-view');
+            var html = '<div class="home-hero"><h1>歌詞</h1><p>Japanese lyrics with translation</p></div>'
+                + '<div class="home-section-title">All songs</div><div class="home-grid">';
+            songsData.forEach(function (song, i) {
+                html += '<button class="home-card" data-index="' + i + '">'
+                    + '<div class="t">' + song.title + '</div>'
+                    + '<div class="a">' + song.artist + (song.franchise ? ' · ' + song.franchise : '') + '</div>'
+                    + '</button>';
+            });
+            html += '</div>';
+            view.innerHTML = html;
+            view.querySelectorAll('.home-card').forEach(function (card) {
+                card.addEventListener('click', function () {
+                    selectSongByIndex(parseInt(this.getAttribute('data-index')));
+                });
+            });
+        }
+
+        // 選定指定歌曲（同步下拉選單）
+        function selectSongByIndex(index) {
+            var song = songsData[index];
+            if (!song) return;
+            currentFranchise = 'all';
+            currentSeries = 'all';
+            currentArtist = 'all';
+            document.getElementById('franchise-select').value = 'all';
+            refreshFilters();
+            var songSelect = document.getElementById('song-select');
+            songSelect.value = String(index);
+            switchToSong(index);
+        }
+
+        document.getElementById('brandHome').addEventListener('click', function () {
+            showHome();
+        });
+
+        // ===== 篩選列折疊 =====
+        document.getElementById('filterToggle').addEventListener('click', function () {
+            var bar = document.getElementById('selector-bar');
+            bar.classList.toggle('collapsed');
+            this.classList.toggle('active', !bar.classList.contains('collapsed'));
+        });
+
+        // ===== 搜尋 =====
+        var searchBar = document.getElementById('search-bar');
+        var searchInput = document.getElementById('search-input');
+        document.getElementById('searchToggle').addEventListener('click', function () {
+            searchBar.classList.toggle('collapsed');
+            var open = !searchBar.classList.contains('collapsed');
+            this.classList.toggle('active', open);
+            if (open) searchInput.focus();
+        });
+
+        searchInput.addEventListener('input', function () {
+            renderSearchResults(this.value.trim().toLowerCase());
+        });
+
+        function renderSearchResults(q) {
+            var box = document.getElementById('search-results');
+            if (!q) { box.innerHTML = ''; return; }
+            var matches = [];
+            songsData.forEach(function (song, i) {
+                var hay = [song.title, song.artist, song.franchise, song.series].join(' ').toLowerCase();
+                if (hay.indexOf(q) !== -1) matches.push({ song: song, index: i });
+            });
+            if (matches.length === 0) {
+                box.innerHTML = '<div class="search-empty">找不到符合的歌曲</div>';
+                return;
+            }
+            var html = '';
+            matches.slice(0, 20).forEach(function (m) {
+                html += '<button class="search-item" data-index="' + m.index + '">' + m.song.title
+                    + '<span class="meta">' + m.song.artist + '</span></button>';
+            });
+            box.innerHTML = html;
+            box.querySelectorAll('.search-item').forEach(function (item) {
+                item.addEventListener('click', function () {
+                    selectSongByIndex(parseInt(this.getAttribute('data-index')));
+                    searchBar.classList.add('collapsed');
+                    document.getElementById('searchToggle').classList.remove('active');
+                });
             });
         }
     </script>
