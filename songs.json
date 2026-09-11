@@ -6493,5 +6493,292 @@
         "plain": "夢の中に生きる時間も 明日の私へと繋ぐから"
       }
     ]
+  },
+  {
+    "title": "シュガーメルト",
+    "franchise": "ラブライブ",
+    "series": "蓮ノ空",
+    "artist": "スリーズブーケ",
+    "credits": {
+      "lyrics": "ケリー",
+      "music": "山下洋介"
+    },
+    "color": "#DA645F",
+    "videoId": "fwxOzG6GArQ",
+    "lines": [
+      {
+        "time": 7.68,
+        "text": "あれは<ruby>鳥<rt>とり</rt></ruby> あれはキリン あの<ruby>雲<rt>くも</rt></ruby>はクジラかな",
+        "zh": "那是鳥 那是長頸鹿 還有那朵雲是鯨魚吧",
+        "end": 14.44,
+        "plain": "あれは鳥 あれはキリン あの雲はクジラかな"
+      },
+      {
+        "time": 14.46,
+        "text": "<ruby>楽しく<rt>たのしく</rt></ruby>て <ruby>仕方ない<rt>しかたない</rt></ruby> <ruby>待ち合わせ<rt>まちあわせ</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>まで",
+        "zh": "開心得不得了呢 在碰頭的時間來臨之前",
+        "end": 21.46,
+        "plain": "楽しくて 仕方ない 待ち合わせの時間まで"
+      },
+      {
+        "time": 21.78,
+        "text": "そよ<ruby>風<rt>かぜ</rt></ruby>が <ruby>吹き抜け<rt>ふきぬけ</rt></ruby>た <ruby>金木犀<rt>きんもくせい</rt></ruby>の<ruby>香り<rt>かおり</rt></ruby>",
+        "zh": "微風吹拂而過 帶來的金桂飄香",
+        "end": 28.52,
+        "plain": "そよ風が 吹き抜けた 金木犀の香り"
+      },
+      {
+        "time": 28.84,
+        "text": "<ruby>小春日和<rt>こはるびより</rt></ruby>を<ruby>連れ<rt>つれ</rt></ruby>て <ruby>君<rt>きみ</rt></ruby>が<ruby>手<rt>て</rt></ruby>を<ruby>振る<rt>ふる</rt></ruby>",
+        "zh": "你帶著晚秋的暖陽揮手致意",
+        "end": 34.64,
+        "plain": "小春日和を連れて 君が手を振る"
+      },
+      {
+        "time": 35.68,
+        "text": "<ruby>目<rt>め</rt></ruby>と<ruby>目<rt>め</rt></ruby>が<ruby>合え<rt>あえ</rt></ruby>ば <ruby>世界<rt>せかい</rt></ruby>はスローダウン",
+        "zh": "四目相對之時 世界放慢腳步",
+        "end": 43.9,
+        "plain": "目と目が合えば 世界はスローダウン"
+      },
+      {
+        "time": 44.5,
+        "text": "もしかして<ruby>魔法<rt>まほう</rt></ruby><ruby>使え<rt>つかえ</rt></ruby>るの？（ねえ<ruby>使え<rt>つかえ</rt></ruby>るの？）",
+        "zh": "難道你會使用魔法嗎？（喂 你會嗎？）",
+        "end": 50.52,
+        "plain": "もしかして魔法使えるの？（ねえ使えるの？）"
+      },
+      {
+        "time": 50.54,
+        "text": "そっと <ruby>甘く<rt>あまく</rt></ruby>ほどけてゆく",
+        "zh": "悄悄地香甜地散開來",
+        "end": 54.68,
+        "plain": "そっと 甘くほどけてゆく"
+      },
+      {
+        "time": 54.9,
+        "text": "<ruby>君<rt>50.84</rt></ruby>は <ruby>君<rt>50.84</rt></ruby>は <ruby>綿<rt>めん</rt></ruby><ruby>菓子<rt>かし</rt></ruby><ruby>雲<rt>くも</rt></ruby>",
+        "zh": "你呀 你是一朵棉花糖雲",
+        "end": 58.16,
+        "plain": "君は 君は 綿菓子雲"
+      },
+      {
+        "time": 58.42,
+        "text": "ザラメ<ruby>糖<rt>とう</rt></ruby>みたいな<ruby>迷い<rt>まよい</rt></ruby>さえ",
+        "zh": "就連像粗砂糖一樣的迷惑",
+        "end": 61.92,
+        "plain": "ザラメ糖みたいな迷いさえ"
+      },
+      {
+        "time": 62.36,
+        "text": "<ruby>軽く<rt>かるく</rt></ruby>してしまうんだ",
+        "zh": "也會變得輕盈起來",
+        "end": 65.0,
+        "plain": "軽くしてしまうんだ"
+      },
+      {
+        "time": 65.4,
+        "text": "<ruby>秋<rt>あき</rt></ruby>の<ruby>空<rt>そら</rt></ruby>にほどけてゆく",
+        "zh": "在秋天的天空中融化",
+        "end": 68.8,
+        "plain": "秋の空にほどけてゆく"
+      },
+      {
+        "time": 69.0,
+        "text": "<ruby>君<rt>きみ</rt></ruby>を <ruby>君<rt>きみ</rt></ruby>を <ruby>私<rt>わたし</rt></ruby>ずっと",
+        "zh": "你 你和我永遠",
+        "end": 72.5,
+        "plain": "君を 君を 私ずっと"
+      },
+      {
+        "time": 72.52,
+        "text": "<ruby>口<rt>くち</rt></ruby>の<ruby>中<rt>なか</rt></ruby>で<ruby>消え<rt>きえ</rt></ruby>て<ruby>無く<rt>なく</rt></ruby>なる",
+        "zh": "在嘴裡消失的無影無蹤",
+        "end": 77.56,
+        "plain": "口の中で消えて無くなる"
+      },
+      {
+        "time": 77.58,
+        "text": "その<ruby>前<rt>まえ</rt></ruby>に<ruby>伝え<rt>つたえ</rt></ruby>なきゃ",
+        "zh": "在那之前必須傳達",
+        "end": 79.84,
+        "plain": "その前に伝えなきゃ"
+      },
+      {
+        "time": 94.2,
+        "text": "<ruby>移り<rt>うつり</rt></ruby><ruby>気な<rt>きな</rt></ruby> <ruby>季節<rt>きせつ</rt></ruby>だと ことわざにあるけれど",
+        "zh": "雖然俗話說 這是一個水性楊花的季節",
+        "end": 101.62,
+        "plain": "移り気な 季節だと ことわざにあるけれど"
+      },
+      {
+        "time": 101.64,
+        "text": "<ruby>晴れ<rt>はれ</rt></ruby>の<ruby>日<rt>にち</rt></ruby>が <ruby>続い<rt>つづい</rt></ruby>てる <ruby>心<rt>こころ</rt></ruby>の<ruby>中<rt>なか</rt></ruby>では なんて",
+        "zh": "在陽光明媚的日子裡 心中在想些什麼呢",
+        "end": 108.36,
+        "plain": "晴れの日が 続いてる 心の中では なんて"
+      },
+      {
+        "time": 108.7,
+        "text": "<ruby>通り<rt>とうり</rt></ruby><ruby>雨<rt>あめ</rt></ruby> <ruby>降ら<rt>ふら</rt></ruby>れても <ruby>気に<rt>きに</rt></ruby>しない それよりも",
+        "zh": "即使下起了雨 我也毫不在意",
+        "end": 115.7,
+        "plain": "通り雨 降られても 気にしない それよりも"
+      },
+      {
+        "time": 115.78,
+        "text": "<ruby>相合い傘<rt>あいあいがさ</rt></ruby>の<ruby>下<rt>した</rt></ruby>で <ruby>肩<rt>かた</rt></ruby>がぶつかる",
+        "zh": "更重要的是肩膀在共用的傘下碰在了一起",
+        "end": 121.42,
+        "plain": "相合い傘の下で 肩がぶつかる"
+      },
+      {
+        "time": 122,
+        "text": "<ruby>紅葉<rt>もみじ</rt></ruby><ruby>色<rt>いろ</rt></ruby>へと <ruby>耳<rt>みみ</rt></ruby>まで<ruby>染ま<rt>そま</rt></ruby>った",
+        "zh": "就連耳朵也染上了紅葉的顏色",
+        "end": 128.5,
+        "plain": "紅葉色へと 耳まで染まった"
+      },
+      {
+        "time": 128.58,
+        "text": "<ruby>今<rt>いま</rt></ruby>わざと<ruby>魔法使っ<rt>まほうつかっ</rt></ruby>たでしょ？（ねえ<ruby>使った<rt>つかった</rt></ruby>でしょ？）",
+        "zh": "你是在故意使用魔法對吧？（喂 是你幹的吧？）",
+        "end": 135.38,
+        "plain": "今わざと魔法使ったでしょ？（ねえ使ったでしょ？）"
+      },
+      {
+        "time": 135.4,
+        "text": "ふわり カラダ<ruby>浮か<rt>うか</rt></ruby>んでゆく",
+        "zh": "身體輕飄飄地漂浮起來",
+        "end": 139.38,
+        "plain": "ふわり カラダ浮かんでゆく"
+      },
+      {
+        "time": 139.6,
+        "text": "<ruby>君<rt>きみ</rt></ruby>は <ruby>君<rt>きみ</rt></ruby>は <ruby>不思議<rt>ふしぎ</rt></ruby>な<ruby>人<rt>にん</rt></ruby>",
+        "zh": "你呀 你真是個不可思議的人",
+        "end": 142.98,
+        "plain": "君は 君は 不思議な人"
+      },
+      {
+        "time": 143,
+        "text": "<ruby>少し<rt>すこし</rt></ruby><ruby>靴擦れ<rt>くつずれ</rt></ruby>した<ruby>痛み<rt>いたみ</rt></ruby>さえ",
+        "zh": "就連鞋子摩擦的痛楚",
+        "end": 146.62,
+        "plain": "少し靴擦れした痛みさえ"
+      },
+      {
+        "time": 147,
+        "text": "<ruby>忘れ<rt>わすれ</rt></ruby>てしまいそうだ",
+        "zh": "也都忘得一乾二淨",
+        "end": 149.48,
+        "plain": "忘れてしまいそうだ"
+      },
+      {
+        "time": 149.5,
+        "text": "<ruby>私<rt>わたし</rt></ruby>・・・ずっと・・・",
+        "zh": "我…一直…",
+        "end": 152.62,
+        "plain": "私・・・ずっと・・・"
+      },
+      {
+        "time": 171.98,
+        "text": "<ruby>目<rt>め</rt></ruby>と<ruby>目<rt>め</rt></ruby>が<ruby>合え<rt>あえ</rt></ruby>ば <ruby>世界<rt>せかい</rt></ruby>はスローダウン",
+        "zh": "四目相對之時 世界放慢腳步",
+        "end": 178.46,
+        "plain": "目と目が合えば 世界はスローダウン"
+      },
+      {
+        "time": 178.48,
+        "text": "<ruby>時計<rt>とけい</rt></ruby>の<ruby>針<rt>はり</rt></ruby>も<ruby>息<rt>いき</rt></ruby><ruby>止め<rt>とめ</rt></ruby>て",
+        "zh": "時鐘的指針也停止了呼吸",
+        "end": 184.6,
+        "plain": "時計の針も息止めて"
+      },
+      {
+        "time": 185.34,
+        "text": "<ruby>恥ずかしい<rt>はずかしい</rt></ruby>から <ruby>一度<rt>いちど</rt></ruby>しか<ruby>言わ<rt>いわ</rt></ruby>ないよ",
+        "zh": "因為很難為情 所以我只說一次喲",
+        "end": 193.2,
+        "plain": "恥ずかしいから 一度しか言わないよ"
+      },
+      {
+        "time": 193.68,
+        "text": "<ruby>私<rt>わたし</rt></ruby>だって<ruby>魔法<rt>まほう</rt></ruby><ruby>使え<rt>つかえ</rt></ruby>るもん（ねえ<ruby>使え<rt>つかえ</rt></ruby>るもん）",
+        "zh": "其實我也會使用魔法（餵 我也會用）",
+        "end": 199.4,
+        "plain": "私だって魔法使えるもん（ねえ使えるもん）"
+      },
+      {
+        "time": 199.5,
+        "text": "そっと そっと <ruby>甘く<rt>あまく</rt></ruby>ほどけてゆく",
+        "zh": "悄悄地輕輕地香甜地散開來",
+        "end": 205.84,
+        "plain": "そっと そっと 甘くほどけてゆく"
+      },
+      {
+        "time": 205.88,
+        "text": "<ruby>君<rt>きみ</rt></ruby>は <ruby>君<rt>きみ</rt></ruby>は <ruby>綿菓子<rt>わたがし</rt></ruby><ruby>雲<rt>くも</rt></ruby>",
+        "zh": "你呀 你是一朵棉花糖雲",
+        "end": 209.14,
+        "plain": "君は 君は 綿菓子雲"
+      },
+      {
+        "time": 209.36,
+        "text": "ザラメ<ruby>糖<rt>とう</rt></ruby>みたいな<ruby>迷い<rt>まよい</rt></ruby>さえ",
+        "zh": "就連像粗砂糖一樣的迷惑",
+        "end": 213.16,
+        "plain": "ザラメ糖みたいな迷いさえ"
+      },
+      {
+        "time": 213.36,
+        "text": "<ruby>軽く<rt>かるく</rt></ruby>してしまうんだ",
+        "zh": "也會變得輕盈起來",
+        "end": 216.02,
+        "plain": "軽くしてしまうんだ"
+      },
+      {
+        "time": 216.48,
+        "text": "<ruby>秋<rt>あき</rt></ruby>の<ruby>空<rt>そら</rt></ruby>にほどけてゆく",
+        "zh": "在秋天的天空中融化",
+        "end": 219.76,
+        "plain": "秋の空にほどけてゆく"
+      },
+      {
+        "time": 220.0,
+        "text": "<ruby>君<rt>きみ</rt></ruby>を <ruby>君<rt>きみ</rt></ruby>を <ruby>私<rt>わたし</rt></ruby>ずっと",
+        "zh": "你 你和我永遠",
+        "end": 223.44,
+        "plain": "君を 君を 私ずっと"
+      },
+      {
+        "time": 223.5,
+        "text": "<ruby>口<rt>くち</rt></ruby>の<ruby>中<rt>なか</rt></ruby>で<ruby>消え<rt>きえ</rt></ruby>て<ruby>無く<rt>なく</rt></ruby>なる",
+        "zh": "在嘴裡消失的無影無蹤",
+        "end": 228.6,
+        "plain": "口の中で消えて無くなる"
+      },
+      {
+        "time": 228.82,
+        "text": "その<ruby>前<rt>まえ</rt></ruby>に<ruby>伝え<rt>つたえ</rt></ruby>なきゃ",
+        "zh": "在那之前必須傳達",
+        "end": 231.42,
+        "plain": "その前に伝えなきゃ"
+      },
+      {
+        "time": 231.66,
+        "text": "ホントのキモチ",
+        "zh": "真正的心意",
+        "end": 233.36,
+        "plain": "ホントのキモチ"
+      },
+      {
+        "time": 233.46,
+        "text": "<ruby>君<rt>くん</rt></ruby>が<ruby>大好き<rt>だいすき</rt></ruby>。",
+        "zh": "最喜歡你了。",
+        "end": 236.44,
+        "plain": "君が大好き。"
+      }
+    ]
   }
 ]
