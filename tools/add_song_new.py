@@ -265,22 +265,38 @@ def align_lyrics(audio, lyric_plains, align_texts=None, join_prev=None,
     aligner.report(results, lyric_plains)
 
     ok, why = _global_align_ok(results, audio_len)
+    warning = None
     if not ok:
-        raise RuntimeError(f"對齊結果沒通過合理性檢查: {why}")
-    print(f"  [align] 全域 CTC 對齊完成 ({used_lang}), "
-          f"{len(results)}/{len(lyric_plains)} 行", flush=True)
-    return [{'time': r['time'], 'end': r['end']} for r in results]
+        warning = why
+        print(f"  [align] 警告: 對齊結果沒通過合理性檢查: {why}", flush=True)
+        print("  [align] 時間軸仍會寫入，請檢查上面標記的行", flush=True)
+    else:
+        print(f"  [align] 全域 CTC 對齊完成 ({used_lang}), "
+              f"{len(results)}/{len(lyric_plains)} 行", flush=True)
+    return [{'time': r['time'], 'end': r['end']} for r in results], warning
 
 
 def _global_align_ok(results, audio_len):
-    """全域對齊的合理性檢查。抓的是「整體錯位」，不是逐行精度。"""
+    """全域對齊的合理性檢查。抓的是「整體錯位」，不是逐行精度。
+
+    來源可信度分三級：
+      ctc / anchor -- 邊界直接來自聲學對齊或 Whisper 錨點
+      moved        -- 錨點落在間奏，改放到前後行之間真的有人聲的區段。
+                      落點仍由人聲活動決定，算有音訊依據。
+      interp       -- 完全沒有落點，前後線性插值，沒有任何音訊依據。
+    """
     if not results:
         return False, "沒有結果"
     n = len(results)
-    # 有音訊證據的行（CTC 邊界或 Whisper 錨點都算），插值的不算
-    grounded = [r for r in results if r.get('source') in ('ctc', 'anchor')]
-    if len(grounded) < n * 0.7:
-        return False, f"只有 {len(grounded)}/{n} 行對到音訊"
+    counts = {}
+    for r in results:
+        src = r.get('source') or 'interp'
+        counts[src] = counts.get(src, 0) + 1
+    breakdown = ', '.join(f"{k}={v}" for k, v in sorted(counts.items()))
+
+    grounded = counts.get('ctc', 0) + counts.get('anchor', 0) + counts.get('moved', 0)
+    if grounded < n * 0.7:
+        return False, f"只有 {grounded}/{n} 行對到音訊 ({breakdown})"
     if n >= 8 and results[-1]['time'] < audio_len * 0.35:
         return False, "最後一行落點過早，時間軸疑似被壓縮"
     return True, ""
@@ -447,52 +463,78 @@ def process_song(song, do_translate=True, device="cpu", align_opts=None):
     if n_join:
         print(f"  合唱標記: {n_join} 行與上一句同時亮", flush=True)
 
-    if audio_path:
-        audio = load_wav(audio_path)
-        print(f"  Audio: {len(audio)/16000:.1f}s")
-        aligned_lines = align_lyrics(audio, lyric_plains,
-                                     align_texts=align_texts,
-                                     join_prev=join_prev, device=device,
-                                     **(align_opts or {}))
-        for i, a in enumerate(aligned_lines):
-            if i >= len(lines):
-                break
-            lines[i]["time"] = a["time"]
-            lines[i]["end"] = a["end"]
+    try:
+        if audio_path:
+            audio = load_wav(audio_path)
+            print(f"  Audio: {len(audio)/16000:.1f}s")
+            aligned_lines, align_warning = align_lyrics(
+                audio, lyric_plains,
+                align_texts=align_texts,
+                join_prev=join_prev, device=device,
+                **(align_opts or {}))
+            if align_warning:
+                song["alignWarning"] = align_warning
+            for i, a in enumerate(aligned_lines):
+                if i >= len(lines):
+                    break
+                lines[i]["time"] = a["time"]
+                lines[i]["end"] = a["end"]
 
-    if check_dep("pykakasi"):
-        for i, line in enumerate(lines):
-            if '<ruby>' not in line["text"]:
-                line["text"] = text_to_furigana(raw_texts[i])
-            line["plain"] = lyric_plains[i]
-            # src 保留「原始標註」（含行首 + 與 {讀音}），重跑才不會遺失
-            if has_reading_annotations(raw_texts[i]) or join_prev[i]:
-                line["src"] = raw_all[i]
-            if "zh" not in line:
-                line["zh"] = ""
-        print(f"  Furigana done: {len(lines)} lines")
+        if check_dep("pykakasi"):
+            for i, line in enumerate(lines):
+                if '<ruby>' not in line["text"]:
+                    line["text"] = text_to_furigana(raw_texts[i])
+                line["plain"] = lyric_plains[i]
+                # src 保留「原始標註」（含行首 + 與 {讀音}），重跑才不會遺失
+                if has_reading_annotations(raw_texts[i]) or join_prev[i]:
+                    line["src"] = raw_all[i]
+                if "zh" not in line:
+                    line["zh"] = ""
+            print(f"  Furigana done: {len(lines)} lines")
 
-    # 翻譯：只補還沒有譯文的行。整首一起送給模型（不是只送缺的那幾行），
-    # 這樣重複出現的副歌譯法才會一致。
-    if do_translate:
-        missing = [i for i, line in enumerate(lines) if not line.get("zh", "")]
-        if not missing:
-            print("  翻譯已存在，跳過")
-        else:
-            zh = translate_to_chinese(lyric_plains, model=TRANSLATE_MODEL)
-            for i in missing:
-                if i < len(zh) and zh[i]:
-                    lines[i]["zh"] = zh[i]
-    # Clean up temp audio
+        # 翻譯：只補還沒有譯文的行。整首一起送給模型（不是只送缺的那幾行），
+        # 這樣重複出現的副歌譯法才會一致。
+        if do_translate:
+            missing = [i for i, line in enumerate(lines) if not line.get("zh", "")]
+            if not missing:
+                print("  翻譯已存在，跳過")
+            else:
+                zh = translate_to_chinese(lyric_plains, model=TRANSLATE_MODEL)
+                for i in missing:
+                    if i < len(zh) and zh[i]:
+                        lines[i]["zh"] = zh[i]
+    finally:
+        # 放 finally：對齊或翻譯中途失敗時，暫存音檔一樣要刪掉，
+        # 否則每失敗一次就留下數十 MB 的 wav。
+        cleanup_temp_audio(audio_path)
+
+    print(f"\n  Done! Time: {fmt_time(time_module.time()-t0)}", flush=True)
+    return song
+
+
+def cleanup_temp_audio(audio_path=None):
+    """刪除暫存音檔。連同 temp_audio 內其他殘留一起清，目錄空了就移除。"""
     if audio_path and os.path.exists(audio_path):
         try:
             os.remove(audio_path)
             print(f"  [cleanup] removed {audio_path}")
         except Exception:
             pass
-
-    print(f"\n  Done! Time: {fmt_time(time_module.time()-t0)}", flush=True)
-    return song
+    if not os.path.isdir(TEMP_AUDIO):
+        return
+    try:
+        for fn in os.listdir(TEMP_AUDIO):
+            p = os.path.join(TEMP_AUDIO, fn)
+            if os.path.isfile(p):
+                try:
+                    os.remove(p)
+                    print(f"  [cleanup] removed {p}")
+                except Exception:
+                    pass
+        if not os.listdir(TEMP_AUDIO):
+            os.rmdir(TEMP_AUDIO)
+    except Exception:
+        pass
 
 def _read_lines(path):
     with open(path, "r", encoding="utf-8") as f:

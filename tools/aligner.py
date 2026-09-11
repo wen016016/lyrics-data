@@ -633,16 +633,85 @@ def whisper_anchor_times(audio, plains, lang, device='cpu', model_size='large-v3
     ct = 'int8' if device == 'cpu' else 'float16'
     model = stable_whisper.load_faster_whisper(model_size, device=device,
                                                compute_type=ct)
-    try:
-        res = model.transcribe_stable(audio, language=lang, vad=True)
-    except Exception as e:
-        if verbose:
-            print(f"  [align] VAD 失敗 ({e})，改用無 VAD", flush=True)
-        res = model.transcribe_stable(audio, language=lang, vad=False)
 
-    words = [{'text': w.word, 'start': w.start, 'end': w.end}
-             for seg in res.segments for w in seg.words]
+    def _run(**kw):
+        try:
+            return model.transcribe_stable(audio, language=lang, vad=True, **kw)
+        except Exception as e:
+            if verbose:
+                print(f"  [align] VAD 失敗 ({e})，改用無 VAD", flush=True)
+            return model.transcribe_stable(audio, language=lang, vad=False, **kw)
+
+    def _words_of(res):
+        return [{'text': w.word, 'start': w.start, 'end': w.end}
+                for seg in res.segments for w in seg.words]
+
+    res = _run()
+    words = _words_of(res)
+
+    # Whisper 偶爾會陷入「幻覺迴圈」：對難解的音訊（厚伴奏、密集合音）
+    # 放棄辨識，改吐訓練資料裡常見的樣板文字，並且不斷重複。
+    # 實測某首歌整首 245 秒只吐出「作詞・作曲・編曲 ○○」重複 9 次，
+    # 而且平均散佈在 9.5s~243.6s —— 那句話根本不在音訊裡，也不是該曲的製作人員，
+    # 純粹是模型的幻覺。這種轉錄產生的錨點全是錯的，會把時間軸拉歪數十秒。
+    # 成因是預設的 condition_on_previous_text=True 把前一段的輸出餵回去當條件，
+    # 一旦開始重複就會自我增強。
+    # 只有在偵測到退化時才重跑，正常的歌走的還是原本那條路徑、結果完全不變。
+    if _is_degenerate(words, plains, lang, kks):
+        if verbose:
+            print("  [align] Whisper 轉錄疑似幻覺迴圈，"
+                  "改用 condition_on_previous_text=False 重跑...", flush=True)
+        try:
+            words2 = _words_of(_run(condition_on_previous_text=False))
+            cov0 = _asr_coverage(words, plains, lang, kks)
+            cov1 = _asr_coverage(words2, plains, lang, kks)
+            # 重跑結果要「明顯」更好才採用。實測 4/5 首退化的歌涵蓋率從
+            # 0.10~0.58 拉到 0.72~0.97，中位誤差從 8~47 秒降到 0.3 秒內。
+            if cov1 > cov0 * 1.5 and not _is_degenerate(words2, plains, lang, kks):
+                words = words2
+                if verbose:
+                    print(f"  [align] 重跑涵蓋率 {cov0:.2f} -> {cov1:.2f}，"
+                          f"改用重跑結果", flush=True)
+            elif verbose:
+                print(f"  [align] 重跑涵蓋率 {cov0:.2f} -> {cov1:.2f}，"
+                      f"改善不明顯，沿用原本的轉錄", flush=True)
+        except Exception as e:
+            if verbose:
+                print(f"  [align] 重跑失敗 ({e})，沿用原本的轉錄", flush=True)
+
     return anchors_from_words(words, plains, lang, kks, verbose=verbose)
+
+
+def _asr_coverage(words, plains, lang, kks=None):
+    """ASR 音韻字元數 / 歌詞音韻字元數。正常的歌大約 0.8~1.3。"""
+    n_asr = sum(len(_phonetic_key(w['text'], lang, kks)) for w in words)
+    n_lyr = sum(len(_phonetic_key(p, lang, kks)) for p in plains)
+    return n_asr / max(1, n_lyr)
+
+
+def _is_degenerate(words, plains, lang, kks=None, cov_thr=0.55, rep_thr=0.5,
+                   hard_rep_thr=0.20):
+    """判斷轉錄是不是退化的（幻覺迴圈 / 幾乎沒轉到東西）。
+
+    實測 16 首歌的分界非常乾淨：
+      正常的歌   涵蓋率 0.78~1.31、相異詞比例 0.37~0.58
+      退化的歌   涵蓋率 0.10~0.58、相異詞比例 0.07~0.15
+    所以兩種情況判為退化：
+      1. 涵蓋率低 且 內容重複（一般的幻覺迴圈）
+      2. 內容重複到極點（相異詞比例 <= 0.20），即使涵蓋率剛好高一點也算 ——
+         正常的歌最低也有 0.37，不可能誤判。
+    """
+    if not words:
+        return False
+    texts = [w['text'].strip() for w in words if w['text'].strip()]
+    if not texts:
+        return True
+    uniq = len(set(texts)) / len(texts)
+    if uniq <= hard_rep_thr:
+        return True
+    if _asr_coverage(words, plains, lang, kks) >= cov_thr:
+        return False
+    return uniq <= rep_thr
 
 
 def anchors_from_words(words, plains, lang, kks=None, verbose=True):
