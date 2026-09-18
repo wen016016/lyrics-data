@@ -8040,5 +8040,2778 @@
         "plain": "繋げようよ"
       }
     ]
+  },
+  {
+    "title": "アイシイ",
+    "franchise": "ラブライブ",
+    "series": "蓮ノ空",
+    "artist": "DOLLCHESTRA",
+    "credits": {
+      "lyrics": "TATSUNE",
+      "music": "Michael Super Lassie/佐藤厚仁"
+    },
+    "color": "#163bca",
+    "videoId": "_pM1kgypNAA",
+    "lines": [
+      {
+        "time": 2.24,
+        "text": "アイシイ <ruby>〇<rt>まる</rt></ruby>と <ruby>×<rt>ばつ</rt></ruby> が<ruby>並ん<rt>ならん</rt></ruby>だ",
+        "zh": "Icy ○與✕交錯排列",
+        "end": 6.08,
+        "plain": "アイシイ 〇と × が並んだ",
+        "src": "アイシイ 〇{まる}と ×{ばつ} が並んだ"
+      },
+      {
+        "time": 6.5,
+        "text": "<ruby>答案用紙<rt>イマ</rt></ruby><ruby>凍ら<rt>こおら</rt></ruby>せて",
+        "zh": "將答卷（此刻）凍結成冰",
+        "end": 8.4,
+        "plain": "答案用紙{イマ} 凍らせて"
+      },
+      {
+        "time": 9.02,
+        "text": "いつか <ruby>溶か<rt>とか</rt></ruby>してほしい",
+        "zh": "期望某天 能將它融化",
+        "end": 11.06,
+        "plain": "いつか 溶かしてほしい"
+      },
+      {
+        "time": 11.48,
+        "text": "Ah <ruby>未来<rt>みらい</rt></ruby>へ…",
+        "zh": "啊 向著未來…",
+        "end": 12.84,
+        "plain": "Ah 未来へ…"
+      },
+      {
+        "time": 12.86,
+        "text": "「そこで<ruby>生き<rt>いき</rt></ruby>る<ruby>貴方<rt>あなた</rt></ruby>へ」<ruby>問う<rt>とう</rt></ruby>。",
+        "zh": "「向生活在那邊的你」詢問。",
+        "end": 25.12,
+        "plain": "「そこで生きる貴方へ」問う。"
+      },
+      {
+        "time": 24.94,
+        "text": "<ruby>違う<rt>ちがう</rt></ruby>、と<ruby>何度<rt>なんど</rt></ruby>だって",
+        "zh": "「不對」無論多少次",
+        "end": 27.26,
+        "plain": "違う、と何度だって"
+      },
+      {
+        "time": 27.34,
+        "text": "<ruby>書き直し<rt>かきなおし</rt></ruby>た<ruby>夢<rt>ゆめ</rt></ruby>の<ruby>予想図<rt>よそうず</rt></ruby>を",
+        "zh": "都會重新描繪的夢之藍圖",
+        "end": 30.0,
+        "plain": "書き直した夢の予想図を"
+      },
+      {
+        "time": 30.32,
+        "text": "<ruby>丸め<rt>まるめ</rt></ruby>て<ruby>捨て<rt>すて</rt></ruby>ようと<ruby>思った<rt>おもった</rt></ruby><ruby>朝<rt>あさ</rt></ruby>も",
+        "zh": "即使是在那些想要把它揉碎丟棄的清晨",
+        "end": 34.6,
+        "plain": "丸めて捨てようと思った朝も"
+      },
+      {
+        "time": 35.06,
+        "text": "<ruby>理想<rt>りそう</rt></ruby>が<ruby>灰<rt>はい</rt></ruby>になって",
+        "zh": "當理想化為灰燼",
+        "end": 37.34,
+        "plain": "理想が灰になって"
+      },
+      {
+        "time": 37.44,
+        "text": "<ruby>目の前<rt>めのまえ</rt></ruby>に<ruby>敷か<rt>しか</rt></ruby>れたレールを",
+        "zh": "面對眼前鋪陳的鐵軌",
+        "end": 40.16,
+        "plain": "目の前に敷かれたレールを"
+      },
+      {
+        "time": 40.44,
+        "text": "もう<ruby>一度<rt>いちど</rt></ruby> <ruby>進も<rt>すすも</rt></ruby>うと<ruby>迷っ<rt>まよっ</rt></ruby>た<ruby>夜<rt>よる</rt></ruby>も",
+        "zh": "連是否再次前行都迷茫的夜晚",
+        "end": 44.7,
+        "plain": "もう一度 進もうと迷った夜も"
+      },
+      {
+        "time": 45.18,
+        "text": "<ruby>絶え<rt>たえ</rt></ruby>ず<ruby>注ぐ<rt>そそぐ</rt></ruby> <ruby>色<rt>コエ</rt></ruby>が<ruby>凍る<rt>こおる</rt></ruby>",
+        "zh": "不絕傾注的色彩凍結成冰",
+        "end": 49.86,
+        "plain": "絶えず注ぐ 色が凍る"
+      },
+      {
+        "time": 50.22,
+        "text": "また<ruby>胸<rt>むね</rt></ruby>を<ruby>貫く<rt>つらぬく</rt></ruby>… Ah",
+        "zh": "再次貫穿心扉… 啊",
+        "end": 55.7,
+        "plain": "また胸を貫く… Ah"
+      },
+      {
+        "time": 55.75,
+        "text": "<ruby>分か<rt>わか</rt></ruby>ってる <ruby>自分<rt>じぶん</rt></ruby><ruby>次第<rt>しだい</rt></ruby>だから",
+        "zh": "我明白 一切取決於自己",
+        "end": 58.16,
+        "plain": "分かってる 自分次第だから"
+      },
+      {
+        "time": 58.3,
+        "text": "<ruby>数え<rt>かぞえ</rt></ruby>てく<ruby>理由<rt>りゆう</rt></ruby> その<ruby>行方<rt>ゆくえ</rt></ruby>が",
+        "zh": "細數的理由 其去向",
+        "end": 60.68,
+        "plain": "数えてく理由 その行方が"
+      },
+      {
+        "time": 60.8,
+        "text": "<ruby>分か<rt>わか</rt></ruby>らないまま <ruby>止ま<rt>とま</rt></ruby>れないまま",
+        "zh": "雖尚不明了 雖無法停駐",
+        "end": 63,
+        "plain": "分からないまま 止まれないまま"
+      },
+      {
+        "time": 63.2,
+        "text": "ここまで<ruby>来た<rt>きた</rt></ruby>… けど",
+        "zh": "卻已走到這裡… 但是",
+        "end": 65.62,
+        "plain": "ここまで来た… けど"
+      },
+      {
+        "time": 65.8,
+        "text": "<ruby>探し<rt>さがし</rt></ruby>てる <ruby>淡い<rt>あわい</rt></ruby><ruby>夢<rt>ゆめ</rt></ruby>の<ruby>在り<rt>あり</rt></ruby><ruby>処<rt>か</rt></ruby>",
+        "zh": "仍在尋覓 淺淡夢想的蹤跡",
+        "end": 68.5,
+        "plain": "探してる 淡い夢の在り処"
+      },
+      {
+        "time": 68.5,
+        "text": "<ruby>奪っ<rt>うばっ</rt></ruby>てよ <ruby>願い<rt>ねがい</rt></ruby><ruby>秘め<rt>ひめ</rt></ruby>た<ruby>空<rt>そら</rt></ruby>が",
+        "zh": "請奪走吧 在滿載秘密心願的天空",
+        "end": 70.58,
+        "plain": "奪ってよ 願い秘めた空が"
+      },
+      {
+        "time": 70.8,
+        "text": "<ruby>濁る<rt>にごる</rt></ruby><ruby>前<rt>まえ</rt></ruby>にこの<ruby>刹那<rt>せつな</rt></ruby>を",
+        "zh": "在變得渾濁之前 在這剎那",
+        "end": 73.26,
+        "plain": "濁る前にこの刹那を"
+      },
+      {
+        "time": 73.28,
+        "text": "<ruby>閉じ込め<rt>とじこめ</rt></ruby>れば<ruby>永遠<rt>トワ</rt></ruby>",
+        "zh": "若能將其封存即為永恆",
+        "end": 75.74,
+        "plain": "閉じ込めれば永遠{トワ}"
+      },
+      {
+        "time": 75.96,
+        "text": "<ruby>不安定<rt>ふあんてい</rt></ruby>な<ruby>世界<rt>せかい</rt></ruby>で",
+        "zh": "在這動盪的世界",
+        "end": 78.74,
+        "plain": "不安定な世界で"
+      },
+      {
+        "time": 88.12,
+        "text": "<ruby>無謀<rt>むぼう</rt></ruby>なルートだ、って",
+        "zh": "「這條路線過於魯莽」",
+        "end": 90.44,
+        "plain": "無謀なルートだ、って"
+      },
+      {
+        "time": 90.5,
+        "text": "<ruby>聞か<rt>きか</rt></ruby>ないで また<ruby>傷<rt>きず</rt></ruby><ruby>付い<rt>つい</rt></ruby>てる",
+        "zh": "別去聽 會再次會受傷的",
+        "end": 93.26,
+        "plain": "聞かないで また傷付いてる"
+      },
+      {
+        "time": 93.52,
+        "text": "<ruby>誰か<rt>だれか</rt></ruby>の<ruby>言う<rt>いう</rt></ruby><ruby>通り<rt>とうり</rt></ruby> <ruby>思え<rt>おもえ</rt></ruby>なかったの？",
+        "zh": "難道不能像他人所說的那樣去思考嗎？",
+        "end": 97.78,
+        "plain": "誰かの言う通り 思えなかったの？"
+      },
+      {
+        "time": 98.24,
+        "text": "そう <ruby>認め<rt>みとめ</rt></ruby>る<ruby>方が<rt>ほうが</rt></ruby><ruby>本当<rt>ほんとう</rt></ruby>は<ruby>楽<rt>らく</rt></ruby>だったんだ",
+        "zh": "沒錯 其實承認這點 反而更加輕鬆",
+        "end": 103.1,
+        "plain": "そう 認める方が本当は楽だったんだ"
+      },
+      {
+        "time": 103.28,
+        "text": "<ruby>絶え<rt>たえ</rt></ruby>ず<ruby>注ぐ<rt>そそぐ</rt></ruby> <ruby>色<rt>コエ</rt></ruby> - コエ - が<ruby>凍る<rt>こおる</rt></ruby>",
+        "zh": "不絕傾注的色彩凍結成冰",
+        "end": 108.02,
+        "plain": "絶えず注ぐ 色{コエ}が凍る"
+      },
+      {
+        "time": 108.34,
+        "text": "それが<ruby>嫌に<rt>いやに</rt></ruby>なっても… Pray",
+        "zh": "縱使對此心生厭倦… Pray",
+        "end": 112.6,
+        "plain": "それが嫌になっても… Pray"
+      },
+      {
+        "time": 112.62,
+        "text": "<ruby>分か<rt>わか</rt></ruby>ってる <ruby>期待<rt>きたい</rt></ruby> <ruby>応え<rt>こたえ</rt></ruby>ながら",
+        "zh": "我明白 一邊回應著期待",
+        "end": 115.04,
+        "plain": "分かってる 期待 応えながら"
+      },
+      {
+        "time": 115.14,
+        "text": "<ruby>手放そ<rt>てばなそ</rt></ruby>う <ruby>希望<rt>きぼう</rt></ruby><ruby>寄り<rt>より</rt></ruby>のエゴは",
+        "zh": "一邊放手 寄予希望的自我",
+        "end": 117.5,
+        "plain": "手放そう 希望寄りのエゴは"
+      },
+      {
+        "time": 117.68,
+        "text": "<ruby>次<rt>つぎ</rt></ruby>は<ruby>何を<rt>なにを</rt></ruby><ruby>捨て<rt>すて</rt></ruby>るべきか",
+        "zh": "接下來該捨棄什麼 應當捨棄什麼",
+        "end": 120.2,
+        "plain": "次は何を捨てるべきか"
+      },
+      {
+        "time": 120.16,
+        "text": "<ruby>捨て<rt>すて</rt></ruby>る<ruby>意味<rt>いみ</rt></ruby>はあるでしょうか？",
+        "zh": "捨棄又是否有意義？",
+        "end": 123.5,
+        "plain": "捨てる意味はあるでしょうか？"
+      },
+      {
+        "time": 123.44,
+        "text": "「これまで<ruby>何を<rt>なにを</rt></ruby><ruby>捨て<rt>すて</rt></ruby>て、<ruby>何を<rt>なにを</rt></ruby><ruby>手に<rt>てに</rt></ruby>して… <ruby>私<rt>わたし</rt></ruby>は<ruby>一体<rt>いったい</rt></ruby>、<ruby>何<rt>なに</rt></ruby>がしたかったの？」",
+        "zh": "「至今為止我捨棄了什麼 得到了什麼  我究竟，想要做什麼？」",
+        "end": 128.06,
+        "plain": "「これまで何を捨てて、何を手にして… 私は一体、何がしたかったの？」"
+      },
+      {
+        "time": 128.48,
+        "text": "「<ruby>答え<rt>こたえ</rt></ruby>なんか<ruby>知り<rt>しり</rt></ruby>たくない。<ruby>全て<rt>すべて</rt></ruby>を<ruby>凍ら<rt>こおら</rt></ruby>せて、いっそ<ruby>永遠<rt>トワ</rt></ruby> - トワ - の<ruby>中に<rt>なかに</rt></ruby>…」",
+        "zh": "「我根本不想知道答案。只想凍結一切，索性沉入永恆之中…」",
+        "end": 132.7,
+        "plain": "「答えなんか知りたくない。全てを凍らせて、いっそ永遠{トワ}の中に…」"
+      },
+      {
+        "time": 133.28,
+        "text": "「だけど…<ruby>今<rt>いま</rt></ruby>、<ruby>時<rt>とき</rt></ruby>が<ruby>止ま<rt>とま</rt></ruby>れば、こんなにも<ruby>悲しい<rt>かなしい</rt></ruby><ruby>瞬間<rt>しゅんかん</rt></ruby>が<ruby>残っ<rt>のこっ</rt></ruby>てしまう」",
+        "zh": "「但是，如果此刻時間停駐，便會留下如此悲傷的瞬間」",
+        "end": 137.64,
+        "plain": "「だけど…今、時が止まれば、こんなにも悲しい瞬間が残ってしまう」"
+      },
+      {
+        "time": 138.14,
+        "text": "「<ruby>上手く<rt>うまく</rt></ruby><ruby>笑え<rt>わらえ</rt></ruby>なくても、<ruby>苦しく<rt>くるしく</rt></ruby>ても、<ruby>傷付き<rt>きずつき</rt></ruby>ながらでも」",
+        "zh": "「即使沒法好好笑出來 即使痛苦 即使遍體鱗傷」",
+        "end": 141.54,
+        "plain": "「上手く笑えなくても、苦しくても、傷付きながらでも」"
+      },
+      {
+        "time": 141.8,
+        "text": "「<ruby>今<rt>いま</rt></ruby>を<ruby>生き<rt>いき</rt></ruby>よう」",
+        "zh": "「也要活在當下」",
+        "end": 143.04,
+        "plain": "「今を生きよう」"
+      },
+      {
+        "time": 142.96,
+        "text": "<ruby>分か<rt>わか</rt></ruby>ってる <ruby>自分<rt>じぶん</rt></ruby><ruby>次第<rt>しだい</rt></ruby>だから",
+        "zh": "我明白 一切取決於自己",
+        "end": 145.26,
+        "plain": "分かってる 自分次第だから"
+      },
+      {
+        "time": 145.28,
+        "text": "<ruby>数え<rt>かぞえ</rt></ruby>てく<ruby>理由<rt>りゆう</rt></ruby> その<ruby>行方<rt>ゆくえ</rt></ruby>が",
+        "zh": "細數的理由 其去向",
+        "end": 147.86,
+        "plain": "数えてく理由 その行方が"
+      },
+      {
+        "time": 147.96,
+        "text": "<ruby>分か<rt>わか</rt></ruby>らないまま <ruby>止ま<rt>とま</rt></ruby>れないまま",
+        "zh": "雖尚不明了 雖無法停駐",
+        "end": 150.48,
+        "plain": "分からないまま 止まれないまま"
+      },
+      {
+        "time": 150.5,
+        "text": "ここまで<ruby>来た<rt>きた</rt></ruby>。",
+        "zh": "卻已走到這裡。",
+        "end": 152.0,
+        "plain": "ここまで来た。"
+      },
+      {
+        "time": 152.74,
+        "text": "<ruby>探し<rt>さがし</rt></ruby>てる <ruby>淡い<rt>あわい</rt></ruby><ruby>夢<rt>ゆめ</rt></ruby>の<ruby>在り<rt>あり</rt></ruby><ruby>処<rt>か</rt></ruby>",
+        "zh": "仍在尋覓 淺淡夢想的蹤跡",
+        "end": 155.72,
+        "plain": "探してる 淡い夢の在り処"
+      },
+      {
+        "time": 155.74,
+        "text": "<ruby>奪っ<rt>うばっ</rt></ruby>てよ <ruby>願い<rt>ねがい</rt></ruby><ruby>秘め<rt>ひめ</rt></ruby>た<ruby>空<rt>そら</rt></ruby>が",
+        "zh": "請奪走吧 在滿載秘密心願的天空",
+        "end": 157.94,
+        "plain": "奪ってよ 願い秘めた空が"
+      },
+      {
+        "time": 158.08,
+        "text": "<ruby>濁る<rt>にごる</rt></ruby><ruby>前<rt>まえ</rt></ruby>にこの<ruby>刹那<rt>せつな</rt></ruby>を",
+        "zh": "在變得渾濁之前 在這剎那",
+        "end": 160.44,
+        "plain": "濁る前にこの刹那を"
+      },
+      {
+        "time": 160.46,
+        "text": "<ruby>閉じ込め<rt>とじこめ</rt></ruby>れば<ruby>永遠<rt>トワ</rt></ruby>",
+        "zh": "若能將其封存即為永恆",
+        "end": 162.96,
+        "plain": "閉じ込めれば永遠{トワ}"
+      },
+      {
+        "time": 163,
+        "text": "でも、<ruby>良い<rt>よい</rt></ruby>の",
+        "zh": "但是 沒關係",
+        "end": 165.26,
+        "plain": "でも、良いの"
+      },
+      {
+        "time": 165.66,
+        "text": "この<ruby>瞬間<rt>しゅんかん</rt></ruby> <ruby>生き<rt>いき</rt></ruby>たいの… <ruby>止め<rt>とめ</rt></ruby>ないで",
+        "zh": "我想活在 這個瞬間… 請不要阻止我",
+        "end": 171.06,
+        "plain": "この瞬間 生きたいの… 止めないで"
+      },
+      {
+        "time": 173.08,
+        "text": "アイシイ",
+        "zh": "Icy",
+        "end": 175.94,
+        "plain": "アイシイ"
+      }
+    ]
+  },
+  {
+    "title": "花ざかりWeekend✿",
+    "franchise": "アイドルマスター",
+    "series": "ミリオンライブ",
+    "artist": "4 Luxury",
+    "credits": {
+      "lyrics": "唐澤美帆",
+      "music": "新田目翔"
+    },
+    "color": "#EAA93B",
+    "videoId": "Ze1xov1BlMc",
+    "lines": [
+      {
+        "time": 14.36,
+        "text": "<ruby>片道<rt>かたみち</rt></ruby>1<ruby>時間<rt>じかん</rt></ruby>　<ruby>電車<rt>でんしゃ</rt></ruby>に<ruby>揺ら<rt>ゆら</rt></ruby>れ",
+        "zh": "單程一小時　在電車裡搖晃",
+        "end": 17.68,
+        "plain": "片道1時間　電車に揺られ"
+      },
+      {
+        "time": 17.86,
+        "text": "ディナーはコンビニの　メニュー<ruby>制覇<rt>せいは</rt></ruby>",
+        "zh": "晚餐由便利商店的　目錄主宰",
+        "end": 21.14,
+        "plain": "ディナーはコンビニの　メニュー制覇"
+      },
+      {
+        "time": 21.34,
+        "text": "<ruby>早朝<rt>そうちょう</rt></ruby>の<ruby>会議<rt>かいぎ</rt></ruby>は　<ruby>死ん<rt>しん</rt></ruby>でも<ruby>遅刻<rt>ちこく</rt></ruby>できない",
+        "zh": "早上的會議則　死也不能遲到",
+        "end": 26.28,
+        "plain": "早朝の会議は　死んでも遅刻できない"
+      },
+      {
+        "time": 28.28,
+        "text": "<ruby>努力<rt>どりょく</rt></ruby>の<ruby>甲斐<rt>かい</rt></ruby>あって　キャリアは<ruby>順調<rt>じゅんちょう</rt></ruby>",
+        "zh": "努力有所成果　事業進展順遂",
+        "end": 31.58,
+        "plain": "努力の甲斐あって　キャリアは順調"
+      },
+      {
+        "time": 31.88,
+        "text": "<ruby>見渡せ<rt>みわたせ</rt></ruby>ば<ruby>増え<rt>ふえ</rt></ruby>てく　<ruby>新入社員<rt>しんにゅうしゃいん</rt></ruby>",
+        "zh": "放眼望去增加不少　新人同事",
+        "end": 35.18,
+        "plain": "見渡せば増えてく　新入社員"
+      },
+      {
+        "time": 35.38,
+        "text": "<ruby>先輩<rt>せんぱい</rt></ruby>の<ruby>小言<rt>こごと</rt></ruby>を　<ruby>聞き<rt>きき</rt></ruby><ruby>流し<rt>ながし</rt></ruby>て",
+        "zh": "前輩的牢騷　當耳邊風去吧",
+        "end": 38.46,
+        "plain": "先輩の小言を　聞き流して"
+      },
+      {
+        "time": 38.48,
+        "text": "<ruby>普通<rt>ふつう</rt></ruby>の<ruby>中の<rt>なかの</rt></ruby>　<ruby>普通<rt>ふつう</rt></ruby>の<ruby>私<rt>わたし</rt></ruby>　ガンバレ！",
+        "zh": "在這普通之中　普通的我　加油吧！",
+        "end": 42.56,
+        "plain": "普通の中の　普通の私　ガンバレ！"
+      },
+      {
+        "time": 42.58,
+        "text": "<ruby>終業<rt>しゅうぎょう</rt></ruby>のベル　(ジリリ)",
+        "zh": "下班的鈴聲響起　(滴哩哩)",
+        "end": 46.08,
+        "plain": "終業のベル　(ジリリ)"
+      },
+      {
+        "time": 46.1,
+        "text": "めくるめく<ruby>変身<rt>へんしん</rt></ruby>",
+        "zh": "轉了轉圈變身吧",
+        "end": 49.02,
+        "plain": "めくるめく変身"
+      },
+      {
+        "time": 49.6,
+        "text": "モブキャラから<ruby>主人公<rt>しゅじんこう</rt></ruby>",
+        "zh": "從路人角色變成主角",
+        "end": 53.98,
+        "plain": "モブキャラから主人公"
+      },
+      {
+        "time": 54.0,
+        "text": "きらめく<ruby>世界<rt>せかい</rt></ruby>へ　まいりましょう",
+        "zh": "前往光彩耀眼的世界　一起來吧",
+        "end": 57.68,
+        "plain": "きらめく世界へ　まいりましょう"
+      },
+      {
+        "time": 57.9,
+        "text": "<ruby>花<rt>はな</rt></ruby>はさかる Weekend～",
+        "zh": "繁花盛開的週末～",
+        "end": 59.66,
+        "plain": "花はさかる Weekend～"
+      },
+      {
+        "time": 61.08,
+        "text": "<ruby>自分<rt>じぶん</rt></ruby>へのご<ruby>褒美<rt>ほうび</rt></ruby> Fantastic night",
+        "zh": "送來讚美不斷的魔幻夜晚",
+        "end": 65.48,
+        "plain": "自分へのご褒美 Fantastic night"
+      },
+      {
+        "time": 65.5,
+        "text": "<ruby>派手<rt>はで</rt></ruby>めのメイクきめて",
+        "zh": "要用搶眼的妝扮",
+        "end": 68.0,
+        "plain": "派手めのメイクきめて"
+      },
+      {
+        "time": 68.22,
+        "text": "<ruby>魔法<rt>まほう</rt></ruby>の<ruby>香水<rt>こうすい</rt></ruby>ふわり",
+        "zh": "魔法的香水飄飄欲仙",
+        "end": 71.7,
+        "plain": "魔法の香水ふわり"
+      },
+      {
+        "time": 71.72,
+        "text": "<ruby>月<rt>がつ</rt></ruby>くまなき Weekend～",
+        "zh": "月清雲淡的週末～",
+        "end": 73.74,
+        "plain": "月くまなき Weekend～"
+      },
+      {
+        "time": 75.26,
+        "text": "わがままに<ruby>咲く<rt>さく</rt></ruby>の Fantastic girl",
+        "zh": "隨心所欲綻放的魔幻女郎",
+        "end": 79.5,
+        "plain": "わがままに咲くの Fantastic girl"
+      },
+      {
+        "time": 79.6,
+        "text": "トレンドを<ruby>身に<rt>みに</rt></ruby>まとい Wake up",
+        "zh": "身繫時尚潮流覺醒吧",
+        "end": 82.98,
+        "plain": "トレンドを身にまとい Wake up"
+      },
+      {
+        "time": 83.1,
+        "text": "<ruby>徒然<rt>つれづれ</rt></ruby>なるままに Bloom！！！！",
+        "zh": "終歸於平凡的盛開！！！！",
+        "end": 85.82,
+        "plain": "徒然なるままに Bloom！！！！"
+      },
+      {
+        "time": 95.94,
+        "text": "<ruby>右手<rt>みぎて</rt></ruby>で<ruby>仕事<rt>しごと</rt></ruby>して　<ruby>左手<rt>ひだりて</rt></ruby>スマホ",
+        "zh": "右手還在工作　左手拿起手機",
+        "end": 99.28,
+        "plain": "右手で仕事して　左手スマホ"
+      },
+      {
+        "time": 100.1,
+        "text": "<ruby>器用<rt>きよう</rt></ruby>な<ruby>後輩<rt>こうはい</rt></ruby>をまとめて　どーん！",
+        "zh": "能幹的後輩會整理啦　咚！",
+        "end": 103.32,
+        "plain": "器用な後輩をまとめて　どーん！"
+      },
+      {
+        "time": 103.4,
+        "text": "<ruby>何て<rt>なんて</rt></ruby><ruby>妄想<rt>もうそう</rt></ruby>さえ　<ruby>近頃<rt>ちかごろ</rt></ruby>は<ruby>退屈<rt>たいくつ</rt></ruby>",
+        "zh": "就算有些妄想　最近也變得無趣",
+        "end": 107.74,
+        "plain": "何て妄想さえ　近頃は退屈"
+      },
+      {
+        "time": 110.7,
+        "text": "<ruby>所詮<rt>しょせん</rt></ruby>　<ruby>人<rt>ひと</rt></ruby>は<ruby>人<rt>ひと</rt></ruby>で　<ruby>私<rt>わたし</rt></ruby>は<ruby>私<rt>わたし</rt></ruby>",
+        "zh": "終究　別人是別人　我是我",
+        "end": 114.0,
+        "plain": "所詮　人は人で　私は私"
+      },
+      {
+        "time": 114.18,
+        "text": "<ruby>書き<rt>かき</rt></ruby>かけの<ruby>企画書<rt>きかくしょ</rt></ruby>　<ruby>片付け<rt>かたづけ</rt></ruby>よう",
+        "zh": "沒完成的計畫書　先收拾收拾吧",
+        "end": 117.68,
+        "plain": "書きかけの企画書　片付けよう"
+      },
+      {
+        "time": 117.7,
+        "text": "<ruby>待ち<rt>まち</rt></ruby>に<ruby>待ち<rt>まち</rt></ruby>に<ruby>待っ<rt>まっ</rt></ruby>た　<ruby>金曜日<rt>きんようび</rt></ruby>",
+        "zh": "每天等了又等的　星期五",
+        "end": 120.48,
+        "plain": "待ちに待ちに待った　金曜日"
+      },
+      {
+        "time": 120.96,
+        "text": "<ruby>今夜<rt>こんや</rt></ruby>も<ruby>残業<rt>ざんぎょう</rt></ruby>？　それだけは　<ruby>勘弁<rt>かんべん</rt></ruby>！",
+        "zh": "今晚又加班？　只有這個　拜託別！",
+        "end": 123.78,
+        "plain": "今夜も残業？　それだけは　勘弁！"
+      },
+      {
+        "time": 123.8,
+        "text": "オフィスを<ruby>出た<rt>でた</rt></ruby>ら　(キラリ)",
+        "zh": "走出了辦公室　(閃亮亮)",
+        "end": 128.02,
+        "plain": "オフィスを出たら　(キラリ)"
+      },
+      {
+        "time": 128.36,
+        "text": "<ruby>街中<rt>まちなか</rt></ruby>がステージ",
+        "zh": "街道就是舞台",
+        "end": 131.52,
+        "plain": "街中がステージ"
+      },
+      {
+        "time": 131.94,
+        "text": "ビーズのような<ruby>光<rt>ひかり</rt></ruby>",
+        "zh": "如同串珠的光芒",
+        "end": 134.48,
+        "plain": "ビーズのような光"
+      },
+      {
+        "time": 136.08,
+        "text": "どなたか<ruby>私<rt>わたし</rt></ruby>と　<ruby>踊り<rt>おどり</rt></ruby>ましょう",
+        "zh": "誰要和我一起　翩然起舞呢",
+        "end": 140,
+        "plain": "どなたか私と　踊りましょう"
+      },
+      {
+        "time": 140.22,
+        "text": "<ruby>花<rt>はな</rt></ruby>ちりゆく Weekend～",
+        "zh": "花瓣飄零的週末~",
+        "end": 143.54,
+        "plain": "花ちりゆく Weekend～"
+      },
+      {
+        "time": 143.56,
+        "text": "ロマンスに<ruby>揺れ<rt>ゆれ</rt></ruby>る Fantastic night",
+        "zh": "隨著羅曼史搖動的魔幻夜晚",
+        "end": 147.88,
+        "plain": "ロマンスに揺れる Fantastic night"
+      },
+      {
+        "time": 147.9,
+        "text": "<ruby>強め<rt>つよめ</rt></ruby>に<ruby>髪<rt>かみ</rt></ruby>を<ruby>巻い<rt>まい</rt></ruby>て",
+        "zh": "奮力將長髮捲起",
+        "end": 150.36,
+        "plain": "強めに髪を巻いて"
+      },
+      {
+        "time": 150.56,
+        "text": "<ruby>甘い<rt>あまい</rt></ruby>ワンピースひらり",
+        "zh": "甜美的連身裙隨之搖曳",
+        "end": 154.22,
+        "plain": "甘いワンピースひらり"
+      },
+      {
+        "time": 154.24,
+        "text": "<ruby>月<rt>がつ</rt></ruby>かたぶく Weekend～",
+        "zh": "月薄西山的週末～",
+        "end": 157.52,
+        "plain": "月かたぶく Weekend～"
+      },
+      {
+        "time": 157.54,
+        "text": "<ruby>視線<rt>しせん</rt></ruby>を<ruby>釘付け<rt>くぎづけ</rt></ruby> Fantastic boy",
+        "zh": "視線被吸引的魔幻男伴",
+        "end": 161.8,
+        "plain": "視線を釘付け Fantastic boy"
+      },
+      {
+        "time": 161.94,
+        "text": "おしゃれなヒール<ruby>履い<rt>はい</rt></ruby>て Stand up",
+        "zh": "穿上時髦的高跟鞋　起身吧",
+        "end": 165.42,
+        "plain": "おしゃれなヒール履いて Stand up"
+      },
+      {
+        "time": 165.44,
+        "text": "<ruby>朝日<rt>あさひ</rt></ruby>が<ruby>昇る<rt>のぼる</rt></ruby>まで Bloom！！！！",
+        "zh": "在旭日東升前盡情綻放！！！！",
+        "end": 168.98,
+        "plain": "朝日が昇るまで Bloom！！！！"
+      },
+      {
+        "time": 189.54,
+        "text": "<ruby>強い<rt>つよい</rt></ruby>ね、と<ruby>言わ<rt>いわ</rt></ruby>れるたびに",
+        "zh": "每當被人說，好強悍呢",
+        "end": 192.68,
+        "plain": "強いね、と言われるたびに"
+      },
+      {
+        "time": 193.04,
+        "text": "<ruby>可愛い<rt>かわい</rt></ruby>、が<ruby>欲し<rt>ほっし</rt></ruby>くなるのよ",
+        "zh": "還是想聽到，真可愛呢",
+        "end": 196.1,
+        "plain": "可愛い、が欲しくなるのよ"
+      },
+      {
+        "time": 196.56,
+        "text": "いのち<ruby>短し<rt>みじかし</rt></ruby><ruby>一度<rt>いちど</rt></ruby>きり",
+        "zh": "花期短暫僅此一次",
+        "end": 200.04,
+        "plain": "いのち短し一度きり"
+      },
+      {
+        "time": 200.06,
+        "text": "らしくなくちゃね",
+        "zh": "必須活出自我呢",
+        "end": 202.94,
+        "plain": "らしくなくちゃね"
+      },
+      {
+        "time": 202.96,
+        "text": "<ruby>花<rt>はな</rt></ruby>はさかる Weekend～",
+        "zh": "繁花盛開的週末～",
+        "end": 207.24,
+        "plain": "花はさかる Weekend～"
+      },
+      {
+        "time": 208.26,
+        "text": "カガミヨカガミヨ...Fantastic night",
+        "zh": "魔鏡啊魔鏡...這魔幻夜晚",
+        "end": 212.54,
+        "plain": "カガミヨカガミヨ...Fantastic night"
+      },
+      {
+        "time": 212.74,
+        "text": "あと<ruby>少し<rt>すこし</rt></ruby>もう<ruby>少し<rt>すこし</rt></ruby>",
+        "zh": "再等一下再等一下",
+        "end": 215.12,
+        "plain": "あと少しもう少し"
+      },
+      {
+        "time": 215.36,
+        "text": "このまま<ruby>夢<rt>ゆめ</rt></ruby>を<ruby>見せ<rt>みせ</rt></ruby>て",
+        "zh": "讓我就這樣作著美夢",
+        "end": 217.98,
+        "plain": "このまま夢を見せて"
+      },
+      {
+        "time": 218.8,
+        "text": "It's like a magic！！",
+        "zh": "-這便如同魔法！！",
+        "end": 220.46,
+        "plain": "It's like a magic！！"
+      },
+      {
+        "time": 220.74,
+        "text": "<ruby>月<rt>つき</rt></ruby>くまなき Weekend～",
+        "zh": "月清雲淡的週末～",
+        "end": 223.52,
+        "plain": "月くまなき Weekend～"
+      },
+      {
+        "time": 223.84,
+        "text": "わがままに<ruby>咲く<rt>さく</rt></ruby>の Fantastic girl",
+        "zh": "隨心所欲綻放的魔幻女郎",
+        "end": 228.24,
+        "plain": "わがままに咲くの Fantastic girl"
+      },
+      {
+        "time": 228.5,
+        "text": "トレンドを<ruby>身に<rt>みに</rt></ruby>まとい Wake up",
+        "zh": "身繫時尚潮流覺醒吧",
+        "end": 231.22,
+        "plain": "トレンドを身にまとい Wake up"
+      },
+      {
+        "time": 231.84,
+        "text": "<ruby>徒然<rt>つれづれ</rt></ruby>なるままに Bloom！！！！",
+        "zh": "終歸於平凡的盛開！！！！",
+        "end": 235.56,
+        "plain": "徒然なるままに Bloom！！！！"
+      }
+    ]
+  },
+  {
+    "title": "RED ZONE",
+    "franchise": "アイドルマスター",
+    "series": "ミリオンライブ",
+    "artist": "4 Luxury",
+    "credits": {
+      "lyrics": "唐澤美帆",
+      "music": "太田貴之"
+    },
+    "color": "#EAA93B",
+    "videoId": "pTyPXmcXxYg",
+    "lines": [
+      {
+        "time": 27.16,
+        "text": "<ruby>友情<rt>ゆうじょう</rt></ruby> <ruby>愛情<rt>あいじょう</rt></ruby> <ruby>人情<rt>にんじょう</rt></ruby>",
+        "zh": "友情 愛情 人情",
+        "end": 30.0,
+        "plain": "友情 愛情 人情"
+      },
+      {
+        "time": 30.02,
+        "text": "<ruby>全部<rt>ぜんぶ</rt></ruby> <ruby>諸行無常<rt>しょぎょうむじょう</rt></ruby>",
+        "zh": "全部都是曇花一現",
+        "end": 32.1,
+        "plain": "全部 諸行無常"
+      },
+      {
+        "time": 32.12,
+        "text": "<ruby>正常<rt>せいじょう</rt></ruby>なのは どんな<ruby>感情<rt>かんじょう</rt></ruby>なの？",
+        "zh": "到底什麼樣的感情才算正常？",
+        "end": 37.28,
+        "plain": "正常なのは どんな感情なの？"
+      },
+      {
+        "time": 38.46,
+        "text": "「<ruby>恋<rt>こい</rt></ruby>」は<ruby>幼す<rt>おさす</rt></ruby>ぎて",
+        "zh": "「戀」還太過幼稚",
+        "end": 40.96,
+        "plain": "「恋」は幼すぎて"
+      },
+      {
+        "time": 41.28,
+        "text": "「<ruby>愛<rt>あい</rt></ruby>」は<ruby>重たす<rt>おもたす</rt></ruby>ぎる",
+        "zh": "「愛」卻太過沉重",
+        "end": 43.68,
+        "plain": "「愛」は重たすぎる"
+      },
+      {
+        "time": 43.7,
+        "text": "<ruby>名称<rt>めいしょう</rt></ruby>なんて<ruby>飾り<rt>かざり</rt></ruby>だし <ruby>悩む<rt>なやむ</rt></ruby>...",
+        "zh": "名稱不過是裝飾而已 真讓人煩惱...",
+        "end": 48.34,
+        "plain": "名称なんて飾りだし 悩む..."
+      },
+      {
+        "time": 48.36,
+        "text": "ヒリヒリ<ruby>触れ<rt>ふれ</rt></ruby><ruby>合う<rt>あう</rt></ruby><ruby>指先<rt>ゆびさき</rt></ruby>",
+        "zh": "指尖觸碰的刺痛",
+        "end": 53.9,
+        "plain": "ヒリヒリ触れ合う指先"
+      },
+      {
+        "time": 54.0,
+        "text": "こんなのなんて<ruby>言う<rt>いう</rt></ruby>の？",
+        "zh": "這到底是怎麼回事？",
+        "end": 59.3,
+        "plain": "こんなのなんて言うの？"
+      },
+      {
+        "time": 60.18,
+        "text": "わたし Boom Boom Boom",
+        "zh": "我似乎 Boom Boom Boom",
+        "end": 62.04,
+        "plain": "わたし Boom Boom Boom"
+      },
+      {
+        "time": 62.06,
+        "text": "<ruby>燃え<rt>もえ</rt></ruby>たいみたい Burn Burn Burn",
+        "zh": "燃了起來 Burn Burn Burn",
+        "end": 65.06,
+        "plain": "燃えたいみたい Burn Burn Burn"
+      },
+      {
+        "time": 65.12,
+        "text": "ぶっ<ruby>飛ぶ<rt>とぶ</rt></ruby>くらい Bounce Bounce Bounce",
+        "zh": "仿佛起飛一般 Bounce Bounce Bounce",
+        "end": 67.92,
+        "plain": "ぶっ飛ぶくらい Bounce Bounce Bounce"
+      },
+      {
+        "time": 67.94,
+        "text": "もっと<ruby>良く<rt>よく</rt></ruby>なってみたいの",
+        "zh": "想要更加情緒高漲",
+        "end": 71.2,
+        "plain": "もっと良くなってみたいの"
+      },
+      {
+        "time": 71.48,
+        "text": "だから Chance Chance Chance",
+        "zh": "所以 Chance Chance Chance",
+        "end": 73.4,
+        "plain": "だから Chance Chance Chance"
+      },
+      {
+        "time": 73.44,
+        "text": "<ruby>火<rt>ひ</rt></ruby>をつけてみて Chase Chase Chase",
+        "zh": "試著點燃火焰吧 Chase Chase Chase",
+        "end": 76.38,
+        "plain": "火をつけてみて Chase Chase Chase"
+      },
+      {
+        "time": 76.42,
+        "text": "このままふたり Dance Dance Dance",
+        "zh": "讓我們就這樣 Dance Dance Dance",
+        "end": 79.2,
+        "plain": "このままふたり Dance Dance Dance"
+      },
+      {
+        "time": 79.24,
+        "text": "<ruby>灰<rt>はい</rt></ruby>になるまで<ruby>狂わ<rt>くるわ</rt></ruby>せて Red zone",
+        "zh": "瘋狂到化為灰燼 Red zone",
+        "end": 83.92,
+        "plain": "灰になるまで狂わせて Red zone"
+      },
+      {
+        "time": 94.94,
+        "text": "<ruby>純情<rt>じゅんじょう</rt></ruby> <ruby>炎上<rt>えんじょう</rt></ruby> <ruby>炎症<rt>えんしょう</rt></ruby>",
+        "zh": "純情 炎上 炎症",
+        "end": 97.48,
+        "plain": "純情 炎上 炎症"
+      },
+      {
+        "time": 97.5,
+        "text": "<ruby>相当<rt>そうとう</rt></ruby> <ruby>直往<rt>ちょくおう</rt></ruby><ruby>邁進<rt>まいしん</rt></ruby>",
+        "zh": "一直勇往直前",
+        "end": 100.16,
+        "plain": "相当 直往邁進"
+      },
+      {
+        "time": 100.22,
+        "text": "<ruby>奔放<rt>ほんぽう</rt></ruby>なのは どんな<ruby>症状<rt>しょうじょう</rt></ruby>なの？",
+        "zh": "這種奔放究竟是什麼症狀？",
+        "end": 104.86,
+        "plain": "奔放なのは どんな症状なの？"
+      },
+      {
+        "time": 106.22,
+        "text": "「<ruby>一瞬<rt>いっしゅん</rt></ruby>」は<ruby>短い<rt>みじかい</rt></ruby>し",
+        "zh": "「一瞬」太過短暫",
+        "end": 108.96,
+        "plain": "「一瞬」は短いし"
+      },
+      {
+        "time": 109.06,
+        "text": "「<ruby>永遠<rt>えいえん</rt></ruby>」は<ruby>嘘<rt>うそ</rt></ruby>くさい",
+        "zh": "「永恆」則是謊言",
+        "end": 111.48,
+        "plain": "「永遠」は嘘くさい"
+      },
+      {
+        "time": 111.5,
+        "text": "<ruby>大概<rt>たいがい</rt></ruby> <ruby>目に<rt>めに</rt></ruby>は<ruby>見え<rt>みえ</rt></ruby>ないし <ruby>迷う<rt>まよう</rt></ruby>...",
+        "zh": "大概人眼是看不見的 真令人迷惑...",
+        "end": 116.14,
+        "plain": "大概 目には見えないし 迷う..."
+      },
+      {
+        "time": 116.16,
+        "text": "ジリジリ<ruby>興味<rt>きょうみ</rt></ruby>がわくたび",
+        "zh": "當興趣開始奔涌時",
+        "end": 121.86,
+        "plain": "ジリジリ興味がわくたび"
+      },
+      {
+        "time": 121.88,
+        "text": "<ruby>心<rt>こころ</rt></ruby>がチカチカする",
+        "zh": "內心就會閃閃發光",
+        "end": 126.52,
+        "plain": "心がチカチカする"
+      },
+      {
+        "time": 126.54,
+        "text": "イケナイ<ruby>衝動<rt>しょうどう</rt></ruby>？",
+        "zh": "又或許是禁忌的衝動？",
+        "end": 130.0,
+        "plain": "イケナイ衝動？"
+      },
+      {
+        "time": 130.78,
+        "text": "ふかく Deep Deep Deep",
+        "zh": "如果能 Deep Deep Deep",
+        "end": 132.84,
+        "plain": "ふかく Deep Deep Deep"
+      },
+      {
+        "time": 132.86,
+        "text": "<ruby>入り<rt>はいり</rt></ruby><ruby>込ん<rt>こん</rt></ruby>だら Dope Dope Dope",
+        "zh": "更深入地進入 Dope Dope Dope",
+        "end": 135.64,
+        "plain": "入り込んだら Dope Dope Dope"
+      },
+      {
+        "time": 135.72,
+        "text": "<ruby>破裂<rt>はれつ</rt></ruby>するまで Move Move Move",
+        "zh": "直到破裂為止 Move Move Move",
+        "end": 136.8,
+        "plain": "破裂するまで Move Move Move"
+      },
+      {
+        "time": 138.42,
+        "text": "いっそ<ruby>壊さ<rt>こわさ</rt></ruby>れてみたいの",
+        "zh": "真想把一切全部破壞掉",
+        "end": 141.62,
+        "plain": "いっそ壊されてみたいの"
+      },
+      {
+        "time": 142.14,
+        "text": "やがて Smash Smash Smash",
+        "zh": "最終 Smash Smash Smash",
+        "end": 144.14,
+        "plain": "やがて Smash Smash Smash"
+      },
+      {
+        "time": 144.2,
+        "text": "<ruby>線引き<rt>せんひき</rt></ruby>もなく Crash Crash Crash",
+        "zh": "不再有任何邊界 Crash Crash Crash",
+        "end": 146.8,
+        "plain": "線引きもなく Crash Crash Crash"
+      },
+      {
+        "time": 146.9,
+        "text": "<ruby>繋が<rt>つなが</rt></ruby>れるまで Brush Brush Brush",
+        "zh": "直到相連為止 Brush Brush Brush",
+        "end": 149.22,
+        "plain": "繋がれるまで Brush Brush Brush"
+      },
+      {
+        "time": 149.8,
+        "text": "ためらう<ruby>程<rt>ほど</rt></ruby>に<ruby>奪わ<rt>うばわ</rt></ruby>れて Red zone",
+        "zh": "別猶豫，現在就把我奪走吧 Red zone",
+        "end": 155.58,
+        "plain": "ためらう程に奪われて Red zone"
+      },
+      {
+        "time": 189,
+        "text": "わたし Boom Boom Boom",
+        "zh": "我似乎 Boom Boom Boom",
+        "end": 191.38,
+        "plain": "わたし Boom Boom Boom"
+      },
+      {
+        "time": 191.9,
+        "text": "<ruby>燃え<rt>もえ</rt></ruby>たいみたい Burn Burn Burn",
+        "zh": "燃了起來 Burn Burn Burn",
+        "end": 193.82,
+        "plain": "燃えたいみたい Burn Burn Burn"
+      },
+      {
+        "time": 194.84,
+        "text": "ぶっ<ruby>飛ぶ<rt>とぶ</rt></ruby>くらい Bounce Bounce Bounce",
+        "zh": "仿佛起飛一般 Bounce Bounce Bounce",
+        "end": 197.78,
+        "plain": "ぶっ飛ぶくらい Bounce Bounce Bounce"
+      },
+      {
+        "time": 197.8,
+        "text": "もっと<ruby>良く<rt>よく</rt></ruby>なってみたいの",
+        "zh": "想要更加情緒高漲",
+        "end": 201.34,
+        "plain": "もっと良くなってみたいの"
+      },
+      {
+        "time": 201.86,
+        "text": "<ruby>火<rt>ひ</rt></ruby>をつけて",
+        "zh": "點燃火焰吧",
+        "end": 204.78,
+        "plain": "火をつけて"
+      },
+      {
+        "time": 205.6,
+        "text": "ふかく Deep Deep Deep",
+        "zh": "如果能 Deep Deep Deep",
+        "end": 207.46,
+        "plain": "ふかく Deep Deep Deep"
+      },
+      {
+        "time": 207.7,
+        "text": "<ruby>入り<rt>はいり</rt></ruby><ruby>込ん<rt>こん</rt></ruby>だら Dope Dope Dope",
+        "zh": "更深入地進入 Dope Dope Dope",
+        "end": 210.32,
+        "plain": "入り込んだら Dope Dope Dope"
+      },
+      {
+        "time": 210.52,
+        "text": "<ruby>破裂<rt>はれつ</rt></ruby>するまで Move Move Move",
+        "zh": "直到破裂為止 Move Move Move",
+        "end": 211.74,
+        "plain": "破裂するまで Move Move Move"
+      },
+      {
+        "time": 213.26,
+        "text": "いっそ<ruby>壊さ<rt>こわさ</rt></ruby>れてみたいの",
+        "zh": "真想把一切全部破壞掉",
+        "end": 216.7,
+        "plain": "いっそ壊されてみたいの"
+      },
+      {
+        "time": 216.72,
+        "text": "やがて Smash Smash Smash",
+        "zh": "最終 Smash Smash Smash",
+        "end": 218.78,
+        "plain": "やがて Smash Smash Smash"
+      },
+      {
+        "time": 219.0,
+        "text": "<ruby>線引き<rt>せんひき</rt></ruby>もなく Crash Crash Crash",
+        "zh": "不再有任何邊界 Crash Crash Crash",
+        "end": 221.8,
+        "plain": "線引きもなく Crash Crash Crash"
+      },
+      {
+        "time": 221.84,
+        "text": "<ruby>繋が<rt>つなが</rt></ruby>れるまで Brush Brush Brush",
+        "zh": "直到相連為止 Brush Brush Brush",
+        "end": 224.6,
+        "plain": "繋がれるまで Brush Brush Brush"
+      },
+      {
+        "time": 224.66,
+        "text": "ためらう<ruby>程<rt>ほど</rt></ruby>に<ruby>奪わ<rt>うばわ</rt></ruby>れて Red zone",
+        "zh": "別猶豫，現在就把我奪走吧 Red zone",
+        "end": 230.46,
+        "plain": "ためらう程に奪われて Red zone"
+      }
+    ]
+  },
+  {
+    "title": "未来は風のように",
+    "franchise": "ラブライブ",
+    "series": "スーパースター!!",
+    "artist": "Liella!",
+    "credits": {
+      "lyrics": "畑 亜貴",
+      "music": "山田智和/久保田真悟"
+    },
+    "color": "#A5469B",
+    "videoId": "6vhzVVKqDCE",
+    "lines": [
+      {
+        "time": 21.4,
+        "text": "<ruby>未来<rt>みらい</rt></ruby>は<ruby>風<rt>かぜ</rt></ruby>のように",
+        "zh": "未來就像風一樣",
+        "end": 24.22,
+        "plain": "未来は風のように"
+      },
+      {
+        "time": 24.66,
+        "text": "<ruby>僕ら<rt>ぼくら</rt></ruby>を<ruby>呼ん<rt>よん</rt></ruby>でるんだ",
+        "zh": "正呼喚著我們",
+        "end": 27.54,
+        "plain": "僕らを呼んでるんだ"
+      },
+      {
+        "time": 27.58,
+        "text": "<ruby>何<rt>なに</rt></ruby>が<ruby>待ち<rt>まち</rt></ruby><ruby>受け<rt>うけ</rt></ruby>てるか<ruby>誰も<rt>だれも</rt></ruby><ruby>知ら<rt>しら</rt></ruby>ない",
+        "zh": "等待著我們的會是什麼？任誰也不曾知曉",
+        "end": 32.3,
+        "plain": "何が待ち受けてるか誰も知らない"
+      },
+      {
+        "time": 35.54,
+        "text": "それでも<ruby>進み<rt>すすみ</rt></ruby>たいんだ",
+        "zh": "儘管如此還是想繼續前進",
+        "end": 37.9,
+        "plain": "それでも進みたいんだ"
+      },
+      {
+        "time": 37.98,
+        "text": "だって<ruby>後悔<rt>こうかい</rt></ruby>したくないよ",
+        "zh": "因為我不想後悔",
+        "end": 41.3,
+        "plain": "だって後悔したくないよ"
+      },
+      {
+        "time": 41.5,
+        "text": "<ruby>心<rt>こころ</rt></ruby>おさえつけるの<ruby>無理<rt>むり</rt></ruby>さ",
+        "zh": "壓抑自己的內心已不切實際",
+        "end": 45.16,
+        "plain": "心おさえつけるの無理さ"
+      },
+      {
+        "time": 45.28,
+        "text": "みんな<ruby>自由<rt>じゆう</rt></ruby>になろう",
+        "zh": "大家都自由地翱翔吧",
+        "end": 49.4,
+        "plain": "みんな自由になろう"
+      },
+      {
+        "time": 49.42,
+        "text": "あきらめない！",
+        "zh": "永遠不要放棄！",
+        "end": 52.32,
+        "plain": "あきらめない！"
+      },
+      {
+        "time": 52.72,
+        "text": "<ruby>決め<rt>きめ</rt></ruby>たから",
+        "zh": "已經下定決心",
+        "end": 56.52,
+        "plain": "決めたから"
+      },
+      {
+        "time": 56.62,
+        "text": "<ruby>泣い<rt>ない</rt></ruby>て<ruby>笑っ<rt>わらっ</rt></ruby>て　<ruby>頑張っ<rt>がんばっ</rt></ruby>ちゃうよ",
+        "zh": "那就哭也好笑也罷 都要盡力而為",
+        "end": 59.38,
+        "plain": "泣いて笑って　頑張っちゃうよ"
+      },
+      {
+        "time": 59.8,
+        "text": "<ruby>限界<rt>げんかい</rt></ruby><ruby>超え<rt>こえ</rt></ruby>たいね",
+        "zh": "好想超越極限啊",
+        "end": 63.52,
+        "plain": "限界超えたいね"
+      },
+      {
+        "time": 63.54,
+        "text": "<ruby>信じ<rt>しんじ</rt></ruby>ることが<ruby>大事<rt>だいじ</rt></ruby>だと",
+        "zh": "信念尤為重要",
+        "end": 67.72,
+        "plain": "信じることが大事だと"
+      },
+      {
+        "time": 68.34,
+        "text": "<ruby>自分<rt>じぶん</rt></ruby>に<ruby>言い<rt>いい</rt></ruby><ruby>聞か<rt>きか</rt></ruby>せたら",
+        "zh": "如果這樣告訴自己",
+        "end": 71.5,
+        "plain": "自分に言い聞かせたら"
+      },
+      {
+        "time": 71.58,
+        "text": "もっと　もっと　<ruby>遠く<rt>とおく</rt></ruby><ruby>目指し<rt>めざし</rt></ruby>てみよう",
+        "zh": "就試著向更遠的 更遠的目標前進吧",
+        "end": 78.68,
+        "plain": "もっと　もっと　遠く目指してみよう"
+      },
+      {
+        "time": 78.7,
+        "text": "<ruby>小さ<rt>ちいさ</rt></ruby>な<ruby>存在<rt>そんざい</rt></ruby>だけど　<ruby>大き<rt>おおき</rt></ruby>な<ruby>夢<rt>ゆめ</rt></ruby>があるから",
+        "zh": "雖然我們現在還很渺小 但遠大的夢想常伴左右",
+        "end": 85.46,
+        "plain": "小さな存在だけど　大きな夢があるから"
+      },
+      {
+        "time": 86.48,
+        "text": "<ruby>負け<rt>まけ</rt></ruby>ないよ　さあ<ruby>一緒に<rt>いっしょに</rt></ruby><ruby>飛ぼ<rt>とぼ</rt></ruby>うよ",
+        "zh": "我不會認輸的 來吧 一起飛翔吧",
+        "end": 93.26,
+        "plain": "負けないよ　さあ一緒に飛ぼうよ"
+      },
+      {
+        "time": 100.82,
+        "text": "<ruby>想い<rt>おもい</rt></ruby>は<ruby>風<rt>かぜ</rt></ruby>になって",
+        "zh": "化作了風的思念",
+        "end": 102.64,
+        "plain": "想いは風になって"
+      },
+      {
+        "time": 104.36,
+        "text": "<ruby>明日<rt>あした</rt></ruby>を<ruby>動か<rt>うごか</rt></ruby>すんだ",
+        "zh": "推動著我的明天",
+        "end": 106.66,
+        "plain": "明日を動かすんだ"
+      },
+      {
+        "time": 107.2,
+        "text": "いつも<ruby>予想<rt>よそう</rt></ruby>できないことが<ruby>起こ<rt>おこ</rt></ruby>る",
+        "zh": "總是會發生始料不及的事情",
+        "end": 113.2,
+        "plain": "いつも予想できないことが起こる"
+      },
+      {
+        "time": 114.74,
+        "text": "やっぱり<ruby>進み<rt>すすみ</rt></ruby>たいんだ",
+        "zh": "果然還是想繼續前進",
+        "end": 117.18,
+        "plain": "やっぱり進みたいんだ"
+      },
+      {
+        "time": 117.24,
+        "text": "<ruby>好き<rt>すき</rt></ruby>をしっかり<ruby>見つ<rt>みつ</rt></ruby>めたくて",
+        "zh": "想要好好地注視著這份熱愛",
+        "end": 120.82,
+        "plain": "好きをしっかり見つめたくて"
+      },
+      {
+        "time": 120.9,
+        "text": "<ruby>心<rt>こころ</rt></ruby>ごまかすなんて<ruby>無理<rt>むり</rt></ruby>さ",
+        "zh": "欺騙自己的心是不可能的",
+        "end": 124.64,
+        "plain": "心ごまかすなんて無理さ"
+      },
+      {
+        "time": 124.68,
+        "text": "<ruby>夢<rt>ゆめ</rt></ruby>に<ruby>素直<rt>すなお</rt></ruby>になろう",
+        "zh": "坦率地面對夢想吧",
+        "end": 129.02,
+        "plain": "夢に素直になろう"
+      },
+      {
+        "time": 129.04,
+        "text": "<ruby>逃げ<rt>にげ</rt></ruby>たくない！",
+        "zh": "不要想逃避！",
+        "end": 131.78,
+        "plain": "逃げたくない！"
+      },
+      {
+        "time": 132.54,
+        "text": "<ruby>向き<rt>むき</rt></ruby><ruby>合え<rt>あえ</rt></ruby>ば",
+        "zh": "若能勇敢面對的話",
+        "end": 135.56,
+        "plain": "向き合えば"
+      },
+      {
+        "time": 135.68,
+        "text": "きっと<ruby>分か<rt>わか</rt></ruby>る　<ruby>頑張る<rt>がんばる</rt></ruby><ruby>意味<rt>いみ</rt></ruby>",
+        "zh": "就一定能明白 努力的意義",
+        "end": 139.0,
+        "plain": "きっと分かる　頑張る意味"
+      },
+      {
+        "time": 139.02,
+        "text": "<ruby>挑戦<rt>ちょうせん</rt></ruby>しようよ",
+        "zh": "試著挑戰一下吧",
+        "end": 143.02,
+        "plain": "挑戦しようよ"
+      },
+      {
+        "time": 143.6,
+        "text": "<ruby>出会っ<rt>であっ</rt></ruby>て<ruby>変わり<rt>かわり</rt></ruby><ruby>始め<rt>はじめ</rt></ruby>てる",
+        "zh": "你我相遇後開始改變",
+        "end": 147.02,
+        "plain": "出会って変わり始めてる"
+      },
+      {
+        "time": 147.74,
+        "text": "<ruby>君<rt>きみ</rt></ruby>の<ruby>未来<rt>みらい</rt></ruby>も<ruby>変わ<rt>かわ</rt></ruby>るよ",
+        "zh": "你的未來也會改變",
+        "end": 150.92,
+        "plain": "君の未来も変わるよ"
+      },
+      {
+        "time": 151.22,
+        "text": "もっと　もっと　<ruby>熱い<rt>あつい</rt></ruby><ruby>光<rt>ひかり</rt></ruby>をつかもう",
+        "zh": "抓住這更加 更加熾熱的光芒吧",
+        "end": 157.9,
+        "plain": "もっと　もっと　熱い光をつかもう"
+      },
+      {
+        "time": 157.92,
+        "text": "<ruby>小さ<rt>ちいさ</rt></ruby>な<ruby>僕ら<rt>ぼくら</rt></ruby>がいつか　<ruby>大き<rt>おおき</rt></ruby>な<ruby>夢<rt>ゆめ</rt></ruby><ruby>叶え<rt>かなえ</rt></ruby>るよ",
+        "zh": "小小的我們總有一天 會實現大大的夢想",
+        "end": 164.9,
+        "plain": "小さな僕らがいつか　大きな夢叶えるよ"
+      },
+      {
+        "time": 165.62,
+        "text": "<ruby>本気<rt>ほんき</rt></ruby>で<ruby>飛ぼ<rt>とぼ</rt></ruby>う　さあ<ruby>一緒に<rt>いっしょに</rt></ruby><ruby>飛ぼ<rt>とぼ</rt></ruby>うよ",
+        "zh": "認真地飛越一切 來吧 一起飛翔吧",
+        "end": 173.1,
+        "plain": "本気で飛ぼう　さあ一緒に飛ぼうよ"
+      },
+      {
+        "time": 187.72,
+        "text": "<ruby>未来<rt>みらい</rt></ruby>は<ruby>風<rt>かぜ</rt></ruby>のように<ruby>自由<rt>じゆう</rt></ruby>だよ　<ruby>自由<rt>じゆう</rt></ruby>なんだ",
+        "zh": "未來如風一般自由 既然如此自由",
+        "end": 194.08,
+        "plain": "未来は風のように自由だよ　自由なんだ"
+      },
+      {
+        "time": 194.1,
+        "text": "どんどん<ruby>高く<rt>たかく</rt></ruby><ruby>飛ん<rt>とん</rt></ruby>で　<ruby>夢<rt>ゆめ</rt></ruby>を<ruby>描こ<rt>えがこ</rt></ruby>う",
+        "zh": "那就飛得越來越高 將夢想描繪吧",
+        "end": 200.42,
+        "plain": "どんどん高く飛んで　夢を描こう"
+      },
+      {
+        "time": 203.42,
+        "text": "<ruby>信じ<rt>しんじ</rt></ruby>ることが<ruby>大事<rt>だいじ</rt></ruby>だと",
+        "zh": "信念尤為重要",
+        "end": 207.02,
+        "plain": "信じることが大事だと"
+      },
+      {
+        "time": 207.24,
+        "text": "<ruby>自分<rt>じぶん</rt></ruby>に<ruby>言い<rt>いい</rt></ruby><ruby>聞か<rt>きか</rt></ruby>せたら",
+        "zh": "如果這樣告訴自己",
+        "end": 210.9,
+        "plain": "自分に言い聞かせたら"
+      },
+      {
+        "time": 210.98,
+        "text": "もっと　もっと　<ruby>遠く<rt>とおく</rt></ruby><ruby>目指し<rt>めざし</rt></ruby>てみよう",
+        "zh": "就試著向更遠的 更遠的目標前進吧",
+        "end": 217.88,
+        "plain": "もっと　もっと　遠く目指してみよう"
+      },
+      {
+        "time": 218.3,
+        "text": "<ruby>小さ<rt>ちいさ</rt></ruby>な<ruby>存在<rt>そんざい</rt></ruby>だけど　<ruby>大き<rt>おおき</rt></ruby>な<ruby>夢<rt>ゆめ</rt></ruby>があるから",
+        "zh": "雖然我們現在還很渺小 但遠大的夢想常伴左右",
+        "end": 224.88,
+        "plain": "小さな存在だけど　大きな夢があるから"
+      },
+      {
+        "time": 225.86,
+        "text": "<ruby>負け<rt>まけ</rt></ruby>ないよ　さあ<ruby>一緒に<rt>いっしょに</rt></ruby><ruby>飛ぼ<rt>とぼ</rt></ruby>うよ",
+        "zh": "我不會認輸的 來吧 一起飛翔吧",
+        "end": 232.36,
+        "plain": "負けないよ　さあ一緒に飛ぼうよ"
+      },
+      {
+        "time": 232.54,
+        "text": "<ruby>本気<rt>ほんき</rt></ruby>で<ruby>飛ぼ<rt>とぼ</rt></ruby>う　さあ<ruby>一緒に<rt>いっしょに</rt></ruby><ruby>飛ぼ<rt>とぼ</rt></ruby>うよ",
+        "zh": "拿出真心飛越一切 來吧 一起飛翔吧",
+        "end": 239.14,
+        "plain": "本気で飛ぼう　さあ一緒に飛ぼうよ"
+      }
+    ]
+  },
+  {
+    "title": "Future Parade",
+    "franchise": "ラブライブ",
+    "series": "虹ヶ咲",
+    "artist": "虹ヶ咲学園スクールアイドル同好会",
+    "credits": {
+      "lyrics": "Ayaka Miyake",
+      "music": "Keisuke Koyama、DAICHI/Keisuke Koyama"
+    },
+    "color": "#F39800",
+    "videoId": "Qmzuc18yerQ",
+    "lines": [
+      {
+        "time": 17.26,
+        "text": "<ruby>見上げ<rt>みあげ</rt></ruby>た<ruby>空<rt>そら</rt></ruby>の<ruby>向こう<rt>むこう</rt></ruby>へと",
+        "zh": "向著天空的另一側",
+        "end": 20.36,
+        "plain": "見上げた空の向こうへと"
+      },
+      {
+        "time": 20.56,
+        "text": "<ruby>鮮<rt>せん</rt></ruby>やかに<ruby>伸び<rt>のび</rt></ruby>てく Rainbow",
+        "zh": "鮮明地延伸著的彩虹",
+        "end": 24.02,
+        "plain": "鮮やかに伸びてく Rainbow"
+      },
+      {
+        "time": 24.04,
+        "text": "ときめきから<ruby>紡<rt>つむ</rt></ruby>いでく Our stories",
+        "zh": "我們的故事開始編織於心跳悸動中",
+        "end": 29.4,
+        "plain": "ときめきから紡いでく Our stories"
+      },
+      {
+        "time": 29.82,
+        "text": "<ruby>膨ら<rt>ふくら</rt></ruby>んでく どこまでだって",
+        "zh": "膨脹擴散到天涯海角",
+        "end": 32.54,
+        "plain": "膨らんでく どこまでだって"
+      },
+      {
+        "time": 33.66,
+        "text": "<ruby>未来<rt>みらい</rt></ruby>は<ruby>果て<rt>はて</rt></ruby>しない",
+        "zh": "未來沒有盡頭可言",
+        "end": 36.64,
+        "plain": "未来は果てしない"
+      },
+      {
+        "time": 36.86,
+        "text": "<ruby>誰か<rt>だれか</rt></ruby>の<ruby>夢<rt>ゆめ</rt></ruby>の<ruby>鼓動<rt>こどう</rt></ruby>が<ruby>高鳴る<rt>たかなる</rt></ruby>",
+        "zh": "誰人的夢想帶來的激動",
+        "end": 41.66,
+        "plain": "誰かの夢の鼓動が高鳴る"
+      },
+      {
+        "time": 43.34,
+        "text": "あふれる<ruby>想い<rt>おもい</rt></ruby>のバトン",
+        "zh": "充滿了思念的接力棒",
+        "end": 45.84,
+        "plain": "あふれる想いのバトン"
+      },
+      {
+        "time": 46.46,
+        "text": "<ruby>繋い<rt>つない</rt></ruby>でいこう",
+        "zh": "連接起來吧",
+        "end": 49.14,
+        "plain": "繋いでいこう"
+      },
+      {
+        "time": 49.16,
+        "text": "<ruby>新しい<rt>あたらしい</rt></ruby>（<ruby>勇気<rt>ゆうき</rt></ruby>と）<ruby>出会い<rt>であい</rt></ruby>と（Harmonies）",
+        "zh": "嶄新的（勇氣）相遇與（和聲）",
+        "end": 53.04,
+        "plain": "新しい（勇気と）出会いと（Harmonies）"
+      },
+      {
+        "time": 53.26,
+        "text": "<ruby>生まれ<rt>うまれ</rt></ruby>てく",
+        "zh": "都誕生於世",
+        "end": 54.94,
+        "plain": "生まれてく"
+      },
+      {
+        "time": 54.86,
+        "text": "<ruby>一緒に<rt>いっしょに</rt></ruby><ruby>行こ<rt>いこ</rt></ruby>う",
+        "zh": "一起出發吧",
+        "end": 56.64,
+        "plain": "一緒に行こう"
+      },
+      {
+        "time": 56.66,
+        "text": "さぁ　きみも…！！",
+        "zh": "來吧 你也一起…！！",
+        "end": 57.14,
+        "plain": "さぁ　きみも…！！"
+      },
+      {
+        "time": 58.84,
+        "text": "はじまりの<ruby>風<rt>かぜ</rt></ruby> <ruby>光る<rt>ひかる</rt></ruby>",
+        "zh": "象徵起始的風 熠熠生輝",
+        "end": 63.32,
+        "plain": "はじまりの風 光る"
+      },
+      {
+        "time": 63.34,
+        "text": "<ruby>瞬く<rt>またたく</rt></ruby><ruby>明日<rt>あす</rt></ruby>へと",
+        "zh": "向著閃爍的明日吹拂",
+        "end": 66.66,
+        "plain": "瞬く明日へと"
+      },
+      {
+        "time": 66.68,
+        "text": "きみの<ruby>想い<rt>おもい</rt></ruby>",
+        "zh": "你的心意",
+        "end": 70.4,
+        "plain": "きみの想い"
+      },
+      {
+        "time": 70.02,
+        "text": "<ruby>咲く<rt>さく</rt></ruby>って<ruby>信じ<rt>しんじ</rt></ruby>てるの",
+        "zh": "相信它必然會綻放光芒",
+        "end": 72.9,
+        "plain": "咲くって信じてるの"
+      },
+      {
+        "time": 73.0,
+        "text": "ひとりじゃないからね",
+        "zh": "因為我不是孤身一人",
+        "end": 76.42,
+        "plain": "ひとりじゃないからね"
+      },
+      {
+        "time": 76.44,
+        "text": "どんなときも",
+        "zh": "無論何時都是如此",
+        "end": 79.54,
+        "plain": "どんなときも"
+      },
+      {
+        "time": 79.56,
+        "text": "<ruby>描こ<rt>えがこ</rt></ruby>うよ with you forever",
+        "zh": "盡情描繪吧 伴你直到永遠",
+        "end": 83.02,
+        "plain": "描こうよ with you forever"
+      },
+      {
+        "time": 83.04,
+        "text": "<ruby>夢<rt>ゆめ</rt></ruby>の<ruby>虹<rt>にじ</rt></ruby>は いつも <ruby>胸<rt>むね</rt></ruby>の<ruby>中<rt>なか</rt></ruby>",
+        "zh": "夢想的彩虹總是銘刻心間",
+        "end": 88,
+        "plain": "夢の虹は いつも 胸の中"
+      },
+      {
+        "time": 88.02,
+        "text": "<ruby>僕ら<rt>ぼくら</rt></ruby>を<ruby>繋い<rt>つない</rt></ruby>でるから",
+        "zh": "將我們緊緊相連",
+        "end": 92.54,
+        "plain": "僕らを繋いでるから"
+      },
+      {
+        "time": 106.06,
+        "text": "ふと<ruby>振り返れ<rt>ふりかえれ</rt></ruby>ば<ruby>続く<rt>つづく</rt></ruby>",
+        "zh": "驀然回首 繼往開來",
+        "end": 109.86,
+        "plain": "ふと振り返れば続く"
+      },
+      {
+        "time": 109.92,
+        "text": "<ruby>刻ん<rt>きざん</rt></ruby>だ<ruby>軌跡<rt>きせき</rt></ruby> <ruby>夢色<rt>ゆめいろ</rt></ruby>",
+        "zh": "刻下夢想顏色的軌跡",
+        "end": 112.98,
+        "plain": "刻んだ軌跡 夢色"
+      },
+      {
+        "time": 113.0,
+        "text": "どんな<ruby>瞬間<rt>しゅんかん</rt></ruby>もきらり True stories",
+        "zh": "真實的故事 每一瞬都閃耀著光芒",
+        "end": 118.84,
+        "plain": "どんな瞬間もきらり True stories"
+      },
+      {
+        "time": 118.98,
+        "text": "<ruby>笑顔<rt>えがお</rt></ruby> ナミダ <ruby>迷い<rt>まよい</rt></ruby>も<ruby>彩り<rt>いろどり</rt></ruby>",
+        "zh": "笑容 淚水 迷惘 都虹彩閃耀",
+        "end": 123.12,
+        "plain": "笑顔 ナミダ 迷いも彩り"
+      },
+      {
+        "time": 123.14,
+        "text": "<ruby>未来<rt>みらい</rt></ruby>は<ruby>無限大<rt>むげんだい</rt></ruby>",
+        "zh": "未來有無限可能",
+        "end": 125.78,
+        "plain": "未来は無限大"
+      },
+      {
+        "time": 126.3,
+        "text": "<ruby>僕ら<rt>ぼくら</rt></ruby>で<ruby>創ろ<rt>つくろ</rt></ruby>う",
+        "zh": "我們來創造吧",
+        "end": 129.48,
+        "plain": "僕らで創ろう"
+      },
+      {
+        "time": 129.8,
+        "text": "<ruby>虹<rt>にじ</rt></ruby>の<ruby>咲く<rt>さく</rt></ruby><ruby>世界<rt>せかい</rt></ruby>を",
+        "zh": "一個虹彩綻放的世界",
+        "end": 132.52,
+        "plain": "虹の咲く世界を"
+      },
+      {
+        "time": 132.84,
+        "text": "ためらう<ruby>心<rt>こころ</rt></ruby>に<ruby>今<rt>いま</rt></ruby>",
+        "zh": "躊躇的心 現在",
+        "end": 135.78,
+        "plain": "ためらう心に今"
+      },
+      {
+        "time": 136.1,
+        "text": "<ruby>送る<rt>おくる</rt></ruby>エール",
+        "zh": "傳達的聲援",
+        "end": 138.62,
+        "plain": "送るエール"
+      },
+      {
+        "time": 138.64,
+        "text": "<ruby>踏み<rt>ふみ</rt></ruby><ruby>出し<rt>だし</rt></ruby>た（<ruby>勇気<rt>ゆうき</rt></ruby>の）<ruby>一歩<rt>いっぽ</rt></ruby>が（<ruby>力<rt>ちから</rt></ruby>に）",
+        "zh": "邁出了腳步（將勇氣）一步一步（化作力量）",
+        "end": 141.74,
+        "plain": "踏み出した（勇気の）一歩が（力に）"
+      },
+      {
+        "time": 142.6,
+        "text": "<ruby>変わ<rt>かわ</rt></ruby>るんだ",
+        "zh": "去改變吧",
+        "end": 143.94,
+        "plain": "変わるんだ"
+      },
+      {
+        "time": 144.26,
+        "text": "<ruby>一緒に<rt>いっしょに</rt></ruby>いこう",
+        "zh": "一起出發吧",
+        "end": 145.98,
+        "plain": "一緒にいこう"
+      },
+      {
+        "time": 146.3,
+        "text": "さぁ <ruby>僕ら<rt>ぼくら</rt></ruby>",
+        "zh": "來吧 我們一起",
+        "end": 148.18,
+        "plain": "さぁ 僕ら"
+      },
+      {
+        "time": 148.42,
+        "text": "はじまりの<ruby>風<rt>かぜ</rt></ruby> そよぐ",
+        "zh": "象徵起始的微風輕輕吹拂",
+        "end": 152.48,
+        "plain": "はじまりの風 そよぐ"
+      },
+      {
+        "time": 152.5,
+        "text": "ほらね すぐそばで",
+        "zh": "看啊 就在你我身旁",
+        "end": 155.96,
+        "plain": "ほらね すぐそばで"
+      },
+      {
+        "time": 156.18,
+        "text": "きみの<ruby>想い<rt>おもい</rt></ruby>",
+        "zh": "你的心意",
+        "end": 159.34,
+        "plain": "きみの想い"
+      },
+      {
+        "time": 159.36,
+        "text": "<ruby>羽<rt>はね</rt></ruby>ばたくの<ruby>待っ<rt>まっ</rt></ruby>てるの",
+        "zh": "正靜待著展翅翱翔之時",
+        "end": 162.28,
+        "plain": "羽ばたくの待ってるの"
+      },
+      {
+        "time": 162.3,
+        "text": "<ruby>僕ら<rt>ぼくら</rt></ruby>がいるからね",
+        "zh": "因為有我們在",
+        "end": 165.78,
+        "plain": "僕らがいるからね"
+      },
+      {
+        "time": 165.8,
+        "text": "どんなときも",
+        "zh": "那就無論何時",
+        "end": 168.78,
+        "plain": "どんなときも"
+      },
+      {
+        "time": 169.26,
+        "text": "<ruby>大丈夫<rt>だいじょうぶ</rt></ruby> We're all together",
+        "zh": "都沒關係 We're all together",
+        "end": 171.98,
+        "plain": "大丈夫 We're all together"
+      },
+      {
+        "time": 172.4,
+        "text": "きみの<ruby>虹<rt>にじ</rt></ruby>は いつも <ruby>胸<rt>むね</rt></ruby>の<ruby>中<rt>なか</rt></ruby>",
+        "zh": "你的彩虹一直都銘刻心間",
+        "end": 177.4,
+        "plain": "きみの虹は いつも 胸の中"
+      },
+      {
+        "time": 177.42,
+        "text": "<ruby>明日<rt>あす</rt></ruby>へと<ruby>駆け<rt>かけ</rt></ruby>ていくんだ",
+        "zh": "向著明天飛奔而去吧",
+        "end": 182.16,
+        "plain": "明日へと駆けていくんだ"
+      },
+      {
+        "time": 192.68,
+        "text": "<ruby>出会い<rt>であい</rt></ruby>と <ruby>夢<rt>ゆめ</rt></ruby>が <ruby>今<rt>いま</rt></ruby> Ah <ruby>輝く<rt>かがやく</rt></ruby>よ",
+        "zh": "你我的邂逅與夢想 啊 如今正熠熠生輝喲",
+        "end": 205.26,
+        "plain": "出会いと 夢が 今 Ah 輝くよ"
+      },
+      {
+        "time": 206.66,
+        "text": "はじまりの<ruby>風<rt>かぜ</rt></ruby> <ruby>光る<rt>ひかる</rt></ruby>",
+        "zh": "象徵開始的風 熠熠生輝",
+        "end": 211.38,
+        "plain": "はじまりの風 光る"
+      },
+      {
+        "time": 211.68,
+        "text": "<ruby>瞬く<rt>またたく</rt></ruby><ruby>明日<rt>あす</rt></ruby>へと",
+        "zh": "向著閃爍的明日吹拂",
+        "end": 214.8,
+        "plain": "瞬く明日へと"
+      },
+      {
+        "time": 215.02,
+        "text": "きみの<ruby>想い<rt>おもい</rt></ruby>",
+        "zh": "你的心意",
+        "end": 218.14,
+        "plain": "きみの想い"
+      },
+      {
+        "time": 218.16,
+        "text": "<ruby>咲く<rt>さく</rt></ruby>って<ruby>信じ<rt>しんじ</rt></ruby>てるの",
+        "zh": "相信它必然會綻放光芒",
+        "end": 221.1,
+        "plain": "咲くって信じてるの"
+      },
+      {
+        "time": 221.12,
+        "text": "ひとりじゃないからね",
+        "zh": "因為我不是孤身一人",
+        "end": 224.6,
+        "plain": "ひとりじゃないからね"
+      },
+      {
+        "time": 224.74,
+        "text": "どんなときも",
+        "zh": "無論何時都是如此",
+        "end": 227.54,
+        "plain": "どんなときも"
+      },
+      {
+        "time": 228.24,
+        "text": "<ruby>描こ<rt>えがこ</rt></ruby>うよ with you forever",
+        "zh": "盡情描繪吧 伴你直到永遠",
+        "end": 231.1,
+        "plain": "描こうよ with you forever"
+      },
+      {
+        "time": 231.12,
+        "text": "<ruby>夢<rt>ゆめ</rt></ruby>の<ruby>虹<rt>にじ</rt></ruby>は いつも <ruby>胸<rt>むね</rt></ruby>の<ruby>中<rt>なか</rt></ruby>",
+        "zh": "夢想的彩虹總是銘刻心間",
+        "end": 236.04,
+        "plain": "夢の虹は いつも 胸の中"
+      },
+      {
+        "time": 236.06,
+        "text": "<ruby>僕ら<rt>ぼくら</rt></ruby>を<ruby>繋い<rt>つない</rt></ruby>でるから",
+        "zh": "將我們緊緊相連",
+        "end": 240.76,
+        "plain": "僕らを繋いでるから"
+      },
+      {
+        "time": 244.6,
+        "text": "<ruby>光<rt>ひかり</rt></ruby> たどって",
+        "zh": "追尋著光芒",
+        "end": 250.9,
+        "plain": "光 たどって"
+      },
+      {
+        "time": 250.92,
+        "text": "きみと <ruby>僕ら<rt>ぼくら</rt></ruby>で<ruby>進も<rt>すすも</rt></ruby>う",
+        "zh": "與你一同 攜手並進吧",
+        "end": 256.72,
+        "plain": "きみと 僕らで進もう"
+      },
+      {
+        "time": 257.84,
+        "text": "Go for dream <ruby>何度<rt>なんど</rt></ruby>でも",
+        "zh": "追逐夢想 縱使千百次",
+        "end": 263.5,
+        "plain": "Go for dream 何度でも"
+      },
+      {
+        "time": 261.38,
+        "text": "<ruby>夢<rt>ゆめ</rt></ruby>を…<ruby>夢<rt>ゆめ</rt></ruby>を… <ruby>追い<rt>おい</rt></ruby>かけていこう！",
+        "zh": "夢想啊…夢想…盡情去追逐吧！",
+        "end": 269.66,
+        "plain": "夢を…夢を… 追いかけていこう！"
+      }
+    ]
+  },
+  {
+    "title": "チリコンカン",
+    "franchise": "ラブライブ",
+    "series": "蓮ノ空",
+    "artist": "Edel Note",
+    "credits": {
+      "lyrics": "Skipjack",
+      "music": "佐藤厚仁"
+    },
+    "color": "#3D324D",
+    "videoId": "wteiJwqU5lk",
+    "lines": [
+      {
+        "time": 0.22,
+        "text": "ヘイ！",
+        "zh": "嘿！",
+        "end": 1.54,
+        "plain": "ヘイ！"
+      },
+      {
+        "time": 9.52,
+        "text": "オーダーが<ruby>入り<rt>いり</rt></ruby>ました えっやばい",
+        "zh": "來新訂單了 啊 完蛋了",
+        "end": 11.54,
+        "plain": "オーダーが入りました えっやばい"
+      },
+      {
+        "time": 12.32,
+        "text": "シェフはバケーション<ruby>中<rt>ちゅう</rt></ruby>",
+        "zh": "廚師還在度假呢",
+        "end": 14.52,
+        "plain": "シェフはバケーション中"
+      },
+      {
+        "time": 14.94,
+        "text": "<ruby>見渡し<rt>みわたし</rt></ruby>て<ruby>暇<rt>ひま</rt></ruby>そうなのは<ruby>明らか<rt>あきらか</rt></ruby>にわたしじゃん",
+        "zh": "環顧四周 看起來很閒的就只有我了吧",
+        "end": 18.66,
+        "plain": "見渡して暇そうなのは明らかにわたしじゃん"
+      },
+      {
+        "time": 19.98,
+        "text": "<ruby>豆<rt>まめ</rt></ruby><ruby>以外<rt>いがい</rt></ruby>の<ruby>具材<rt>ぐざい</rt></ruby><ruby>何<rt>なに</rt></ruby>？ひき<ruby>肉<rt>にく</rt></ruby>はアイビキ…？",
+        "zh": "除了豆類還要什麼食材？肉末必須是混合的…？",
+        "end": 20.02,
+        "plain": "豆以外の具材何？ひき肉はアイビキ…？"
+      },
+      {
+        "time": 26.04,
+        "text": "お<ruby>忍び<rt>しのび</rt></ruby>でデートするひき<ruby>肉<rt>にく</rt></ruby>！？",
+        "zh": "隱秘幽會的肉末！？",
+        "end": 28.18,
+        "plain": "お忍びでデートするひき肉！？"
+      },
+      {
+        "time": 28.82,
+        "text": "ちょっとレシピポエム<ruby>過ぎ<rt>すぎ</rt></ruby>",
+        "zh": "這食譜也太有詩韻了",
+        "end": 31.46,
+        "plain": "ちょっとレシピポエム過ぎ"
+      },
+      {
+        "time": 31.48,
+        "text": "（ベリーデリシャス ベリーデリシャス）",
+        "zh": "（非常美味 非常美味）",
+        "end": 36.38,
+        "plain": "（ベリーデリシャス ベリーデリシャス）"
+      },
+      {
+        "time": 36.4,
+        "text": "あなたはワイルドなカウボーイ",
+        "zh": "你是狂野牛仔",
+        "end": 39.32,
+        "plain": "あなたはワイルドなカウボーイ"
+      },
+      {
+        "time": 39.64,
+        "text": "わたしはウエイトレス",
+        "zh": "我是女服務員",
+        "end": 41.88,
+        "plain": "わたしはウエイトレス"
+      },
+      {
+        "time": 42.1,
+        "text": "<ruby>勝負<rt>しょうぶ</rt></ruby>よ！キッチンでお・も・て・な・し",
+        "zh": "一決勝負！在廚房裡熱・情・招・待・你",
+        "end": 44.84,
+        "plain": "勝負よ！キッチンでお・も・て・な・し"
+      },
+      {
+        "time": 44.96,
+        "text": "これは<ruby>西部<rt>せいぶ</rt></ruby>では<ruby>有名<rt>ゆうめい</rt></ruby>な",
+        "zh": "這就是西部著名的",
+        "end": 50.44,
+        "plain": "これは西部では有名な"
+      },
+      {
+        "time": 51.44,
+        "text": "チリコンカン ちんぷんかん…",
+        "zh": "辣肉醬 莫名其妙…",
+        "end": 53.9,
+        "plain": "チリコンカン ちんぷんかん…"
+      },
+      {
+        "time": 53.32,
+        "text": "<ruby>粉<rt>ふん</rt></ruby>が<ruby>足り<rt>たり</rt></ruby>なくって<ruby>薄味<rt>うすあじ</rt></ruby>",
+        "zh": "料粉不夠 味道太淡了",
+        "end": 56.6,
+        "plain": "粉が足りなくって薄味"
+      },
+      {
+        "time": 57.02,
+        "text": "アイウォンチュミートの<ruby>臭<rt>くそ</rt></ruby>みは",
+        "zh": "I want you 肉的腥味",
+        "end": 60.02,
+        "plain": "アイウォンチュミートの臭みは"
+      },
+      {
+        "time": 60.04,
+        "text": "<ruby>恋<rt>こい</rt></ruby>の<ruby>胡椒<rt>こしょう</rt></ruby>で<ruby>消し<rt>けし</rt></ruby>て",
+        "zh": "用愛意的胡椒除掉",
+        "end": 62.18,
+        "plain": "恋の胡椒で消して"
+      },
+      {
+        "time": 62.2,
+        "text": "チリコンカン チリビーンズ はズ",
+        "zh": "辣肉醬 把辣肉豆醬的肉和豆",
+        "end": 65.48,
+        "plain": "チリコンカン チリビーンズ はズ"
+      },
+      {
+        "time": 65.5,
+        "text": "<ruby>取っ<rt>とっ</rt></ruby>てチリビンくらいね！",
+        "zh": "去掉後就是辣醬了吧！",
+        "end": 67.86,
+        "plain": "取ってチリビンくらいね！"
+      },
+      {
+        "time": 67.88,
+        "text": "オーケーがってん",
+        "zh": "OK 同意",
+        "end": 69.52,
+        "plain": "オーケーがってん"
+      },
+      {
+        "time": 69.54,
+        "text": "<ruby>隠し<rt>かくし</rt></ruby><ruby>味<rt>あじ</rt></ruby>はタラリ<ruby>秘薬<rt>ひやく</rt></ruby>…もしかして<ruby>毒薬<rt>どくやく</rt></ruby>！？",
+        "zh": "調料是秘藥…莫非是毒藥！？",
+        "end": 75.86,
+        "plain": "隠し味はタラリ秘薬…もしかして毒薬！？"
+      },
+      {
+        "time": 84.4,
+        "text": "<ruby>一攫千金<rt>いっかくせんきん</rt></ruby> <ruby>目指し<rt>めざし</rt></ruby>て",
+        "zh": "為了一攫千金",
+        "end": 87.22,
+        "plain": "一攫千金 目指して"
+      },
+      {
+        "time": 87.24,
+        "text": "<ruby>何千<rt>なんぜん</rt></ruby>マイル <ruby>彷徨<rt>さまよう</rt></ruby>って",
+        "zh": "流浪數千英里",
+        "end": 90.0,
+        "plain": "何千マイル 彷徨って"
+      },
+      {
+        "time": 90.8,
+        "text": "ようやく<ruby>見え<rt>みえ</rt></ruby>てきたのはヘヴンか",
+        "zh": "終於看見天堂了嗎",
+        "end": 92.78,
+        "plain": "ようやく見えてきたのはヘヴンか"
+      },
+      {
+        "time": 92.8,
+        "text": "<ruby>堪ら<rt>たまら</rt></ruby>ないなあいい<ruby>匂い<rt>におい</rt></ruby>",
+        "zh": "受不了啦 好香的味道",
+        "end": 95.56,
+        "plain": "堪らないなあいい匂い"
+      },
+      {
+        "time": 95.58,
+        "text": "（ベリーデンジャラス ベリーデンジャラス）",
+        "zh": "（非常危險 非常危險）",
+        "end": 100.56,
+        "plain": "（ベリーデンジャラス ベリーデンジャラス）"
+      },
+      {
+        "time": 100.58,
+        "text": "おかわりはあるかい？エンジェル",
+        "zh": "還能再來一份嗎？天使大人",
+        "end": 103.64,
+        "plain": "おかわりはあるかい？エンジェル"
+      },
+      {
+        "time": 103.74,
+        "text": "<ruby>温かい<rt>あたたかい</rt></ruby>チリコンカン",
+        "zh": "熱騰騰的辣肉醬",
+        "end": 106.26,
+        "plain": "温かいチリコンカン"
+      },
+      {
+        "time": 106.34,
+        "text": "<ruby>怪しい<rt>あやしい</rt></ruby>キッチンでも・て・な・さ・れ",
+        "zh": "在奇怪的廚房裡被・熱・情・招・待",
+        "end": 109.26,
+        "plain": "怪しいキッチンでも・て・な・さ・れ"
+      },
+      {
+        "time": 109.28,
+        "text": "<ruby>後の<rt>あとの</rt></ruby>ことはいざ<ruby>知らず<rt>しらず</rt></ruby>",
+        "zh": "之後的事情就沒印象啦",
+        "end": 114.58,
+        "plain": "後のことはいざ知らず"
+      },
+      {
+        "time": 133.3,
+        "text": "<ruby>互い<rt>たがい</rt></ruby>の<ruby>額<rt>ひたい</rt></ruby>に",
+        "zh": "彼此的額頭",
+        "end": 136.34,
+        "plain": "互いの額に"
+      },
+      {
+        "time": 138.82,
+        "text": "<ruby>照準<rt>しょうじゅん</rt></ruby>ベイベー",
+        "zh": "用槍口瞄準吧 baby",
+        "end": 142.12,
+        "plain": "照準ベイベー"
+      },
+      {
+        "time": 143.42,
+        "text": "（チリコンカン）",
+        "zh": "（辣肉醬）",
+        "end": 144.7,
+        "plain": "（チリコンカン）"
+      },
+      {
+        "time": 145.32,
+        "text": "ハート<ruby>捕ま<rt>つかま</rt></ruby>えられないならいっそ<ruby>撃ち<rt>うち</rt></ruby><ruby>抜く<rt>ぬく</rt></ruby>ぜ",
+        "zh": "要是沒法俘獲你的心 那就開槍射穿吧",
+        "end": 150.54,
+        "plain": "ハート捕まえられないならいっそ撃ち抜くぜ"
+      },
+      {
+        "time": 149.36,
+        "text": "（<ruby>魑魅魍魎<rt>ちみもうりょう</rt></ruby>！？）",
+        "zh": "（魑魅魍魎！？）",
+        "end": 150.68,
+        "plain": "（魑魅魍魎！？）"
+      },
+      {
+        "time": 150.56,
+        "text": "<ruby>着い<rt>つい</rt></ruby>てきなよ！バッファロー",
+        "zh": "跟我來吧！野牛",
+        "end": 152.68,
+        "plain": "着いてきなよ！バッファロー"
+      },
+      {
+        "time": 152.9,
+        "text": "とんちんかん ｵｰﾏｲｶﾞｯ",
+        "zh": "牛頭不對馬嘴 On my god",
+        "end": 156.18,
+        "plain": "とんちんかん ｵｰﾏｲｶﾞｯ"
+      },
+      {
+        "time": 156.46,
+        "text": "みじん<ruby>切り<rt>きり</rt></ruby> たんざく<ruby>切り<rt>きり</rt></ruby>で",
+        "zh": "切成碎末 切成小塊",
+        "end": 159.56,
+        "plain": "みじん切り たんざく切りで"
+      },
+      {
+        "time": 159.7,
+        "text": "<ruby>乙女心<rt>おとめごころ</rt></ruby><ruby>散り<rt>ちり</rt></ruby><ruby>散り<rt>ちり</rt></ruby>",
+        "zh": "少女心也散落粉碎",
+        "end": 161.86,
+        "plain": "乙女心散り散り"
+      },
+      {
+        "time": 161.86,
+        "text": "チリパウダー ちりあくたくらい",
+        "zh": "辣椒粉末 塵土飛揚",
+        "end": 165.14,
+        "plain": "チリパウダー ちりあくたくらい"
+      },
+      {
+        "time": 165.16,
+        "text": "<ruby>目に<rt>めに</rt></ruby><ruby>留まる<rt>とまる</rt></ruby>ことない( ; ; )",
+        "zh": "完全是不堪入目( ; ; )",
+        "end": 167.14,
+        "plain": "目に留まることない( ; ; )"
+      },
+      {
+        "time": 167.36,
+        "text": "チリペッパー <ruby>激<rt>げき</rt></ruby>おこプンプンじゃ",
+        "zh": "辣椒胡椒 氣呼呼了",
+        "end": 170.36,
+        "plain": "チリペッパー 激おこプンプンじゃ"
+      },
+      {
+        "time": 170.48,
+        "text": "<ruby>済ま<rt>すま</rt></ruby>ないほど<ruby>辛口<rt>からくち</rt></ruby>",
+        "zh": "可不是辣一下就完事了",
+        "end": 172.54,
+        "plain": "済まないほど辛口"
+      },
+      {
+        "time": 172.96,
+        "text": "だって<ruby>本気<rt>ほんき</rt></ruby>なら<ruby>甘く<rt>あまく</rt></ruby>はない",
+        "zh": "因為認真起來可就不甜了",
+        "end": 175.88,
+        "plain": "だって本気なら甘くはない"
+      },
+      {
+        "time": 175.9,
+        "text": "Too late! Time to boogie-woogie!",
+        "zh": "為時已晚！該跳布吉舞了！",
+        "end": 178.12,
+        "plain": "Too late! Time to boogie-woogie!"
+      },
+      {
+        "time": 178.14,
+        "text": "チリコンカン チリビーンズ はズ",
+        "zh": "辣肉醬 把辣肉豆醬的肉和豆",
+        "end": 181.26,
+        "plain": "チリコンカン チリビーンズ はズ"
+      },
+      {
+        "time": 181.43,
+        "text": "<ruby>取っ<rt>とっ</rt></ruby>てチリビンくらいね！",
+        "zh": "去掉後就是辣醬了吧！",
+        "end": 183.64,
+        "plain": "取ってチリビンくらいね！"
+      },
+      {
+        "time": 183.66,
+        "text": "ノーノー<ruby>返事<rt>へんじ</rt></ruby>はオーケーだけ",
+        "zh": "No No 回答只能是OK",
+        "end": 186.78,
+        "plain": "ノーノー返事はオーケーだけ"
+      },
+      {
+        "time": 186.8,
+        "text": "<ruby>胃袋<rt>いぶくろ</rt></ruby>をゲット…じゃなくてえっ！？いのち…！",
+        "zh": "抓住你的胃…不對！？抓住的竟然是生命…！",
+        "end": 201.06,
+        "plain": "胃袋をゲット…じゃなくてえっ！？いのち…！"
+      }
+    ]
+  },
+  {
+    "title": "Happy Funny Lucky",
+    "franchise": "アイドルマスター",
+    "series": "シャイニーカラーズ",
+    "artist": "イルミネーションスターズ",
+    "credits": {
+      "lyrics": "渡邊亞希子",
+      "music": "中野領太"
+    },
+    "color": "#FFF68D",
+    "videoId": "xWJAUy9Vw98",
+    "lines": [
+      {
+        "time": 3.4,
+        "text": "Happy Funny Lucky☆",
+        "zh": "Happy Funny Lucky☆",
+        "end": 5.42,
+        "plain": "Happy Funny Lucky☆"
+      },
+      {
+        "time": 5.94,
+        "text": "Happy Funny Lucky☆",
+        "zh": "Happy Funny Lucky☆",
+        "end": 7.52,
+        "plain": "Happy Funny Lucky☆"
+      },
+      {
+        "time": 8.05,
+        "text": "Happy Funny Lucky☆",
+        "zh": "Happy Funny Lucky☆",
+        "end": 9.52,
+        "plain": "Happy Funny Lucky☆"
+      },
+      {
+        "time": 10,
+        "text": "ねっ　everyday！！ oh yeah！！",
+        "zh": "嘿 everyday！！ oh yeah！！",
+        "end": 15.52,
+        "plain": "ねっ　everyday！！ oh yeah！！"
+      },
+      {
+        "time": 25.1,
+        "text": "<ruby>100色<rt>ひゃくしょく</rt></ruby>の<ruby>絵具<rt>えのぐ</rt></ruby>で",
+        "zh": "用百種色彩的顏料",
+        "end": 28.9,
+        "plain": "100色の絵具で"
+      },
+      {
+        "time": 29.1,
+        "text": "<ruby>真新しい<rt>まあたらしい</rt></ruby>　<ruby>今日<rt>きょう</rt></ruby>を<ruby>描く<rt>えがく</rt></ruby>の",
+        "zh": "繪出嶄新的今天",
+        "end": 33.42,
+        "plain": "真新しい　今日を描くの"
+      },
+      {
+        "time": 33.64,
+        "text": "(Happy☆)　ルルルルンランランラン",
+        "zh": "(Happy☆) 喜氣洋洋亮閃閃",
+        "end": 35.54,
+        "plain": "(Happy☆)　ルルルルンランランラン"
+      },
+      {
+        "time": 35.76,
+        "text": "(Lucky☆)　<ruby>心<rt>こころ</rt></ruby>がふわり　<ruby>舞い<rt>まい</rt></ruby><ruby>上が<rt>あが</rt></ruby>るprecious time！",
+        "zh": "(Lucky☆) 輕鬆愉悅 神采飛揚的寶貴時光",
+        "end": 42.48,
+        "plain": "(Lucky☆)　心がふわり　舞い上がるprecious time！"
+      },
+      {
+        "time": 42.5,
+        "text": "おっとはみ<ruby>出た<rt>でた</rt></ruby>　<ruby>黄色<rt>きいろ</rt></ruby>",
+        "zh": "黄色哎呀流露出的黃色",
+        "end": 45.44,
+        "plain": "おっとはみ出た　黄色"
+      },
+      {
+        "time": 46.08,
+        "text": "そうだこれで　<ruby>虹<rt>にじ</rt></ruby>をかけよう",
+        "zh": "如此似能架起彩虹",
+        "end": 50.2,
+        "plain": "そうだこれで　虹をかけよう"
+      },
+      {
+        "time": 50.72,
+        "text": "(Funny☆)　ピンチはチャンス",
+        "zh": "(Funny☆) 危機也是機遇",
+        "end": 52.84,
+        "plain": "(Funny☆)　ピンチはチャンス"
+      },
+      {
+        "time": 52.86,
+        "text": "(Lucky☆)　<ruby>失敗<rt>しっぱい</rt></ruby>なんて<ruby>私<rt>わたし</rt></ruby>の<ruby>辞書<rt>じしょ</rt></ruby>にはない",
+        "zh": "(Lucky☆) 我的字典裡沒有失敗",
+        "end": 59.86,
+        "plain": "(Lucky☆)　失敗なんて私の辞書にはない"
+      },
+      {
+        "time": 60.7,
+        "text": "キミがもしも　<ruby>寂しい<rt>さびしい</rt></ruby>なら",
+        "zh": "如果你感到寂寞",
+        "end": 64.44,
+        "plain": "キミがもしも　寂しいなら"
+      },
+      {
+        "time": 64.86,
+        "text": "<ruby>私<rt>わたし</rt></ruby>の<ruby>手<rt>て</rt></ruby>を<ruby>掴ん<rt>つかん</rt></ruby>でよ",
+        "zh": "就握住我的手吧",
+        "end": 68.76,
+        "plain": "私の手を掴んでよ"
+      },
+      {
+        "time": 68.96,
+        "text": "<ruby>連れ<rt>つれ</rt></ruby>て<ruby>行って<rt>いって</rt></ruby>あげるから",
+        "zh": "我帶你巡遍寰宇",
+        "end": 73.0,
+        "plain": "連れて行ってあげるから"
+      },
+      {
+        "time": 73.02,
+        "text": "<ruby>世界中<rt>せかいじゅう</rt></ruby>を　<ruby>飛び<rt>とび</rt></ruby><ruby>回ろ<rt>まわろ</rt></ruby>うよ",
+        "zh": "自由飛翔在大千世界",
+        "end": 79.2,
+        "plain": "世界中を　飛び回ろうよ"
+      },
+      {
+        "time": 80.3,
+        "text": "Every moment！　<ruby>最高<rt>さいこう</rt></ruby>の<ruby>気分<rt>きぶん</rt></ruby>だ",
+        "zh": "Every moment! 都保有絕佳感",
+        "end": 85.8,
+        "plain": "Every moment！　最高の気分だ"
+      },
+      {
+        "time": 85.82,
+        "text": "だってこんなに<ruby>大切<rt>たいせつ</rt></ruby>な",
+        "zh": "因為與如此珍愛的",
+        "end": 89.62,
+        "plain": "だってこんなに大切な"
+      },
+      {
+        "time": 89.64,
+        "text": "<ruby>仲間達<rt>なかまたち</rt></ruby>と<ruby>同じ<rt>おなじ</rt></ruby><ruby>時<rt>とき</rt></ruby>を　<ruby>生き<rt>いき</rt></ruby>るって<ruby>奇跡<rt>きせき</rt></ruby>だもん",
+        "zh": "夥伴共同活在這時刻 真是奇蹟啊",
+        "end": 97.88,
+        "plain": "仲間達と同じ時を　生きるって奇跡だもん"
+      },
+      {
+        "time": 97.96,
+        "text": "それだけでHappy！でFunny！でLucky！！",
+        "zh": "這就讓我感到Happy、Funny和Lucky！！",
+        "end": 102.66,
+        "plain": "それだけでHappy！でFunny！でLucky！！"
+      },
+      {
+        "time": 102.38,
+        "text": "<ruby>出逢っ<rt>であっ</rt></ruby>てくれてありがとう",
+        "zh": "謝謝同你們的相遇",
+        "end": 107.88,
+        "plain": "出逢ってくれてありがとう"
+      },
+      {
+        "time": 115.56,
+        "text": "<ruby>100円<rt>ひゃくえん</rt></ruby>のバケツに",
+        "zh": "100日元的小桶子",
+        "end": 118.98,
+        "plain": "100円のバケツに"
+      },
+      {
+        "time": 119.5,
+        "text": "<ruby>穴<rt>あな</rt></ruby>が<ruby>開い<rt>ひらい</rt></ruby>た　<ruby>見通し<rt>みとおし</rt></ruby>は<ruby>良好<rt>りょうこう</rt></ruby>",
+        "zh": "上面有個洞 能見度不錯",
+        "end": 123.92,
+        "plain": "穴が開いた　見通しは良好"
+      },
+      {
+        "time": 123.94,
+        "text": "(Happy☆)　スタンプにして",
+        "zh": "(Happy☆)　把它做成圖章",
+        "end": 125.78,
+        "plain": "(Happy☆)　スタンプにして"
+      },
+      {
+        "time": 126.25,
+        "text": "(Lucky☆)　お<ruby>日<rt>にち</rt></ruby><ruby>様<rt>さま</rt></ruby>をたくさん<ruby>描け<rt>かけ</rt></ruby>ばいいじゃない",
+        "zh": "(Lucky☆)　若能畫出很多很多太陽不也很棒",
+        "end": 132.28,
+        "plain": "(Lucky☆)　お日様をたくさん描けばいいじゃない"
+      },
+      {
+        "time": 132.7,
+        "text": "<ruby>何も<rt>なにも</rt></ruby>うまく<ruby>行か<rt>いか</rt></ruby>なくなって",
+        "zh": "如果做什麼都挫敗",
+        "end": 136.44,
+        "plain": "何もうまく行かなくなって"
+      },
+      {
+        "time": 136.96,
+        "text": "<ruby>下<rt>した</rt></ruby>を<ruby>向い<rt>むい</rt></ruby>ているのなら",
+        "zh": "灰心喪氣的話",
+        "end": 141.02,
+        "plain": "下を向いているのなら"
+      },
+      {
+        "time": 141.04,
+        "text": "Hello！ベルを<ruby>鳴ら<rt>なら</rt></ruby>してよ",
+        "zh": "Hello！搖響銅鈴吧",
+        "end": 144.98,
+        "plain": "Hello！ベルを鳴らしてよ"
+      },
+      {
+        "time": 145.5,
+        "text": "<ruby>風<rt>かぜ</rt></ruby>に<ruby>乗って<rt>のって</rt></ruby>　<ruby>迎え<rt>むかえ</rt></ruby>に<ruby>行く<rt>いく</rt></ruby>よ",
+        "zh": "我會乘風來接你",
+        "end": 151.44,
+        "plain": "風に乗って　迎えに行くよ"
+      },
+      {
+        "time": 152.6,
+        "text": "Everybody！　<ruby>幸せ<rt>しあわせ</rt></ruby>でいられる",
+        "zh": "Everybody! 都會永葆幸福",
+        "end": 157.74,
+        "plain": "Everybody！　幸せでいられる"
+      },
+      {
+        "time": 157.76,
+        "text": "だってどこにいても<ruby>同じ<rt>おなじ</rt></ruby>",
+        "zh": "因為我們的情誼不論場合都一樣",
+        "end": 162.02,
+        "plain": "だってどこにいても同じ"
+      },
+      {
+        "time": 162.04,
+        "text": "<ruby>続い<rt>つづい</rt></ruby>ている<ruby>空<rt>そら</rt></ruby>の<ruby>下に<rt>したに</rt></ruby>　いるなんて<ruby>奇跡<rt>きせき</rt></ruby>だもん",
+        "zh": "同處無垠的天空之下 真是奇蹟呢",
+        "end": 170.1,
+        "plain": "続いている空の下に　いるなんて奇跡だもん"
+      },
+      {
+        "time": 170.12,
+        "text": "それだけでHappy！でFunny！でLucky！！",
+        "zh": "這就讓我感到Happy、Funny和Lucky！！",
+        "end": 174.7,
+        "plain": "それだけでHappy！でFunny！でLucky！！"
+      },
+      {
+        "time": 174.74,
+        "text": "<ruby>見つ<rt>みつ</rt></ruby>けてくれてありがとう",
+        "zh": "謝謝你幫我找尋",
+        "end": 179.54,
+        "plain": "見つけてくれてありがとう"
+      },
+      {
+        "time": 197.22,
+        "text": "Every moment！　<ruby>最高<rt>さいこう</rt></ruby>の<ruby>気分<rt>きぶん</rt></ruby>だ",
+        "zh": "Every moment! 都保有絕佳感",
+        "end": 202.3,
+        "plain": "Every moment！　最高の気分だ"
+      },
+      {
+        "time": 202.32,
+        "text": "だってこんなに<ruby>大切<rt>たいせつ</rt></ruby>な",
+        "zh": "因為與如此珍愛的",
+        "end": 206.62,
+        "plain": "だってこんなに大切な"
+      },
+      {
+        "time": 206.64,
+        "text": "<ruby>仲間達<rt>なかまたち</rt></ruby>と<ruby>同じ<rt>おなじ</rt></ruby><ruby>時<rt>とき</rt></ruby>を　<ruby>生き<rt>いき</rt></ruby>るって<ruby>奇跡<rt>きせき</rt></ruby>だよ",
+        "zh": "夥伴共同活在這時刻 真是奇蹟啊",
+        "end": 214.3,
+        "plain": "仲間達と同じ時を　生きるって奇跡だよ"
+      },
+      {
+        "time": 214.32,
+        "text": "Everybody！　<ruby>幸せ<rt>しあわせ</rt></ruby>でいられる",
+        "zh": "Everybody! 都會永葆幸福",
+        "end": 219.32,
+        "plain": "Everybody！　幸せでいられる"
+      },
+      {
+        "time": 219.44,
+        "text": "だってどこにいても<ruby>同じ<rt>おなじ</rt></ruby>",
+        "zh": "因為我們的情誼不論場合都一樣",
+        "end": 223.56,
+        "plain": "だってどこにいても同じ"
+      },
+      {
+        "time": 223.88,
+        "text": "<ruby>続い<rt>つづい</rt></ruby>ている<ruby>空<rt>そら</rt></ruby>の<ruby>下に<rt>したに</rt></ruby>　いるなんて<ruby>奇跡<rt>きせき</rt></ruby>だもん",
+        "zh": "同處無垠的天空之下 真是奇蹟呢",
+        "end": 231.64,
+        "plain": "続いている空の下に　いるなんて奇跡だもん"
+      },
+      {
+        "time": 231.78,
+        "text": "それだけでHappy！でFunny！で",
+        "zh": "這就讓我感到Happy、Funny和Lucky！！",
+        "end": 236.16,
+        "plain": "それだけでHappy！でFunny！で"
+      },
+      {
+        "time": 236.18,
+        "text": "<ruby>出逢っ<rt>であっ</rt></ruby>てくれてありがとう",
+        "zh": "謝謝同你們的相遇",
+        "end": 240.3,
+        "plain": "出逢ってくれてありがとう"
+      }
+    ]
+  },
+  {
+    "title": "Bless you!",
+    "franchise": "ラブライブ",
+    "series": "蓮ノ空",
+    "artist": "村野さやか",
+    "credits": {
+      "lyrics": "TATSUNE",
+      "music": "渡辺未来"
+    },
+    "color": "#75b9e7",
+    "videoId": "QC9tAkJHyT8",
+    "lines": [
+      {
+        "time": 15.3,
+        "text": "おかえり <ruby>良い<rt>いい</rt></ruby>こともあったでしょ？",
+        "zh": "歡迎回來 一定遇到了些好事吧？",
+        "end": 18.24,
+        "plain": "おかえり 良いこともあったでしょ？"
+      },
+      {
+        "time": 19.02,
+        "text": "お<ruby>疲れ<rt>つかれ</rt></ruby><ruby>様<rt>さま</rt></ruby> <ruby>本当<rt>ほんとう</rt></ruby>に",
+        "zh": "辛苦了 真的辛苦了",
+        "end": 20.36,
+        "plain": "お疲れ様 本当に"
+      },
+      {
+        "time": 21,
+        "text": "<ruby>頑張っ<rt>がんばっ</rt></ruby>てる わたしは<ruby>分か<rt>わか</rt></ruby>ってる <ruby>偉い<rt>えらい</rt></ruby>よね",
+        "zh": "你一直在努力 我都知道的 很了不起哦",
+        "end": 26.5,
+        "plain": "頑張ってる わたしは分かってる 偉いよね"
+      },
+      {
+        "time": 26.58,
+        "text": "<ruby>嫌い<rt>きらい</rt></ruby>なことだって<ruby>我慢<rt>がまん</rt></ruby> <ruby>甘え<rt>あまえ</rt></ruby><ruby>下手<rt>へた</rt></ruby>で<ruby>溜め<rt>ため</rt></ruby><ruby>込む<rt>こむ</rt></ruby>",
+        "zh": "哪怕是討厭的事也忍著 不擅長撒嬌 總是一個人扛",
+        "end": 31.02,
+        "plain": "嫌いなことだって我慢 甘え下手で溜め込む"
+      },
+      {
+        "time": 31.44,
+        "text": "そんなところも<ruby>好き<rt>すき</rt></ruby>だ",
+        "zh": "可就連這樣的你 我也很喜歡",
+        "end": 35.16,
+        "plain": "そんなところも好きだ"
+      },
+      {
+        "time": 35.3,
+        "text": "<ruby>内緒<rt>ないしょ</rt></ruby>のエールを そっと<ruby>送る<rt>おくる</rt></ruby>けど",
+        "zh": "悄悄為你送出一份秘密的聲援",
+        "end": 41.06,
+        "plain": "内緒のエールを そっと送るけど"
+      },
+      {
+        "time": 41.58,
+        "text": "もし<ruby>気付い<rt>きづい</rt></ruby>たなら ねぇ <ruby>聞こ<rt>きこ</rt></ruby>えないフリして",
+        "zh": "不過 要是被你察覺了呢 還請裝作沒有聽見",
+        "end": 46.7,
+        "plain": "もし気付いたなら ねぇ 聞こえないフリして"
+      },
+      {
+        "time": 46.72,
+        "text": "<ruby>一度<rt>いちど</rt></ruby>きりの<ruby>人生<rt>じんせい</rt></ruby> いっぱい<ruby>笑わ<rt>わらわ</rt></ruby>なきゃ",
+        "zh": "僅此一次的人生 必須盡情歡笑才行！",
+        "end": 53.76,
+        "plain": "一度きりの人生 いっぱい笑わなきゃ"
+      },
+      {
+        "time": 54.04,
+        "text": "Bless you!",
+        "zh": "Bless you!",
+        "end": 54.82,
+        "plain": "Bless you!"
+      },
+      {
+        "time": 54.84,
+        "text": "「<ruby>自分<rt>じぶん</rt></ruby>らしく」で<ruby>大丈夫<rt>だいじょうぶ</rt></ruby>",
+        "zh": "「就做你自己」 沒關係的",
+        "end": 57.06,
+        "plain": "「自分らしく」で大丈夫"
+      },
+      {
+        "time": 57.58,
+        "text": "こんな<ruby>未来<rt>みらい</rt></ruby>は<ruby>想定<rt>そうてい</rt></ruby><ruby>外<rt>がい</rt></ruby>ね",
+        "zh": "這樣的未來真是出乎意料呢",
+        "end": 60.22,
+        "plain": "こんな未来は想定外ね"
+      },
+      {
+        "time": 60.44,
+        "text": "<ruby>夢<rt>ゆめ</rt></ruby>がくれた<ruby>偶然<rt>ぐうぜん</rt></ruby>が<ruby>宝物<rt>たからもの</rt></ruby>",
+        "zh": "夢想帶給我們的偶然就是寶物",
+        "end": 65.12,
+        "plain": "夢がくれた偶然が宝物"
+      },
+      {
+        "time": 65.54,
+        "text": "<ruby>見て<rt>みて</rt></ruby> <ruby>幸せ<rt>しあわせ</rt></ruby>の<ruby>設計図<rt>せっけいず</rt></ruby>",
+        "zh": "你看 那份幸福的藍圖",
+        "end": 67.82,
+        "plain": "見て 幸せの設計図"
+      },
+      {
+        "time": 67.92,
+        "text": "<ruby>家<rt>いえ</rt></ruby>に<ruby>帰る<rt>かえる</rt></ruby>までの「<ruby>今日<rt>きょう</rt></ruby>」が",
+        "zh": "在回到家之前的「今天」里",
+        "end": 70.72,
+        "plain": "家に帰るまでの「今日」が"
+      },
+      {
+        "time": 70.9,
+        "text": "<ruby>混ざり合っ<rt>まざりあっ</rt></ruby>て どうしよう！",
+        "zh": "正彼此交織融合著 該如何是好呢！",
+        "end": 74.04,
+        "plain": "混ざり合って どうしよう！"
+      },
+      {
+        "time": 74.14,
+        "text": "ほら <ruby>楽し<rt>たのし</rt></ruby>もう",
+        "zh": "來一起享受吧！",
+        "end": 77.18,
+        "plain": "ほら 楽しもう"
+      },
+      {
+        "time": 85.84,
+        "text": "<ruby>転が<rt>ころが</rt></ruby>り <ruby>泣い<rt>ない</rt></ruby>た<ruby>日<rt>ひ</rt></ruby>もあったでしょ？",
+        "zh": "也曾有過跌倒在地哭泣的日子吧？",
+        "end": 88.42,
+        "plain": "転がり 泣いた日もあったでしょ？"
+      },
+      {
+        "time": 88.84,
+        "text": "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>責任<rt>せきにん</rt></ruby>だ、とか",
+        "zh": "說「都是自己的責任」、什麼的",
+        "end": 91.32,
+        "plain": "自分の責任だ、とか"
+      },
+      {
+        "time": 91.78,
+        "text": "<ruby>問題<rt>もんだい</rt></ruby> <ruby>山積み<rt>やまづみ</rt></ruby>でキャパオーバー... なんかごめん",
+        "zh": "被堆積如山的問題壓得喘不過氣……總覺得很抱歉",
+        "end": 96.78,
+        "plain": "問題 山積みでキャパオーバー... なんかごめん"
+      },
+      {
+        "time": 96.8,
+        "text": "<ruby>大事<rt>だいじ</rt></ruby>な<ruby>人<rt>ひと</rt></ruby>なのに<ruby>傷付け<rt>きずつけ</rt></ruby>てしまうの なぜ？",
+        "zh": "明明是很重要的人 為什麼卻傷害到了呢？",
+        "end": 101.26,
+        "plain": "大事な人なのに傷付けてしまうの なぜ？"
+      },
+      {
+        "time": 101.48,
+        "text": "そんなところは<ruby>嫌だ<rt>いやだ</rt></ruby>",
+        "zh": "我討厭自己那樣的一面",
+        "end": 104.84,
+        "plain": "そんなところは嫌だ"
+      },
+      {
+        "time": 105.6,
+        "text": "<ruby>内緒<rt>ないしょ</rt></ruby>のエールを そっと<ruby>送る<rt>おくる</rt></ruby>けど",
+        "zh": "悄悄為你送出一份秘密的聲援",
+        "end": 111.06,
+        "plain": "内緒のエールを そっと送るけど"
+      },
+      {
+        "time": 111.58,
+        "text": "もし<ruby>気付い<rt>きづい</rt></ruby>たなら ねぇ <ruby>笑顔<rt>えがお</rt></ruby>で<ruby>応え<rt>こたえ</rt></ruby>て",
+        "zh": "不過 要是被你察覺了呢 請用笑容回應我",
+        "end": 116.76,
+        "plain": "もし気付いたなら ねぇ 笑顔で応えて"
+      },
+      {
+        "time": 116.98,
+        "text": "<ruby>嘘<rt>うそ</rt></ruby>の<ruby>無い<rt>ない</rt></ruby><ruby>笑顔<rt>えがお</rt></ruby>は<ruby>幸せ<rt>しあわせ</rt></ruby>の<ruby>証<rt>あかし</rt></ruby>だ",
+        "zh": "沒有謊言的笑容 就是幸福的證明",
+        "end": 123.82,
+        "plain": "嘘の無い笑顔は幸せの証だ"
+      },
+      {
+        "time": 123.94,
+        "text": "Bless you!",
+        "zh": "Bless you!",
+        "end": 124.82,
+        "plain": "Bless you!"
+      },
+      {
+        "time": 125.2,
+        "text": "わがまま さらにマイペース",
+        "zh": "任性一點 再更我行我素",
+        "end": 127.22,
+        "plain": "わがまま さらにマイペース"
+      },
+      {
+        "time": 127.64,
+        "text": "<ruby>月曜日<rt>げつようび</rt></ruby>からサンデーだって",
+        "zh": "從星期一到星期天",
+        "end": 130.34,
+        "plain": "月曜日からサンデーだって"
+      },
+      {
+        "time": 130.36,
+        "text": "<ruby>楽しい<rt>たのしい</rt></ruby> だから <ruby>一瞬<rt>いっしゅん</rt></ruby>で<ruby>過ぎ<rt>すぎ</rt></ruby><ruby>去っ<rt>さっ</rt></ruby>ていく",
+        "zh": "因為盡情享受了 所以一瞬就飛逝而過",
+        "end": 135.18,
+        "plain": "楽しい だから 一瞬で過ぎ去っていく"
+      },
+      {
+        "time": 135.28,
+        "text": "<ruby>今<rt>いま</rt></ruby>を<ruby>切り取り<rt>きりとり</rt></ruby> はい チーズ",
+        "zh": "定格當下這一刻 來 茄子",
+        "end": 137.84,
+        "plain": "今を切り取り はい チーズ"
+      },
+      {
+        "time": 138.2,
+        "text": "<ruby>家<rt>いえ</rt></ruby>に<ruby>帰る<rt>かえる</rt></ruby>までの「<ruby>今日<rt>きょう</rt></ruby>」に",
+        "zh": "把這首歌送給",
+        "end": 140.78,
+        "plain": "家に帰るまでの「今日」に"
+      },
+      {
+        "time": 141.08,
+        "text": "この<ruby>歌を<rt>うたを</rt></ruby><ruby>贈ろ<rt>おくろ</rt></ruby>う",
+        "zh": "到家之前的這段「今天」吧",
+        "end": 145.2,
+        "plain": "この歌を贈ろう"
+      },
+      {
+        "time": 166.7,
+        "text": "めぐる<ruby>季節<rt>きせつ</rt></ruby>の その<ruby>中<rt>なか</rt></ruby>で",
+        "zh": "在流轉的季節之中",
+        "end": 171.26,
+        "plain": "めぐる季節の その中で"
+      },
+      {
+        "time": 171.36,
+        "text": "きっと 「ここ」なんだ、と<ruby>胸<rt>むね</rt></ruby>を<ruby>張れ<rt>はれ</rt></ruby>た",
+        "zh": "終於能夠挺起胸膛說「就是這裡」",
+        "end": 176.02,
+        "plain": "きっと 「ここ」なんだ、と胸を張れた"
+      },
+      {
+        "time": 176.34,
+        "text": "<ruby>輝け<rt>かがやけ</rt></ruby>る<ruby>場所<rt>ばしょ</rt></ruby>は<ruby>増え<rt>ふえ</rt></ruby>てゆくけれど",
+        "zh": "雖然閃耀的地方會越來越多",
+        "end": 181.32,
+        "plain": "輝ける場所は増えてゆくけれど"
+      },
+      {
+        "time": 181.6,
+        "text": "<ruby>変わ<rt>かわ</rt></ruby>らずに この<ruby>場所<rt>ばしょ</rt></ruby>で「おかえり」と<ruby>言お<rt>いお</rt></ruby>う",
+        "zh": "但我會不變地 在這個地方說「歡迎回來」",
+        "end": 186.86,
+        "plain": "変わらずに この場所で「おかえり」と言おう"
+      },
+      {
+        "time": 186.88,
+        "text": "もっと「<ruby>自分<rt>じぶん</rt></ruby>らしく」で<ruby>大丈夫<rt>だいじょうぶ</rt></ruby>",
+        "zh": "更加「做好自己」就沒問題",
+        "end": 189.44,
+        "plain": "もっと「自分らしく」で大丈夫"
+      },
+      {
+        "time": 189.86,
+        "text": "こんな<ruby>未来<rt>みらい</rt></ruby>は<ruby>想定<rt>そうてい</rt></ruby><ruby>外<rt>がい</rt></ruby>ね",
+        "zh": "這樣的未來真是出乎意料呢",
+        "end": 192.42,
+        "plain": "こんな未来は想定外ね"
+      },
+      {
+        "time": 192.88,
+        "text": "<ruby>夢<rt>ゆめ</rt></ruby>がくれた<ruby>偶然<rt>ぐうぜん</rt></ruby>が<ruby>宝物<rt>たからもの</rt></ruby>",
+        "zh": "夢想帶給我們的偶然就是寶物",
+        "end": 197.44,
+        "plain": "夢がくれた偶然が宝物"
+      },
+      {
+        "time": 197.86,
+        "text": "<ruby>見て<rt>みて</rt></ruby> <ruby>幸せ<rt>しあわせ</rt></ruby>の<ruby>設計図<rt>せっけいず</rt></ruby>",
+        "zh": "你看 那份幸福的藍圖",
+        "end": 200.0,
+        "plain": "見て 幸せの設計図"
+      },
+      {
+        "time": 200.32,
+        "text": "<ruby>家<rt>いえ</rt></ruby>に<ruby>帰る<rt>かえる</rt></ruby>までの「<ruby>今日<rt>きょう</rt></ruby>」が",
+        "zh": "在回到家之前的「今天」里",
+        "end": 203.02,
+        "plain": "家に帰るまでの「今日」が"
+      },
+      {
+        "time": 203.28,
+        "text": "<ruby>混ざり合っ<rt>まざりあっ</rt></ruby>て どうしよう！",
+        "zh": "正彼此交織融合著 該如何是好呢！",
+        "end": 206.34,
+        "plain": "混ざり合って どうしよう！"
+      },
+      {
+        "time": 206.38,
+        "text": "ほら <ruby>楽し<rt>たのし</rt></ruby>もうよ",
+        "zh": "來一起享受吧！",
+        "end": 210.64,
+        "plain": "ほら 楽しもうよ"
+      },
+      {
+        "time": 210.8,
+        "text": "Bless you!エール<ruby>届け<rt>とどけ</rt></ruby>",
+        "zh": "Bless you!將聲援送達",
+        "end": 213.08,
+        "plain": "Bless you!エール届け"
+      },
+      {
+        "time": 213.62,
+        "text": "Bless you!<ruby>前<rt>まえ</rt></ruby>に<ruby>進め<rt>すすめ</rt></ruby>",
+        "zh": "Bless you!向前邁進吧",
+        "end": 216.06,
+        "plain": "Bless you!前に進め"
+      },
+      {
+        "time": 216.12,
+        "text": "どんな「<ruby>今日<rt>きょう</rt></ruby>」が<ruby>待っ<rt>まっ</rt></ruby>てるだろう",
+        "zh": "會有怎樣的「今天」在等待你我呢",
+        "end": 220.84,
+        "plain": "どんな「今日」が待ってるだろう"
+      },
+      {
+        "time": 221.38,
+        "text": "Bless you!エール<ruby>届け<rt>とどけ</rt></ruby>",
+        "zh": "Bless you!將聲援送達",
+        "end": 223.46,
+        "plain": "Bless you!エール届け"
+      },
+      {
+        "time": 223.8,
+        "text": "Bless you!さぁ <ruby>笑顔<rt>えがお</rt></ruby>で",
+        "zh": "Bless you!來吧 帶著笑容",
+        "end": 226.4,
+        "plain": "Bless you!さぁ 笑顔で"
+      },
+      {
+        "time": 226.7,
+        "text": "Bless you!<ruby>最高<rt>さいこう</rt></ruby>な<ruby>日々<rt>ひび</rt></ruby>が、<ruby>続く<rt>つづく</rt></ruby>から。",
+        "zh": "Bless you!因為最棒的每一天、會一直延續下去。",
+        "end": 235.36,
+        "plain": "Bless you!最高な日々が、続くから。"
+      }
+    ]
   }
 ]
