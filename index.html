@@ -18,6 +18,7 @@
             --text: #e8e4dc;
             --muted: #7a7570;
             --accent1: #c9a96e;
+            --scroll-thumb: rgba(255,255,255,0.15);
         }
 
         /* ===== Light mode ===== */
@@ -29,6 +30,7 @@
             --text: #1a1a1a;
             --muted: #8a8580;
             --accent1: #a07d3f;
+            --scroll-thumb: rgba(0,0,0,0.15);
         }
         body.light::before { opacity: 0.02; }
         body.light .lyrics rt { color: #333; }
@@ -141,21 +143,6 @@
         .search-empty { color: var(--muted); font-size: 13px; padding: 8px 12px; }
 
         /* ===== Home view ===== */
-        .home-hero { text-align: center; margin: 24px 0 32px; }
-        .home-hero h1 {
-            font-family: 'Cormorant Garamond', serif;
-            font-weight: 300;
-            font-size: clamp(30px, 7vw, 46px);
-            letter-spacing: 0.06em;
-        }
-        .home-hero p {
-            margin-top: 8px;
-            color: var(--muted);
-            font-family: 'Cormorant Garamond', serif;
-            font-style: italic;
-            font-size: 14px;
-            letter-spacing: 0.1em;
-        }
         .home-section-title {
             font-family: 'Cormorant Garamond', serif;
             font-style: italic;
@@ -184,6 +171,54 @@
         .home-card:hover { border-color: var(--accent1); transform: translateY(-2px); }
         .home-card .t { font-size: 15px; margin-bottom: 6px; }
         .home-card .a { font-size: 12px; color: var(--muted); }
+        .home-card .t, .home-card .a { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+        .home-tools { display: flex; flex-direction: column; gap: 12px; margin-bottom: 28px; }
+        .home-chips { display: flex; gap: 8px; overflow-x: auto; padding-bottom: 4px; scrollbar-width: thin; }
+        .home-chip {
+            flex: 0 0 auto;
+            background: none;
+            border: 1px solid var(--border);
+            color: var(--muted);
+            font-family: 'Noto Serif JP', serif;
+            font-size: 12px;
+            padding: 6px 14px;
+            border-radius: 999px;
+            cursor: pointer;
+            transition: all 0.25s;
+        }
+        .home-chip:hover { color: var(--text); border-color: var(--text); }
+        .home-chip.active { color: var(--bg); background: var(--accent1); border-color: var(--accent1); }
+        .home-chip .n { opacity: 0.6; margin-left: 4px; }
+
+        .home-section { margin-bottom: 28px; }
+        .home-section-head {
+            display: flex; align-items: baseline; justify-content: space-between;
+            cursor: pointer; user-select: none; margin-bottom: 10px;
+        }
+        .home-section-head .home-section-title { margin-bottom: 0; }
+        .home-section-head .count { color: var(--muted); font-size: 12px; }
+        .home-section-head .caret { display: inline-block; margin-right: 6px; transition: transform 0.25s; }
+        .home-section.closed .caret { transform: rotate(-90deg); }
+        .home-section.closed .home-grid, .home-section.closed .home-more { display: none; }
+        .home-more {
+            margin-top: 10px; width: 100%;
+            background: none; border: 1px dashed var(--border);
+            color: var(--muted); font-family: 'Noto Serif JP', serif; font-size: 12px;
+            padding: 8px; border-radius: 8px; cursor: pointer; transition: all 0.25s;
+        }
+        .home-more:hover { color: var(--text); border-color: var(--accent1); }
+        /* 橫向捲軸：配合主題 */
+        .home-chips {
+            scrollbar-color: var(--scroll-thumb) transparent;
+        }
+        .home-chips::-webkit-scrollbar { height: 6px; }
+        .home-chips::-webkit-scrollbar-track { background: transparent; }
+        .home-chips::-webkit-scrollbar-thumb {
+            background: var(--scroll-thumb); border-radius: 999px;
+        }
+        .home-chips::-webkit-scrollbar-thumb:hover { background: var(--accent1); }
+        .home-chips::-webkit-scrollbar-button { display: none; }
 
         .header-controls {
             display: flex;
@@ -559,9 +594,9 @@
 <body>
     <div class="wrapper">
         <header class="site-header">
-            <button class="brand" id="brandHome" title="回首頁">歌詞</button>
+            <button class="brand" id="brandHome" title="回首頁">CADENCE</button>
             <div class="header-controls">
-                <div class="display-toggle">
+                <div class="display-toggle hidden" id="display-toggle">
                     <span class="toolbar-label">顯示</span>
                     <button class="tb-btn display-btn active" data-display="ja" title="日文（含振假名）">日</button>
                     <button class="tb-btn display-btn" data-display="zh" title="中文翻譯">中</button>
@@ -836,6 +871,7 @@
         // ===== 切換歌曲 =====
         function switchToSong(index) {
             hideHome();
+            pushRecentSong(index);
             if (activeTabId && players[activeTabId] && players[activeTabId].pauseVideo) {
                 players[activeTabId].pauseVideo();
             }
@@ -1348,6 +1384,7 @@
             }
             isPlaying = false;
             hideToolbar();
+            document.getElementById('display-toggle').classList.add('hidden');
             document.querySelectorAll('.tab-panel').forEach(function (p) { p.classList.remove('active'); });
             document.getElementById('panels-container').classList.add('hidden');
             document.getElementById('selector-bar').classList.add('collapsed');
@@ -1360,23 +1397,126 @@
         function hideHome() {
             document.getElementById('home-view').classList.add('hidden');
             document.getElementById('panels-container').classList.remove('hidden');
+            document.getElementById('display-toggle').classList.remove('hidden');
+        }
+
+        var HOME_PREVIEW_COUNT = 6;
+        var homeState = { franchise: 'all', query: '', expanded: {}, closed: {} };
+
+        function getRecentSongs() {
+            try { return JSON.parse(localStorage.getItem('recentSongs')) || []; } catch (e) { return []; }
+        }
+        function pushRecentSong(index) {
+            var song = songsData[index];
+            if (!song) return;
+            var list = getRecentSongs().filter(function (t) { return t !== song.title; });
+            list.unshift(song.title);
+            localStorage.setItem('recentSongs', JSON.stringify(list.slice(0, 3)));
+        }
+
+        function homeCardHtml(song, i) {
+            return '<button class="home-card" data-index="' + i + '" title="' + song.title + '">'
+                + '<div class="t">' + song.title + '</div>'
+                + '<div class="a">' + song.artist + (song.franchise ? ' · ' + song.franchise : '') + '</div>'
+                + '</button>';
         }
 
         function renderHome() {
             var view = document.getElementById('home-view');
-            var html = '<div class="home-hero"><h1>歌詞</h1><p>Japanese lyrics with translation</p></div>'
-                + '<div class="home-section-title">All songs</div><div class="home-grid">';
+
+            // 作品分類
+            var groups = {}, order = [];
             songsData.forEach(function (song, i) {
-                html += '<button class="home-card" data-index="' + i + '">'
-                    + '<div class="t">' + song.title + '</div>'
-                    + '<div class="a">' + song.artist + (song.franchise ? ' · ' + song.franchise : '') + '</div>'
-                    + '</button>';
+                var key = song.franchise || '其他';
+                if (!groups[key]) { groups[key] = []; order.push(key); }
+                groups[key].push(i);
             });
-            html += '</div>';
+
+            var html = '<div class="home-tools">'
+                + '<div class="home-chips">'
+                + '<button class="home-chip' + (homeState.franchise === 'all' ? ' active' : '') + '" data-f="all">全部<span class="n">' + songsData.length + '</span></button>';
+            order.forEach(function (key) {
+                html += '<button class="home-chip' + (homeState.franchise === key ? ' active' : '') + '" data-f="' + key + '">'
+                    + key + '<span class="n">' + groups[key].length + '</span></button>';
+            });
+            html += '</div></div><div id="home-results"></div>';
+
             view.innerHTML = html;
-            view.querySelectorAll('.home-card').forEach(function (card) {
+
+            view.querySelectorAll('.home-chip').forEach(function (chip) {
+                chip.addEventListener('click', function () {
+                    homeState.franchise = this.getAttribute('data-f');
+                    view.querySelectorAll('.home-chip').forEach(function (c) { c.classList.toggle('active', c === chip); });
+                    renderHomeResults(groups, order);
+                });
+            });
+            renderHomeResults(groups, order);
+        }
+
+        function renderHomeResults(groups, order) {
+            var box = document.getElementById('home-results');
+            var q = homeState.query.trim().toLowerCase();
+            var match = function (i) {
+                if (!q) return true;
+                var s = songsData[i];
+                return [s.title, s.artist, s.franchise, s.series].join(' ').toLowerCase().indexOf(q) !== -1;
+            };
+            var html = '';
+
+            // 最近播放（未篩選時才顯示）
+            if (!q && homeState.franchise === 'all') {
+                var recent = [];
+                getRecentSongs().slice(0, 3).forEach(function (title) {
+                    for (var i = 0; i < songsData.length; i++) {
+                        if (songsData[i].title === title) { recent.push(i); break; }
+                    }
+                });
+                if (recent.length) {
+                    html += '<div class="home-section home-recent"><div class="home-section-title">Recently played</div><div class="home-grid">';
+                    recent.forEach(function (i) { html += homeCardHtml(songsData[i], i); });
+                    html += '</div></div>';
+                }
+            }
+
+            var keys = homeState.franchise === 'all' ? order : [homeState.franchise];
+            var total = 0;
+            keys.forEach(function (key) {
+                var list = (groups[key] || []).filter(match);
+                if (!list.length) return;
+                total += list.length;
+                // 搜尋或單一作品時全部展開
+                var showAll = q || homeState.franchise !== 'all' || homeState.expanded[key];
+                var shown = showAll ? list : list.slice(0, HOME_PREVIEW_COUNT);
+                var closed = !q && homeState.closed[key];
+                html += '<div class="home-section' + (closed ? ' closed' : '') + '" data-key="' + key + '">'
+                    + '<div class="home-section-head"><div class="home-section-title"><span class="caret">▾</span>' + key + '</div>'
+                    + '<span class="count">' + list.length + ' 首</span></div><div class="home-grid">';
+                shown.forEach(function (i) { html += homeCardHtml(songsData[i], i); });
+                html += '</div>';
+                if (list.length > HOME_PREVIEW_COUNT && homeState.franchise === 'all' && !q) {
+                    html += '<button class="home-more">' + (homeState.expanded[key] ? '收合' : '顯示全部 ' + list.length + ' 首') + '</button>';
+                }
+                html += '</div>';
+            });
+            if (!total) html += '<div class="search-empty">找不到符合的歌曲</div>';
+
+            box.innerHTML = html;
+
+            box.querySelectorAll('.home-card').forEach(function (card) {
                 card.addEventListener('click', function () {
                     selectSongByIndex(parseInt(this.getAttribute('data-index')));
+                });
+            });
+            box.querySelectorAll('.home-section[data-key]').forEach(function (sec) {
+                var key = sec.getAttribute('data-key');
+                sec.querySelector('.home-section-head').addEventListener('click', function () {
+                    homeState.closed[key] = !homeState.closed[key];
+                    sec.classList.toggle('closed', homeState.closed[key]);
+                });
+                var more = sec.querySelector('.home-more');
+                if (more) more.addEventListener('click', function () {
+                    homeState.expanded[key] = !homeState.expanded[key];
+                    renderHomeResults(groups, order);
                 });
             });
         }
